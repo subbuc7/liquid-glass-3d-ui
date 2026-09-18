@@ -1,0 +1,24 @@
+{
+  "id": "date-time-picker",
+  "name": "Date / Time Picker - Liquid Glass 01",
+  "category": "date-time-picker",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:27.307Z",
+  "description": "Multi-tier glass calendar slab displaying month grid, animated selection ripples, quick-jump month tabs, and precise time dials.",
+  "tags": [
+    "calendar",
+    "time",
+    "date"
+  ],
+  "functional_requirements": [
+    "month navigation",
+    "date cell selection",
+    "today shortcut",
+    "time spinner dials",
+    "disabled past/future dates",
+    "popup modal or embedded view"
+  ],
+  "aria_role": "dialog"
+}

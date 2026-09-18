@@ -1,0 +1,26 @@
+{
+  "name": "liquid-glass-3d-ui",
+  "version": "1.0.0",
+  "description": "Automated 3D UI Component Library and Publishing System for Liquid Glass 01",
+  "main": "generator/engine.js",
+  "scripts": {
+    "generate": "node scripts/run-pipeline.js",
+    "catalog": "node scripts/generate-catalog.js",
+    "build": "node scripts/build-website.js",
+    "test": "node tests/runner.js",
+    "validate": "node generator/validator.js",
+    "previews": "node scripts/generate-previews.js",
+    "pipeline": "node scripts/run-pipeline.js"
+  },
+  "keywords": [
+    "liquid-glass",
+    "3d-ui",
+    "components",
+    "design-system",
+    "automated-publishing",
+    "github-pages",
+    "web-components"
+  ],
+  "author": "Liquid Glass Team",
+  "license": "MIT"
+}

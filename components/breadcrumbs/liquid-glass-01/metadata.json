@@ -1,0 +1,22 @@
+{
+  "id": "breadcrumbs",
+  "name": "Breadcrumbs - Liquid Glass 01",
+  "category": "breadcrumbs",
+  "categoryGroup": "Navigation",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:32.534Z",
+  "description": "Linear glass trail with micro-faceted separators, subtle path hover glows, and current page crystal badge.",
+  "tags": [
+    "navigation",
+    "trail",
+    "breadcrumbs"
+  ],
+  "functional_requirements": [
+    "navigational hierarchy links",
+    "custom 3D glass chevron divider",
+    "overflow dropdown for long paths",
+    "accessible aria-current link"
+  ],
+  "aria_role": "navigation"
+}

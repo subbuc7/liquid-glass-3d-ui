@@ -1,0 +1,23 @@
+{
+  "id": "toast-notification",
+  "name": "Toast / Notification - Liquid Glass 01",
+  "category": "toast-notification",
+  "categoryGroup": "Feedback & Status",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:37.888Z",
+  "description": "Floating corner glass notification shard that slides onto the viewport with time-decay progress bar and instant action.",
+  "tags": [
+    "toast",
+    "notification",
+    "feedback"
+  ],
+  "functional_requirements": [
+    "auto-dismiss countdown bar",
+    "stacking animation physics",
+    "manual close trigger",
+    "status icon & action link",
+    "pause countdown on hover"
+  ],
+  "aria_role": "alert"
+}

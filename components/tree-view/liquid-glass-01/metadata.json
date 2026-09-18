@@ -1,0 +1,23 @@
+{
+  "id": "tree-view",
+  "name": "Tree View - Liquid Glass 01",
+  "category": "tree-view",
+  "categoryGroup": "Data & Display",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:41.838Z",
+  "description": "Hierarchical glass file system explorer with expanding crystal branches, custom 3D folder icons, and active node highlight plates.",
+  "tags": [
+    "hierarchy",
+    "folder",
+    "tree"
+  ],
+  "functional_requirements": [
+    "nested expandable nodes",
+    "keyboard arrow navigation",
+    "selection state",
+    "folder/file icon indicators",
+    "connecting glass guideline filaments"
+  ],
+  "aria_role": "tree"
+}

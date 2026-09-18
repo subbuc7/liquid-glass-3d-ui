@@ -1,0 +1,24 @@
+{
+  "id": "floating-dock",
+  "name": "Floating Dock - Liquid Glass 01",
+  "category": "floating-dock",
+  "categoryGroup": "Navigation",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:54.027Z",
+  "description": "macOS-inspired liquid glass shelf featuring parabolic icon magnification on proximity, active reflection mirror, and bouncy app indicators.",
+  "tags": [
+    "dock",
+    "macos",
+    "shelf",
+    "launcher"
+  ],
+  "functional_requirements": [
+    "mouse proximity magnification physics",
+    "frosted glass shelf with mirrored reflection",
+    "running app indicator dots",
+    "click bounce animation",
+    "responsive collapse"
+  ],
+  "aria_role": "navigation"
+}

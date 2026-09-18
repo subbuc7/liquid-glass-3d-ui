@@ -1,0 +1,23 @@
+{
+  "id": "bottom-navigation",
+  "name": "Bottom Navigation Bar - Liquid Glass 01",
+  "category": "bottom-navigation",
+  "categoryGroup": "Navigation",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:50.030Z",
+  "description": "Curved mobile glass floating dock anchored to screen bottom with thumb-friendly tap targets and rising liquid indicator bubble.",
+  "tags": [
+    "mobile",
+    "bottom-bar",
+    "navigation"
+  ],
+  "functional_requirements": [
+    "fixed bottom viewport docking",
+    "active tab bubble elevation",
+    "icon + micro-label items",
+    "haptic tap bounce animation",
+    "badge notifications"
+  ],
+  "aria_role": "navigation"
+}

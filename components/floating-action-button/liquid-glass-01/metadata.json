@@ -1,0 +1,23 @@
+{
+  "id": "floating-action-button",
+  "name": "Floating Action Button (FAB) - Liquid Glass 01",
+  "category": "floating-action-button",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:50.848Z",
+  "description": "Spherical optical crystal sphere suspended in space that expands into a fan of secondary glass quick-action nodes upon interaction.",
+  "tags": [
+    "fab",
+    "action",
+    "floating"
+  ],
+  "functional_requirements": [
+    "fixed floating viewport positioning",
+    "fan-out secondary action dials",
+    "cross icon rotation to dismiss",
+    "ripple click feedback",
+    "hover lift elevation"
+  ],
+  "aria_role": "button"
+}

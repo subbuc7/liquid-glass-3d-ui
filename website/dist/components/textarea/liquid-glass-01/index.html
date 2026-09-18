@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Textarea - Liquid Glass 01</title>
+  <style>
+    
+    :root {
+      --bg-canvas: #07090e;
+      --glass-surface: rgba(255, 255, 255, 0.08);
+      --glass-surface-hover: rgba(255, 255, 255, 0.14);
+      --glass-surface-active: rgba(255, 255, 255, 0.18);
+      --border-subtle: rgba(255, 255, 255, 0.15);
+      --border-highlight: rgba(255, 255, 255, 0.45);
+      --border-specular: rgba(255, 255, 255, 0.85);
+      --cyan: #00f0ff;
+      --cyan-glow: rgba(0, 240, 255, 0.45);
+      --sapphire: #2563eb;
+      --sapphire-glow: rgba(37, 99, 235, 0.35);
+      --emerald: #10b981;
+      --emerald-glow: rgba(16, 185, 129, 0.35);
+      --amber: #f59e0b;
+      --amber-glow: rgba(245, 158, 11, 0.35);
+      --crimson: #ef4444;
+      --crimson-glow: rgba(239, 68, 68, 0.35);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-full: 9999px;
+      --trans-smooth: 280ms cubic-bezier(0.16, 1, 0.3, 1);
+      --trans-spring: 380ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at 50% 20%, #0d1726 0%, #07090e 70%, #030508 100%);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      overflow-x: hidden;
+      perspective: 1200px;
+    }
+
+    .demo-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+      max-width: 900px;
+      width: 100%;
+      transform-style: preserve-3d;
+    }
+
+    .component-stage {
+      position: relative;
+      width: 100%;
+      min-height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: var(--radius-lg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.7), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+
+    .component-stage::before {
+      content: "";
+      position: absolute;
+      top: -15%;
+      left: -10%;
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(0, 240, 255, 0.15) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(40px);
+      pointer-events: none;
+    }
+
+    .component-stage::after {
+      content: "";
+      position: absolute;
+      bottom: -15%;
+      right: -10%;
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(40px);
+      pointer-events: none;
+    }
+
+    .controls-panel {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      padding: 14px 20px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-md);
+      backdrop-filter: blur(12px);
+    }
+
+    .ctrl-btn {
+      padding: 8px 16px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all var(--trans-smooth);
+    }
+
+    .ctrl-btn:hover, .ctrl-btn.active {
+      background: rgba(0, 240, 255, 0.15);
+      border-color: var(--cyan);
+      color: #ffffff;
+      box-shadow: 0 0 12px var(--cyan-glow);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        transform: none !important;
+      }
+    }
+    
+    
+    .lg-textarea-pod { width: 100%; max-width: 480px; transform-style: preserve-3d; }
+    .lg-glass-textarea-box {
+      padding: 18px 20px;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(0, 0, 0, 0.3) 100%);
+      border: 1.5px solid rgba(255, 255, 255, 0.18);
+      border-top-color: rgba(255, 255, 255, 0.6);
+      border-radius: var(--radius-md);
+      backdrop-filter: blur(18px);
+      box-shadow: inset 0 2px 6px rgba(0,0,0,0.5), 0 10px 28px rgba(0,0,0,0.5);
+      transform-style: preserve-3d;
+      transition: all var(--trans-smooth);
+    }
+    .lg-glass-textarea-box:focus-within {
+      border-color: var(--cyan);
+      box-shadow: 0 0 24px var(--cyan-glow), inset 0 1px 3px rgba(255,255,255,0.4);
+      transform: translateZ(8px);
+    }
+    .lg-ta-label {
+      display: block;
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--cyan);
+      margin-bottom: 8px;
+    }
+    .lg-ta-field {
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #ffffff;
+      font-size: 0.95rem;
+      line-height: 1.5;
+      font-family: inherit;
+      resize: vertical;
+    }
+    .lg-ta-footer {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+    }
+    .lg-char-counter { font-family: monospace; color: var(--cyan); }
+  
+  </style>
+</head>
+<body>
+  <div class="demo-wrapper">
+    <div class="component-stage" id="stage" role="region" aria-label="Textarea 3D Showcase Stage">
+      
+    <div class="lg-textarea-pod" style="perspective: 800px;">
+      <div class="lg-glass-textarea-box">
+        <label class="lg-ta-label">Neural Prompt Script</label>
+        <textarea id="taElem" class="lg-ta-field" rows="4" maxlength="200">Initialize Liquid Glass optical dispersion shader with 1.52 IOR refraction matrix.</textarea>
+        <div class="lg-ta-footer">
+          <span class="lg-ta-hint">Markdown supported</span>
+          <span class="lg-char-counter" id="charCount">96 / 200</span>
+        </div>
+      </div>
+    </div>
+  
+    </div>
+
+    <div class="controls-panel" role="toolbar" aria-label="Interactive State Controls">
+      
+    <button class="ctrl-btn" onclick="clearTA()">Reset Text</button>
+  
+    </div>
+  </div>
+
+  <script>
+    
+    const ta = document.getElementById('taElem');
+    const counter = document.getElementById('charCount');
+    ta.addEventListener('input', () => {
+      counter.innerText = `${ta.value.length} / 200`;
+    });
+    function clearTA() {
+      ta.value = '';
+      counter.innerText = '0 / 200';
+    }
+  
+  </script>
+</body>
+</html>

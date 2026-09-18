@@ -1,0 +1,23 @@
+{
+  "id": "pricing-table",
+  "name": "Pricing Table - Liquid Glass 01",
+  "category": "pricing-table",
+  "categoryGroup": "Surfaces & Layout",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:49.023Z",
+  "description": "Trio of stepped glass monoliths featuring popular plan jewel accent, billing interval toggle, feature checklist, and liquid CTA button.",
+  "tags": [
+    "pricing",
+    "plans",
+    "tier"
+  ],
+  "functional_requirements": [
+    "monthly/annual billing cycle toggle",
+    "featured/highlighted tier 3D pop",
+    "checklist feature rows with check icons",
+    "call-to-action trigger",
+    "responsive stacked mode"
+  ],
+  "aria_role": "region"
+}

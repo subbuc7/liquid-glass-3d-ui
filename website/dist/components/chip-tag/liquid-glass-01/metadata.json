@@ -1,0 +1,23 @@
+{
+  "id": "chip-tag",
+  "name": "Chip / Tag - Liquid Glass 01",
+  "category": "chip-tag",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:34.343Z",
+  "description": "Compact interactive glass capsule with removable 3D crystal cross, avatar thumbnail, and selectable state toggle.",
+  "tags": [
+    "filter",
+    "pill",
+    "tag"
+  ],
+  "functional_requirements": [
+    "click-to-toggle filter state",
+    "remove button trigger",
+    "leading icon or avatar",
+    "keyboard backspace delete",
+    "focus ring"
+  ],
+  "aria_role": "button"
+}

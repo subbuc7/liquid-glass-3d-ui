@@ -1,0 +1,23 @@
+{
+  "id": "segmented-control",
+  "name": "Segmented Control - Liquid Glass 01",
+  "category": "segmented-control",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:43.276Z",
+  "description": "Precision-milled recessed glass tray housing an elevated optical glass selector block that glides between view options.",
+  "tags": [
+    "segmented",
+    "toggle",
+    "tabs"
+  ],
+  "functional_requirements": [
+    "gliding selection indicator",
+    "instant click selection",
+    "arrow key traversal",
+    "icon + text options",
+    "equal distribution grid"
+  ],
+  "aria_role": "radiogroup"
+}

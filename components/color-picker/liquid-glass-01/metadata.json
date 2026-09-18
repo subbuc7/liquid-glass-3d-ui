@@ -1,0 +1,23 @@
+{
+  "id": "color-picker",
+  "name": "Color Picker - Liquid Glass 01",
+  "category": "color-picker",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:45.223Z",
+  "description": "Luminescent glass palette console with chromatic spectrum gradient slab, 3D reticle selector, opacity slider, and hex readout.",
+  "tags": [
+    "color",
+    "picker",
+    "palette"
+  ],
+  "functional_requirements": [
+    "spectrum coordinate selection",
+    "hue and alpha glass slider rails",
+    "preset swatch jewels",
+    "hex/rgba format copy",
+    "live swatch preview gem"
+  ],
+  "aria_role": "dialog"
+}

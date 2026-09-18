@@ -1,0 +1,22 @@
+{
+  "id": "skeleton-loader",
+  "name": "Skeleton Loader - Liquid Glass 01",
+  "category": "skeleton-loader",
+  "categoryGroup": "Feedback & Status",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:40.492Z",
+  "description": "Translucent glass bone structures with shimmering light reflections that sweep across card and text placeholders.",
+  "tags": [
+    "skeleton",
+    "placeholder",
+    "loader"
+  ],
+  "functional_requirements": [
+    "animated refractive sweep wave",
+    "multiple layout shapes (avatar, title, paragraph, button)",
+    "pulse opacity breathing mode",
+    "reduced motion compliance"
+  ],
+  "aria_role": "status"
+}

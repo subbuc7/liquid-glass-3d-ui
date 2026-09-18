@@ -1,0 +1,23 @@
+{
+  "id": "tabs",
+  "name": "Tabs - Liquid Glass 01",
+  "category": "tabs",
+  "categoryGroup": "Navigation",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:31.873Z",
+  "description": "Segmented 3D glass tray with a floating luminous indicator pill that slides seamlessly beneath the active tab label.",
+  "tags": [
+    "navigation",
+    "panels",
+    "tabs"
+  ],
+  "functional_requirements": [
+    "tab switching",
+    "sliding indicator bar",
+    "keyboard left/right arrow navigation",
+    "tabpanel association",
+    "badge count badges on tabs"
+  ],
+  "aria_role": "tablist"
+}

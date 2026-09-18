@@ -1,0 +1,23 @@
+{
+  "id": "accordion",
+  "name": "Accordion - Liquid Glass 01",
+  "category": "accordion",
+  "categoryGroup": "Surfaces & Layout",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:30.105Z",
+  "description": "Stack of interlocking crystal slats that expand with fluid ease, revealing nested glass content cards with chevron flip motion.",
+  "tags": [
+    "disclosure",
+    "collapse",
+    "expand"
+  ],
+  "functional_requirements": [
+    "expand/collapse accordion items",
+    "single or multi-expand mode",
+    "smooth max-height CSS transition",
+    "keyboard tab and enter navigation",
+    "chevron rotation indicator"
+  ],
+  "aria_role": "region"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "icon-pack",
+  "name": "Icon Pack - Liquid Glass 01",
+  "category": "icon-pack",
+  "categoryGroup": "Media & Creative",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:36.379Z",
+  "description": "Cohesive family of 12 handcrafted 3D liquid glass icons sharing identical specular highlights, depth layers, cyan-sapphire refraction, and vector geometries.",
+  "tags": [
+    "icons",
+    "assets",
+    "3d-icons",
+    "vector"
+  ],
+  "functional_requirements": [
+    "cohesive 12-icon 3D suite",
+    "consistent lighting vector & specular highlights",
+    "interactive hover rotation/glow",
+    "SVG vector scalability",
+    "copy SVG / export trigger"
+  ],
+  "aria_role": "img"
+}

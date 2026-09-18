@@ -1,0 +1,24 @@
+{
+  "id": "switch-toggle",
+  "name": "Switch / Toggle - Liquid Glass 01",
+  "category": "switch-toggle",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:24.588Z",
+  "description": "Pill-shaped frosted channel housing a floating illuminated glass bead that glides smoothly across friction-free rails.",
+  "tags": [
+    "control",
+    "settings",
+    "binary"
+  ],
+  "functional_requirements": [
+    "on/off toggle animation",
+    "smooth spring transition",
+    "drag gesture support",
+    "keyboard enter/space trigger",
+    "focus outline",
+    "status icons"
+  ],
+  "aria_role": "switch"
+}

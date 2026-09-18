@@ -1,0 +1,23 @@
+{
+  "id": "pagination",
+  "name": "Pagination - Liquid Glass 01",
+  "category": "pagination",
+  "categoryGroup": "Navigation",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:33.152Z",
+  "description": "Row of bevel-edged glass numeric buttons with active illuminated plate, smooth prev/next steppers, and page jump dial.",
+  "tags": [
+    "pagination",
+    "numbers",
+    "navigation"
+  ],
+  "functional_requirements": [
+    "page number selection",
+    "previous/next navigation",
+    "ellipsis truncation indicator",
+    "disabled edge states",
+    "keyboard navigation"
+  ],
+  "aria_role": "navigation"
+}

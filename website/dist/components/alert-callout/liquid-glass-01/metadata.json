@@ -1,0 +1,23 @@
+{
+  "id": "alert-callout",
+  "name": "Alert / Callout - Liquid Glass 01",
+  "category": "alert-callout",
+  "categoryGroup": "Feedback & Status",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:37.087Z",
+  "description": "Prominent glass warning bar with chromatic edge illumination, status insignia, rich body text, and optional action buttons.",
+  "tags": [
+    "feedback",
+    "message",
+    "alert"
+  ],
+  "functional_requirements": [
+    "semantic status themes",
+    "dismissible button",
+    "action button row",
+    "frosted chromatic border glow",
+    "high contrast readability"
+  ],
+  "aria_role": "alert"
+}

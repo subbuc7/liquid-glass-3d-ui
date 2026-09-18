@@ -1,0 +1,22 @@
+{
+  "id": "tooltip",
+  "name": "Tooltip - Liquid Glass 01",
+  "category": "tooltip",
+  "categoryGroup": "Overlays & Disclosures",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:34.923Z",
+  "description": "Ultra-light floating frosted bubble with directional prism beak, micro drop shadow, and instant directional orientation.",
+  "tags": [
+    "hint",
+    "helper",
+    "overlay"
+  ],
+  "functional_requirements": [
+    "hover & focus trigger",
+    "directional positioning (top, bottom, left, right)",
+    "delay timing configuration",
+    "smooth fade-in & scale pop"
+  ],
+  "aria_role": "tooltip"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "progress-bar",
+  "name": "Progress Bar - Liquid Glass 01",
+  "category": "progress-bar",
+  "categoryGroup": "Feedback & Status",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:38.482Z",
+  "description": "3D frosted tube with liquid-light energy core, iridescent wave shimmer animation, and percentage badge.",
+  "tags": [
+    "progress",
+    "loading",
+    "metric"
+  ],
+  "functional_requirements": [
+    "determinate percentage fill",
+    "indeterminate pulsing wave",
+    "animated shimmer reflection",
+    "step milestone markers",
+    "value readout label"
+  ],
+  "aria_role": "progressbar"
+}

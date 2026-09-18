@@ -1,0 +1,4943 @@
+{
+  "generatedAt": "2026-09-18T01:08:32.038Z",
+  "stats": {
+    "totalCategories": 51,
+    "totalComponents": 51,
+    "designSystems": [
+      "liquid-glass-01"
+    ],
+    "categoryGroups": {
+      "Forms & Inputs": {
+        "count": 17,
+        "categories": [
+          "button",
+          "text-input",
+          "textarea",
+          "checkbox",
+          "radio-button",
+          "switch-toggle",
+          "select-dropdown",
+          "combobox-autocomplete",
+          "slider",
+          "date-time-picker",
+          "chip-tag",
+          "segmented-control",
+          "rating-picker",
+          "file-upload-dropzone",
+          "color-picker",
+          "floating-action-button",
+          "split-button-menu"
+        ]
+      },
+      "Surfaces & Layout": {
+        "count": 4,
+        "categories": [
+          "card",
+          "accordion",
+          "pricing-table",
+          "divider-separator"
+        ]
+      },
+      "Overlays & Disclosures": {
+        "count": 5,
+        "categories": [
+          "modal-dialog",
+          "drawer-sheet",
+          "tooltip",
+          "popover",
+          "command-palette"
+        ]
+      },
+      "Navigation": {
+        "count": 8,
+        "categories": [
+          "navbar-app-bar",
+          "sidebar-nav-rail",
+          "tabs",
+          "breadcrumbs",
+          "pagination",
+          "stepper-wizard",
+          "bottom-navigation",
+          "floating-dock"
+        ]
+      },
+      "Feedback & Status": {
+        "count": 7,
+        "categories": [
+          "badge",
+          "alert-callout",
+          "toast-notification",
+          "progress-bar",
+          "spinner-loader",
+          "skeleton-loader",
+          "empty-state"
+        ]
+      },
+      "Media & Creative": {
+        "count": 4,
+        "categories": [
+          "icon-pack",
+          "audio-player",
+          "video-player",
+          "carousel-slider"
+        ]
+      },
+      "Data & Display": {
+        "count": 6,
+        "categories": [
+          "avatar-group",
+          "table-datagrid",
+          "tree-view",
+          "timeline",
+          "stat-metric-card",
+          "kpi-gauge"
+        ]
+      }
+    }
+  },
+  "categories": [
+    {
+      "id": "button",
+      "name": "Button",
+      "group": "Forms & Inputs",
+      "description": "Tactile 3D glass action trigger with dynamic specular refraction, glow response, and multi-state depth physics.",
+      "functional_requirements": [
+        "hover elevation",
+        "pressed recession",
+        "focus-visible ring",
+        "disabled state",
+        "loading spinner state",
+        "subtle audio/haptic cue trigger"
+      ],
+      "aria_role": "button",
+      "default_tags": [
+        "interactive",
+        "core",
+        "action",
+        "liquid-glass"
+      ],
+      "components": [
+        {
+          "id": "button-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "button",
+          "categoryName": "Button",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Button - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Tactile 3D glass action trigger with dynamic specular refraction, glow response, and multi-state depth physics.",
+          "tags": [
+            "interactive",
+            "core",
+            "action",
+            "liquid-glass"
+          ],
+          "functionalRequirements": [
+            "hover elevation",
+            "pressed recession",
+            "focus-visible ring",
+            "disabled state",
+            "loading spinner state",
+            "subtle audio/haptic cue trigger"
+          ],
+          "generatedDate": "2026-09-18T01:03:21.345Z",
+          "files": {
+            "html": "components/button/liquid-glass-01/index.html",
+            "metadata": "components/button/liquid-glass-01/metadata.json",
+            "preview": "components/button/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "text-input",
+      "name": "Text Input",
+      "group": "Forms & Inputs",
+      "description": "Concave translucent glass entry field featuring inner ambient occlusion, glowing focus borders, floating label, and clear action.",
+      "functional_requirements": [
+        "typing interaction",
+        "floating label transition",
+        "focus glow",
+        "error validation state",
+        "clear button",
+        "placeholder support"
+      ],
+      "aria_role": "textbox",
+      "default_tags": [
+        "form",
+        "input",
+        "typing",
+        "glass"
+      ],
+      "components": [
+        {
+          "id": "text-input-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "text-input",
+          "categoryName": "Text Input",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Text Input - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Concave translucent glass entry field featuring inner ambient occlusion, glowing focus borders, floating label, and clear action.",
+          "tags": [
+            "form",
+            "input",
+            "typing",
+            "glass"
+          ],
+          "functionalRequirements": [
+            "typing interaction",
+            "floating label transition",
+            "focus glow",
+            "error validation state",
+            "clear button",
+            "placeholder support"
+          ],
+          "generatedDate": "2026-09-18T01:03:22.005Z",
+          "files": {
+            "html": "components/text-input/liquid-glass-01/index.html",
+            "metadata": "components/text-input/liquid-glass-01/metadata.json",
+            "preview": "components/text-input/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "textarea",
+      "name": "Textarea",
+      "group": "Forms & Inputs",
+      "description": "Multi-line frosted glass surface with etched grid accents, live character counter, resizable grip, and fluid focus states.",
+      "functional_requirements": [
+        "multi-line text entry",
+        "auto-expand or resize handle",
+        "character count indicator",
+        "focus reflection",
+        "disabled state"
+      ],
+      "aria_role": "textbox",
+      "default_tags": [
+        "form",
+        "input",
+        "multiline"
+      ],
+      "components": [
+        {
+          "id": "textarea-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "textarea",
+          "categoryName": "Textarea",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Textarea - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Multi-line frosted glass surface with etched grid accents, live character counter, resizable grip, and fluid focus states.",
+          "tags": [
+            "form",
+            "input",
+            "multiline"
+          ],
+          "functionalRequirements": [
+            "multi-line text entry",
+            "auto-expand or resize handle",
+            "character count indicator",
+            "focus reflection",
+            "disabled state"
+          ],
+          "generatedDate": "2026-09-18T01:03:22.680Z",
+          "files": {
+            "html": "components/textarea/liquid-glass-01/index.html",
+            "metadata": "components/textarea/liquid-glass-01/metadata.json",
+            "preview": "components/textarea/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "checkbox",
+      "name": "Checkbox",
+      "group": "Forms & Inputs",
+      "description": "Beveled glass toggle box featuring volumetric depth, animated checkmark drawing, and luminous emerald-cyan active glow.",
+      "functional_requirements": [
+        "checked state",
+        "unchecked state",
+        "indeterminate state",
+        "keyboard spacebar toggle",
+        "animated SVG check stroke",
+        "hover refraction"
+      ],
+      "aria_role": "checkbox",
+      "default_tags": [
+        "selection",
+        "form",
+        "toggle"
+      ],
+      "components": [
+        {
+          "id": "checkbox-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "checkbox",
+          "categoryName": "Checkbox",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Checkbox - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Beveled glass toggle box featuring volumetric depth, animated checkmark drawing, and luminous emerald-cyan active glow.",
+          "tags": [
+            "selection",
+            "form",
+            "toggle"
+          ],
+          "functionalRequirements": [
+            "checked state",
+            "unchecked state",
+            "indeterminate state",
+            "keyboard spacebar toggle",
+            "animated SVG check stroke",
+            "hover refraction"
+          ],
+          "generatedDate": "2026-09-18T01:03:23.373Z",
+          "files": {
+            "html": "components/checkbox/liquid-glass-01/index.html",
+            "metadata": "components/checkbox/liquid-glass-01/metadata.json",
+            "preview": "components/checkbox/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "radio-button",
+      "name": "Radio Button",
+      "group": "Forms & Inputs",
+      "description": "Convex liquid droplet selector with floating glass ring, animated core sphere expansion, and mutually exclusive group physics.",
+      "functional_requirements": [
+        "selected state",
+        "unselected state",
+        "group mutual exclusion",
+        "arrow key navigation",
+        "hover highlight",
+        "scale bounce transition"
+      ],
+      "aria_role": "radio",
+      "default_tags": [
+        "selection",
+        "form",
+        "choice"
+      ],
+      "components": [
+        {
+          "id": "radio-button-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "radio-button",
+          "categoryName": "Radio Button",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Radio Button - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Convex liquid droplet selector with floating glass ring, animated core sphere expansion, and mutually exclusive group physics.",
+          "tags": [
+            "selection",
+            "form",
+            "choice"
+          ],
+          "functionalRequirements": [
+            "selected state",
+            "unselected state",
+            "group mutual exclusion",
+            "arrow key navigation",
+            "hover highlight",
+            "scale bounce transition"
+          ],
+          "generatedDate": "2026-09-18T01:03:24.007Z",
+          "files": {
+            "html": "components/radio-button/liquid-glass-01/index.html",
+            "metadata": "components/radio-button/liquid-glass-01/metadata.json",
+            "preview": "components/radio-button/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "switch-toggle",
+      "name": "Switch / Toggle",
+      "group": "Forms & Inputs",
+      "description": "Pill-shaped frosted channel housing a floating illuminated glass bead that glides smoothly across friction-free rails.",
+      "functional_requirements": [
+        "on/off toggle animation",
+        "smooth spring transition",
+        "drag gesture support",
+        "keyboard enter/space trigger",
+        "focus outline",
+        "status icons"
+      ],
+      "aria_role": "switch",
+      "default_tags": [
+        "control",
+        "settings",
+        "binary"
+      ],
+      "components": [
+        {
+          "id": "switch-toggle-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "switch-toggle",
+          "categoryName": "Switch / Toggle",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Switch / Toggle - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Pill-shaped frosted channel housing a floating illuminated glass bead that glides smoothly across friction-free rails.",
+          "tags": [
+            "control",
+            "settings",
+            "binary"
+          ],
+          "functionalRequirements": [
+            "on/off toggle animation",
+            "smooth spring transition",
+            "drag gesture support",
+            "keyboard enter/space trigger",
+            "focus outline",
+            "status icons"
+          ],
+          "generatedDate": "2026-09-18T01:03:24.588Z",
+          "files": {
+            "html": "components/switch-toggle/liquid-glass-01/index.html",
+            "metadata": "components/switch-toggle/liquid-glass-01/metadata.json",
+            "preview": "components/switch-toggle/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "select-dropdown",
+      "name": "Select / Dropdown",
+      "group": "Forms & Inputs",
+      "description": "Sculpted crystal dropdown trigger paired with an elevated floating frosted listbox with smooth optic dispersion.",
+      "functional_requirements": [
+        "open/close flyout",
+        "option selection",
+        "keyboard arrow navigation",
+        "outside click dismissal",
+        "chevron rotation",
+        "selected checkmark"
+      ],
+      "aria_role": "combobox",
+      "default_tags": [
+        "selection",
+        "menu",
+        "dropdown"
+      ],
+      "components": [
+        {
+          "id": "select-dropdown-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "select-dropdown",
+          "categoryName": "Select / Dropdown",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Select / Dropdown - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Sculpted crystal dropdown trigger paired with an elevated floating frosted listbox with smooth optic dispersion.",
+          "tags": [
+            "selection",
+            "menu",
+            "dropdown"
+          ],
+          "functionalRequirements": [
+            "open/close flyout",
+            "option selection",
+            "keyboard arrow navigation",
+            "outside click dismissal",
+            "chevron rotation",
+            "selected checkmark"
+          ],
+          "generatedDate": "2026-09-18T01:03:25.203Z",
+          "files": {
+            "html": "components/select-dropdown/liquid-glass-01/index.html",
+            "metadata": "components/select-dropdown/liquid-glass-01/metadata.json",
+            "preview": "components/select-dropdown/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "combobox-autocomplete",
+      "name": "Combobox / Autocomplete",
+      "group": "Forms & Inputs",
+      "description": "Hybrid searchable glass input with live filtered suggestion drop-sheet, item highlighting, and quick keyboard completion.",
+      "functional_requirements": [
+        "real-time text filtering",
+        "highlight matched substring",
+        "keyboard arrow selection",
+        "esc to close",
+        "tag pill generation"
+      ],
+      "aria_role": "combobox",
+      "default_tags": [
+        "search",
+        "filter",
+        "form"
+      ],
+      "components": [
+        {
+          "id": "combobox-autocomplete-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "combobox-autocomplete",
+          "categoryName": "Combobox / Autocomplete",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Combobox / Autocomplete - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Hybrid searchable glass input with live filtered suggestion drop-sheet, item highlighting, and quick keyboard completion.",
+          "tags": [
+            "search",
+            "filter",
+            "form"
+          ],
+          "functionalRequirements": [
+            "real-time text filtering",
+            "highlight matched substring",
+            "keyboard arrow selection",
+            "esc to close",
+            "tag pill generation"
+          ],
+          "generatedDate": "2026-09-18T01:03:25.951Z",
+          "files": {
+            "html": "components/combobox-autocomplete/liquid-glass-01/index.html",
+            "metadata": "components/combobox-autocomplete/liquid-glass-01/metadata.json",
+            "preview": "components/combobox-autocomplete/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "slider",
+      "name": "Slider",
+      "group": "Forms & Inputs",
+      "description": "3D refractive glass cylinder track with glowing fill progress and an elevated prismatic gem thumb with tooltip value.",
+      "functional_requirements": [
+        "continuous dragging",
+        "stepped increments",
+        "touch/mouse tracking",
+        "floating value bubble",
+        "keyboard arrow nudge",
+        "fill bar synchronization"
+      ],
+      "aria_role": "slider",
+      "default_tags": [
+        "range",
+        "value",
+        "drag"
+      ],
+      "components": [
+        {
+          "id": "slider-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "slider",
+          "categoryName": "Slider",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Slider - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "3D refractive glass cylinder track with glowing fill progress and an elevated prismatic gem thumb with tooltip value.",
+          "tags": [
+            "range",
+            "value",
+            "drag"
+          ],
+          "functionalRequirements": [
+            "continuous dragging",
+            "stepped increments",
+            "touch/mouse tracking",
+            "floating value bubble",
+            "keyboard arrow nudge",
+            "fill bar synchronization"
+          ],
+          "generatedDate": "2026-09-18T01:03:26.655Z",
+          "files": {
+            "html": "components/slider/liquid-glass-01/index.html",
+            "metadata": "components/slider/liquid-glass-01/metadata.json",
+            "preview": "components/slider/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "date-time-picker",
+      "name": "Date / Time Picker",
+      "group": "Forms & Inputs",
+      "description": "Multi-tier glass calendar slab displaying month grid, animated selection ripples, quick-jump month tabs, and precise time dials.",
+      "functional_requirements": [
+        "month navigation",
+        "date cell selection",
+        "today shortcut",
+        "time spinner dials",
+        "disabled past/future dates",
+        "popup modal or embedded view"
+      ],
+      "aria_role": "dialog",
+      "default_tags": [
+        "calendar",
+        "time",
+        "date"
+      ],
+      "components": [
+        {
+          "id": "date-time-picker-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "date-time-picker",
+          "categoryName": "Date / Time Picker",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Date / Time Picker - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Multi-tier glass calendar slab displaying month grid, animated selection ripples, quick-jump month tabs, and precise time dials.",
+          "tags": [
+            "calendar",
+            "time",
+            "date"
+          ],
+          "functionalRequirements": [
+            "month navigation",
+            "date cell selection",
+            "today shortcut",
+            "time spinner dials",
+            "disabled past/future dates",
+            "popup modal or embedded view"
+          ],
+          "generatedDate": "2026-09-18T01:03:27.307Z",
+          "files": {
+            "html": "components/date-time-picker/liquid-glass-01/index.html",
+            "metadata": "components/date-time-picker/liquid-glass-01/metadata.json",
+            "preview": "components/date-time-picker/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "card",
+      "name": "Card",
+      "group": "Surfaces & Layout",
+      "description": "Volumetric liquid glass panel with layered parallax surfaces, dynamic specular highlights that follow mouse movement, and rich content hierarchy.",
+      "functional_requirements": [
+        "3D mouse parallax tilt",
+        "layered glass plates",
+        "inner border reflections",
+        "action buttons",
+        "badge integration",
+        "smooth hover elevation"
+      ],
+      "aria_role": "region",
+      "default_tags": [
+        "container",
+        "surface",
+        "3d-tilt",
+        "card"
+      ],
+      "components": [
+        {
+          "id": "card-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "card",
+          "categoryName": "Card",
+          "categoryGroup": "Surfaces & Layout",
+          "name": "Card - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Volumetric liquid glass panel with layered parallax surfaces, dynamic specular highlights that follow mouse movement, and rich content hierarchy.",
+          "tags": [
+            "container",
+            "surface",
+            "3d-tilt",
+            "card"
+          ],
+          "functionalRequirements": [
+            "3D mouse parallax tilt",
+            "layered glass plates",
+            "inner border reflections",
+            "action buttons",
+            "badge integration",
+            "smooth hover elevation"
+          ],
+          "generatedDate": "2026-09-18T01:03:28.038Z",
+          "files": {
+            "html": "components/card/liquid-glass-01/index.html",
+            "metadata": "components/card/liquid-glass-01/metadata.json",
+            "preview": "components/card/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "modal-dialog",
+      "name": "Modal / Dialog",
+      "group": "Overlays & Disclosures",
+      "description": "Heroic floating 3D glass fortress elevated above a dimmed, blurred backdrop with chromatic perimeter refraction and smooth spring entry.",
+      "functional_requirements": [
+        "backdrop click to dismiss",
+        "escape key exit",
+        "focus trap within modal",
+        "entrance scale & blur animation",
+        "header/body/footer actions",
+        "scrollable inner content"
+      ],
+      "aria_role": "dialog",
+      "default_tags": [
+        "overlay",
+        "window",
+        "dialog"
+      ],
+      "components": [
+        {
+          "id": "modal-dialog-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "modal-dialog",
+          "categoryName": "Modal / Dialog",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Modal / Dialog - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Heroic floating 3D glass fortress elevated above a dimmed, blurred backdrop with chromatic perimeter refraction and smooth spring entry.",
+          "tags": [
+            "overlay",
+            "window",
+            "dialog"
+          ],
+          "functionalRequirements": [
+            "backdrop click to dismiss",
+            "escape key exit",
+            "focus trap within modal",
+            "entrance scale & blur animation",
+            "header/body/footer actions",
+            "scrollable inner content"
+          ],
+          "generatedDate": "2026-09-18T01:03:28.607Z",
+          "files": {
+            "html": "components/modal-dialog/liquid-glass-01/index.html",
+            "metadata": "components/modal-dialog/liquid-glass-01/metadata.json",
+            "preview": "components/modal-dialog/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "drawer-sheet",
+      "name": "Drawer / Sheet",
+      "group": "Overlays & Disclosures",
+      "description": "Slide-in frosted side monolith with edge highlights, gesture dismissal handle, and seamless glass blur integration.",
+      "functional_requirements": [
+        "side entry animation",
+        "swipe/drag to dismiss",
+        "backdrop blur transition",
+        "header close trigger",
+        "scrollable body",
+        "stackable layout"
+      ],
+      "aria_role": "complementary",
+      "default_tags": [
+        "panel",
+        "sidebar",
+        "overlay"
+      ],
+      "components": [
+        {
+          "id": "drawer-sheet-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "drawer-sheet",
+          "categoryName": "Drawer / Sheet",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Drawer / Sheet - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Slide-in frosted side monolith with edge highlights, gesture dismissal handle, and seamless glass blur integration.",
+          "tags": [
+            "panel",
+            "sidebar",
+            "overlay"
+          ],
+          "functionalRequirements": [
+            "side entry animation",
+            "swipe/drag to dismiss",
+            "backdrop blur transition",
+            "header close trigger",
+            "scrollable body",
+            "stackable layout"
+          ],
+          "generatedDate": "2026-09-18T01:03:29.222Z",
+          "files": {
+            "html": "components/drawer-sheet/liquid-glass-01/index.html",
+            "metadata": "components/drawer-sheet/liquid-glass-01/metadata.json",
+            "preview": "components/drawer-sheet/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "accordion",
+      "name": "Accordion",
+      "group": "Surfaces & Layout",
+      "description": "Stack of interlocking crystal slats that expand with fluid ease, revealing nested glass content cards with chevron flip motion.",
+      "functional_requirements": [
+        "expand/collapse accordion items",
+        "single or multi-expand mode",
+        "smooth max-height CSS transition",
+        "keyboard tab and enter navigation",
+        "chevron rotation indicator"
+      ],
+      "aria_role": "region",
+      "default_tags": [
+        "disclosure",
+        "collapse",
+        "expand"
+      ],
+      "components": [
+        {
+          "id": "accordion-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "accordion",
+          "categoryName": "Accordion",
+          "categoryGroup": "Surfaces & Layout",
+          "name": "Accordion - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Stack of interlocking crystal slats that expand with fluid ease, revealing nested glass content cards with chevron flip motion.",
+          "tags": [
+            "disclosure",
+            "collapse",
+            "expand"
+          ],
+          "functionalRequirements": [
+            "expand/collapse accordion items",
+            "single or multi-expand mode",
+            "smooth max-height CSS transition",
+            "keyboard tab and enter navigation",
+            "chevron rotation indicator"
+          ],
+          "generatedDate": "2026-09-18T01:03:30.105Z",
+          "files": {
+            "html": "components/accordion/liquid-glass-01/index.html",
+            "metadata": "components/accordion/liquid-glass-01/metadata.json",
+            "preview": "components/accordion/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "navbar-app-bar",
+      "name": "Navbar / App Bar",
+      "group": "Navigation",
+      "description": "Floating translucent command bar with bevel-lit glass trim, integrated brand jewel, nav links with sliding glow indicator, and CTA.",
+      "functional_requirements": [
+        "sticky glass blur on scroll",
+        "active item underline capsule",
+        "mobile hamburger drawer toggle",
+        "responsive collapse",
+        "quick search launcher"
+      ],
+      "aria_role": "navigation",
+      "default_tags": [
+        "header",
+        "navigation",
+        "top-bar"
+      ],
+      "components": [
+        {
+          "id": "navbar-app-bar-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "navbar-app-bar",
+          "categoryName": "Navbar / App Bar",
+          "categoryGroup": "Navigation",
+          "name": "Navbar / App Bar - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Floating translucent command bar with bevel-lit glass trim, integrated brand jewel, nav links with sliding glow indicator, and CTA.",
+          "tags": [
+            "header",
+            "navigation",
+            "top-bar"
+          ],
+          "functionalRequirements": [
+            "sticky glass blur on scroll",
+            "active item underline capsule",
+            "mobile hamburger drawer toggle",
+            "responsive collapse",
+            "quick search launcher"
+          ],
+          "generatedDate": "2026-09-18T01:03:30.707Z",
+          "files": {
+            "html": "components/navbar-app-bar/liquid-glass-01/index.html",
+            "metadata": "components/navbar-app-bar/liquid-glass-01/metadata.json",
+            "preview": "components/navbar-app-bar/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "sidebar-nav-rail",
+      "name": "Sidebar / Navigation Rail",
+      "group": "Navigation",
+      "description": "Vertical glass monolith with collapsible icon rail, sub-menu popouts, user profile capsule, and illuminated active item indicators.",
+      "functional_requirements": [
+        "expand/collapse rail toggle",
+        "active item glass highlight",
+        "nested group accordions",
+        "tooltip preview when collapsed",
+        "accessible navigation list"
+      ],
+      "aria_role": "navigation",
+      "default_tags": [
+        "sidebar",
+        "rail",
+        "navigation"
+      ],
+      "components": [
+        {
+          "id": "sidebar-nav-rail-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "sidebar-nav-rail",
+          "categoryName": "Sidebar / Navigation Rail",
+          "categoryGroup": "Navigation",
+          "name": "Sidebar / Navigation Rail - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Vertical glass monolith with collapsible icon rail, sub-menu popouts, user profile capsule, and illuminated active item indicators.",
+          "tags": [
+            "sidebar",
+            "rail",
+            "navigation"
+          ],
+          "functionalRequirements": [
+            "expand/collapse rail toggle",
+            "active item glass highlight",
+            "nested group accordions",
+            "tooltip preview when collapsed",
+            "accessible navigation list"
+          ],
+          "generatedDate": "2026-09-18T01:03:31.307Z",
+          "files": {
+            "html": "components/sidebar-nav-rail/liquid-glass-01/index.html",
+            "metadata": "components/sidebar-nav-rail/liquid-glass-01/metadata.json",
+            "preview": "components/sidebar-nav-rail/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "tabs",
+      "name": "Tabs",
+      "group": "Navigation",
+      "description": "Segmented 3D glass tray with a floating luminous indicator pill that slides seamlessly beneath the active tab label.",
+      "functional_requirements": [
+        "tab switching",
+        "sliding indicator bar",
+        "keyboard left/right arrow navigation",
+        "tabpanel association",
+        "badge count badges on tabs"
+      ],
+      "aria_role": "tablist",
+      "default_tags": [
+        "navigation",
+        "panels",
+        "tabs"
+      ],
+      "components": [
+        {
+          "id": "tabs-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "tabs",
+          "categoryName": "Tabs",
+          "categoryGroup": "Navigation",
+          "name": "Tabs - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Segmented 3D glass tray with a floating luminous indicator pill that slides seamlessly beneath the active tab label.",
+          "tags": [
+            "navigation",
+            "panels",
+            "tabs"
+          ],
+          "functionalRequirements": [
+            "tab switching",
+            "sliding indicator bar",
+            "keyboard left/right arrow navigation",
+            "tabpanel association",
+            "badge count badges on tabs"
+          ],
+          "generatedDate": "2026-09-18T01:03:31.873Z",
+          "files": {
+            "html": "components/tabs/liquid-glass-01/index.html",
+            "metadata": "components/tabs/liquid-glass-01/metadata.json",
+            "preview": "components/tabs/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "breadcrumbs",
+      "name": "Breadcrumbs",
+      "group": "Navigation",
+      "description": "Linear glass trail with micro-faceted separators, subtle path hover glows, and current page crystal badge.",
+      "functional_requirements": [
+        "navigational hierarchy links",
+        "custom 3D glass chevron divider",
+        "overflow dropdown for long paths",
+        "accessible aria-current link"
+      ],
+      "aria_role": "navigation",
+      "default_tags": [
+        "navigation",
+        "trail",
+        "breadcrumbs"
+      ],
+      "components": [
+        {
+          "id": "breadcrumbs-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "breadcrumbs",
+          "categoryName": "Breadcrumbs",
+          "categoryGroup": "Navigation",
+          "name": "Breadcrumbs - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Linear glass trail with micro-faceted separators, subtle path hover glows, and current page crystal badge.",
+          "tags": [
+            "navigation",
+            "trail",
+            "breadcrumbs"
+          ],
+          "functionalRequirements": [
+            "navigational hierarchy links",
+            "custom 3D glass chevron divider",
+            "overflow dropdown for long paths",
+            "accessible aria-current link"
+          ],
+          "generatedDate": "2026-09-18T01:03:32.534Z",
+          "files": {
+            "html": "components/breadcrumbs/liquid-glass-01/index.html",
+            "metadata": "components/breadcrumbs/liquid-glass-01/metadata.json",
+            "preview": "components/breadcrumbs/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "pagination",
+      "name": "Pagination",
+      "group": "Navigation",
+      "description": "Row of bevel-edged glass numeric buttons with active illuminated plate, smooth prev/next steppers, and page jump dial.",
+      "functional_requirements": [
+        "page number selection",
+        "previous/next navigation",
+        "ellipsis truncation indicator",
+        "disabled edge states",
+        "keyboard navigation"
+      ],
+      "aria_role": "navigation",
+      "default_tags": [
+        "pagination",
+        "numbers",
+        "navigation"
+      ],
+      "components": [
+        {
+          "id": "pagination-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "pagination",
+          "categoryName": "Pagination",
+          "categoryGroup": "Navigation",
+          "name": "Pagination - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Row of bevel-edged glass numeric buttons with active illuminated plate, smooth prev/next steppers, and page jump dial.",
+          "tags": [
+            "pagination",
+            "numbers",
+            "navigation"
+          ],
+          "functionalRequirements": [
+            "page number selection",
+            "previous/next navigation",
+            "ellipsis truncation indicator",
+            "disabled edge states",
+            "keyboard navigation"
+          ],
+          "generatedDate": "2026-09-18T01:03:33.152Z",
+          "files": {
+            "html": "components/pagination/liquid-glass-01/index.html",
+            "metadata": "components/pagination/liquid-glass-01/metadata.json",
+            "preview": "components/pagination/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "badge",
+      "name": "Badge",
+      "group": "Feedback & Status",
+      "description": "Microscopic glowing glass jewel with pulsed status halo, iridescent core, and crisp micro-typography.",
+      "functional_requirements": [
+        "status variants (success, warning, error, info)",
+        "pulsing live radar dot",
+        "numeric count formatting (e.g. 99+)",
+        "pill or circular shapes"
+      ],
+      "aria_role": "status",
+      "default_tags": [
+        "status",
+        "indicator",
+        "pill"
+      ],
+      "components": [
+        {
+          "id": "badge-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "badge",
+          "categoryName": "Badge",
+          "categoryGroup": "Feedback & Status",
+          "name": "Badge - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Microscopic glowing glass jewel with pulsed status halo, iridescent core, and crisp micro-typography.",
+          "tags": [
+            "status",
+            "indicator",
+            "pill"
+          ],
+          "functionalRequirements": [
+            "status variants (success, warning, error, info)",
+            "pulsing live radar dot",
+            "numeric count formatting (e.g. 99+)",
+            "pill or circular shapes"
+          ],
+          "generatedDate": "2026-09-18T01:03:33.771Z",
+          "files": {
+            "html": "components/badge/liquid-glass-01/index.html",
+            "metadata": "components/badge/liquid-glass-01/metadata.json",
+            "preview": "components/badge/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "chip-tag",
+      "name": "Chip / Tag",
+      "group": "Forms & Inputs",
+      "description": "Compact interactive glass capsule with removable 3D crystal cross, avatar thumbnail, and selectable state toggle.",
+      "functional_requirements": [
+        "click-to-toggle filter state",
+        "remove button trigger",
+        "leading icon or avatar",
+        "keyboard backspace delete",
+        "focus ring"
+      ],
+      "aria_role": "button",
+      "default_tags": [
+        "filter",
+        "pill",
+        "tag"
+      ],
+      "components": [
+        {
+          "id": "chip-tag-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "chip-tag",
+          "categoryName": "Chip / Tag",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Chip / Tag - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Compact interactive glass capsule with removable 3D crystal cross, avatar thumbnail, and selectable state toggle.",
+          "tags": [
+            "filter",
+            "pill",
+            "tag"
+          ],
+          "functionalRequirements": [
+            "click-to-toggle filter state",
+            "remove button trigger",
+            "leading icon or avatar",
+            "keyboard backspace delete",
+            "focus ring"
+          ],
+          "generatedDate": "2026-09-18T01:03:34.343Z",
+          "files": {
+            "html": "components/chip-tag/liquid-glass-01/index.html",
+            "metadata": "components/chip-tag/liquid-glass-01/metadata.json",
+            "preview": "components/chip-tag/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "tooltip",
+      "name": "Tooltip",
+      "group": "Overlays & Disclosures",
+      "description": "Ultra-light floating frosted bubble with directional prism beak, micro drop shadow, and instant directional orientation.",
+      "functional_requirements": [
+        "hover & focus trigger",
+        "directional positioning (top, bottom, left, right)",
+        "delay timing configuration",
+        "smooth fade-in & scale pop"
+      ],
+      "aria_role": "tooltip",
+      "default_tags": [
+        "hint",
+        "helper",
+        "overlay"
+      ],
+      "components": [
+        {
+          "id": "tooltip-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "tooltip",
+          "categoryName": "Tooltip",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Tooltip - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Ultra-light floating frosted bubble with directional prism beak, micro drop shadow, and instant directional orientation.",
+          "tags": [
+            "hint",
+            "helper",
+            "overlay"
+          ],
+          "functionalRequirements": [
+            "hover & focus trigger",
+            "directional positioning (top, bottom, left, right)",
+            "delay timing configuration",
+            "smooth fade-in & scale pop"
+          ],
+          "generatedDate": "2026-09-18T01:03:34.923Z",
+          "files": {
+            "html": "components/tooltip/liquid-glass-01/index.html",
+            "metadata": "components/tooltip/liquid-glass-01/metadata.json",
+            "preview": "components/tooltip/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "popover",
+      "name": "Popover",
+      "group": "Overlays & Disclosures",
+      "description": "Interactive multi-element glass pod anchoring to trigger elements, complete with header, rich interactive form/card body, and close action.",
+      "functional_requirements": [
+        "click toggle trigger",
+        "outside click dismissal",
+        "focus trapping or tab navigation",
+        "rich interactive body content",
+        "arrow pointer refraction"
+      ],
+      "aria_role": "dialog",
+      "default_tags": [
+        "overlay",
+        "flyout",
+        "popover"
+      ],
+      "components": [
+        {
+          "id": "popover-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "popover",
+          "categoryName": "Popover",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Popover - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Interactive multi-element glass pod anchoring to trigger elements, complete with header, rich interactive form/card body, and close action.",
+          "tags": [
+            "overlay",
+            "flyout",
+            "popover"
+          ],
+          "functionalRequirements": [
+            "click toggle trigger",
+            "outside click dismissal",
+            "focus trapping or tab navigation",
+            "rich interactive body content",
+            "arrow pointer refraction"
+          ],
+          "generatedDate": "2026-09-18T01:03:35.762Z",
+          "files": {
+            "html": "components/popover/liquid-glass-01/index.html",
+            "metadata": "components/popover/liquid-glass-01/metadata.json",
+            "preview": "components/popover/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "icon-pack",
+      "name": "Icon Pack",
+      "group": "Media & Creative",
+      "description": "Cohesive family of 12 handcrafted 3D liquid glass icons sharing identical specular highlights, depth layers, cyan-sapphire refraction, and vector geometries.",
+      "functional_requirements": [
+        "cohesive 12-icon 3D suite",
+        "consistent lighting vector & specular highlights",
+        "interactive hover rotation/glow",
+        "SVG vector scalability",
+        "copy SVG / export trigger"
+      ],
+      "aria_role": "img",
+      "default_tags": [
+        "icons",
+        "assets",
+        "3d-icons",
+        "vector"
+      ],
+      "components": [
+        {
+          "id": "icon-pack-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "icon-pack",
+          "categoryName": "Icon Pack",
+          "categoryGroup": "Media & Creative",
+          "name": "Icon Pack - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Cohesive family of 12 handcrafted 3D liquid glass icons sharing identical specular highlights, depth layers, cyan-sapphire refraction, and vector geometries.",
+          "tags": [
+            "icons",
+            "assets",
+            "3d-icons",
+            "vector"
+          ],
+          "functionalRequirements": [
+            "cohesive 12-icon 3D suite",
+            "consistent lighting vector & specular highlights",
+            "interactive hover rotation/glow",
+            "SVG vector scalability",
+            "copy SVG / export trigger"
+          ],
+          "generatedDate": "2026-09-18T01:03:36.379Z",
+          "files": {
+            "html": "components/icon-pack/liquid-glass-01/index.html",
+            "metadata": "components/icon-pack/liquid-glass-01/metadata.json",
+            "preview": "components/icon-pack/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "alert-callout",
+      "name": "Alert / Callout",
+      "group": "Feedback & Status",
+      "description": "Prominent glass warning bar with chromatic edge illumination, status insignia, rich body text, and optional action buttons.",
+      "functional_requirements": [
+        "semantic status themes",
+        "dismissible button",
+        "action button row",
+        "frosted chromatic border glow",
+        "high contrast readability"
+      ],
+      "aria_role": "alert",
+      "default_tags": [
+        "feedback",
+        "message",
+        "alert"
+      ],
+      "components": [
+        {
+          "id": "alert-callout-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "alert-callout",
+          "categoryName": "Alert / Callout",
+          "categoryGroup": "Feedback & Status",
+          "name": "Alert / Callout - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Prominent glass warning bar with chromatic edge illumination, status insignia, rich body text, and optional action buttons.",
+          "tags": [
+            "feedback",
+            "message",
+            "alert"
+          ],
+          "functionalRequirements": [
+            "semantic status themes",
+            "dismissible button",
+            "action button row",
+            "frosted chromatic border glow",
+            "high contrast readability"
+          ],
+          "generatedDate": "2026-09-18T01:03:37.087Z",
+          "files": {
+            "html": "components/alert-callout/liquid-glass-01/index.html",
+            "metadata": "components/alert-callout/liquid-glass-01/metadata.json",
+            "preview": "components/alert-callout/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "toast-notification",
+      "name": "Toast / Notification",
+      "group": "Feedback & Status",
+      "description": "Floating corner glass notification shard that slides onto the viewport with time-decay progress bar and instant action.",
+      "functional_requirements": [
+        "auto-dismiss countdown bar",
+        "stacking animation physics",
+        "manual close trigger",
+        "status icon & action link",
+        "pause countdown on hover"
+      ],
+      "aria_role": "alert",
+      "default_tags": [
+        "toast",
+        "notification",
+        "feedback"
+      ],
+      "components": [
+        {
+          "id": "toast-notification-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "toast-notification",
+          "categoryName": "Toast / Notification",
+          "categoryGroup": "Feedback & Status",
+          "name": "Toast / Notification - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Floating corner glass notification shard that slides onto the viewport with time-decay progress bar and instant action.",
+          "tags": [
+            "toast",
+            "notification",
+            "feedback"
+          ],
+          "functionalRequirements": [
+            "auto-dismiss countdown bar",
+            "stacking animation physics",
+            "manual close trigger",
+            "status icon & action link",
+            "pause countdown on hover"
+          ],
+          "generatedDate": "2026-09-18T01:03:37.888Z",
+          "files": {
+            "html": "components/toast-notification/liquid-glass-01/index.html",
+            "metadata": "components/toast-notification/liquid-glass-01/metadata.json",
+            "preview": "components/toast-notification/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "progress-bar",
+      "name": "Progress Bar",
+      "group": "Feedback & Status",
+      "description": "3D frosted tube with liquid-light energy core, iridescent wave shimmer animation, and percentage badge.",
+      "functional_requirements": [
+        "determinate percentage fill",
+        "indeterminate pulsing wave",
+        "animated shimmer reflection",
+        "step milestone markers",
+        "value readout label"
+      ],
+      "aria_role": "progressbar",
+      "default_tags": [
+        "progress",
+        "loading",
+        "metric"
+      ],
+      "components": [
+        {
+          "id": "progress-bar-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "progress-bar",
+          "categoryName": "Progress Bar",
+          "categoryGroup": "Feedback & Status",
+          "name": "Progress Bar - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "3D frosted tube with liquid-light energy core, iridescent wave shimmer animation, and percentage badge.",
+          "tags": [
+            "progress",
+            "loading",
+            "metric"
+          ],
+          "functionalRequirements": [
+            "determinate percentage fill",
+            "indeterminate pulsing wave",
+            "animated shimmer reflection",
+            "step milestone markers",
+            "value readout label"
+          ],
+          "generatedDate": "2026-09-18T01:03:38.482Z",
+          "files": {
+            "html": "components/progress-bar/liquid-glass-01/index.html",
+            "metadata": "components/progress-bar/liquid-glass-01/metadata.json",
+            "preview": "components/progress-bar/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "spinner-loader",
+      "name": "Spinner / Loading Indicator",
+      "group": "Feedback & Status",
+      "description": "Hypnotic rotating 3D glass torus with trailing luminous particles, refractive caustic ring, and variable speed control.",
+      "functional_requirements": [
+        "smooth 3D orbit rotation",
+        "gradient caustic trail",
+        "multiple size presets (sm, md, lg)",
+        "accessibility reduced-motion pause",
+        "centered label"
+      ],
+      "aria_role": "status",
+      "default_tags": [
+        "loader",
+        "spinner",
+        "animation"
+      ],
+      "components": [
+        {
+          "id": "spinner-loader-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "spinner-loader",
+          "categoryName": "Spinner / Loading Indicator",
+          "categoryGroup": "Feedback & Status",
+          "name": "Spinner / Loading Indicator - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Hypnotic rotating 3D glass torus with trailing luminous particles, refractive caustic ring, and variable speed control.",
+          "tags": [
+            "loader",
+            "spinner",
+            "animation"
+          ],
+          "functionalRequirements": [
+            "smooth 3D orbit rotation",
+            "gradient caustic trail",
+            "multiple size presets (sm, md, lg)",
+            "accessibility reduced-motion pause",
+            "centered label"
+          ],
+          "generatedDate": "2026-09-18T01:03:39.298Z",
+          "files": {
+            "html": "components/spinner-loader/liquid-glass-01/index.html",
+            "metadata": "components/spinner-loader/liquid-glass-01/metadata.json",
+            "preview": "components/spinner-loader/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "avatar-group",
+      "name": "Avatar / Avatar Group",
+      "group": "Data & Display",
+      "description": "Layered disc stack of frosted glass lens portraits with depth-staggered hover elevation, online presence jewels, and overflow counter.",
+      "functional_requirements": [
+        "overlapping stack spacing",
+        "hover to elevate individual avatar",
+        "online status dot badge",
+        "overflow counter click flyout",
+        "initials fallback fallback"
+      ],
+      "aria_role": "group",
+      "default_tags": [
+        "avatar",
+        "user",
+        "profile"
+      ],
+      "components": [
+        {
+          "id": "avatar-group-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "avatar-group",
+          "categoryName": "Avatar / Avatar Group",
+          "categoryGroup": "Data & Display",
+          "name": "Avatar / Avatar Group - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Layered disc stack of frosted glass lens portraits with depth-staggered hover elevation, online presence jewels, and overflow counter.",
+          "tags": [
+            "avatar",
+            "user",
+            "profile"
+          ],
+          "functionalRequirements": [
+            "overlapping stack spacing",
+            "hover to elevate individual avatar",
+            "online status dot badge",
+            "overflow counter click flyout",
+            "initials fallback fallback"
+          ],
+          "generatedDate": "2026-09-18T01:03:39.924Z",
+          "files": {
+            "html": "components/avatar-group/liquid-glass-01/index.html",
+            "metadata": "components/avatar-group/liquid-glass-01/metadata.json",
+            "preview": "components/avatar-group/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "skeleton-loader",
+      "name": "Skeleton Loader",
+      "group": "Feedback & Status",
+      "description": "Translucent glass bone structures with shimmering light reflections that sweep across card and text placeholders.",
+      "functional_requirements": [
+        "animated refractive sweep wave",
+        "multiple layout shapes (avatar, title, paragraph, button)",
+        "pulse opacity breathing mode",
+        "reduced motion compliance"
+      ],
+      "aria_role": "status",
+      "default_tags": [
+        "skeleton",
+        "placeholder",
+        "loader"
+      ],
+      "components": [
+        {
+          "id": "skeleton-loader-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "skeleton-loader",
+          "categoryName": "Skeleton Loader",
+          "categoryGroup": "Feedback & Status",
+          "name": "Skeleton Loader - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Translucent glass bone structures with shimmering light reflections that sweep across card and text placeholders.",
+          "tags": [
+            "skeleton",
+            "placeholder",
+            "loader"
+          ],
+          "functionalRequirements": [
+            "animated refractive sweep wave",
+            "multiple layout shapes (avatar, title, paragraph, button)",
+            "pulse opacity breathing mode",
+            "reduced motion compliance"
+          ],
+          "generatedDate": "2026-09-18T01:03:40.492Z",
+          "files": {
+            "html": "components/skeleton-loader/liquid-glass-01/index.html",
+            "metadata": "components/skeleton-loader/liquid-glass-01/metadata.json",
+            "preview": "components/skeleton-loader/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "table-datagrid",
+      "name": "Table / Data Grid",
+      "group": "Data & Display",
+      "description": "Multi-column frosted glass data console with sticky headers, sortable column chevrons, row selection highlights, and glass cell dividers.",
+      "functional_requirements": [
+        "sortable columns",
+        "row selection checkboxes",
+        "sticky frosted header",
+        "hover row luminescent glow",
+        "zebra-glass striping",
+        "horizontal scroll support"
+      ],
+      "aria_role": "table",
+      "default_tags": [
+        "table",
+        "grid",
+        "data"
+      ],
+      "components": [
+        {
+          "id": "table-datagrid-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "table-datagrid",
+          "categoryName": "Table / Data Grid",
+          "categoryGroup": "Data & Display",
+          "name": "Table / Data Grid - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Multi-column frosted glass data console with sticky headers, sortable column chevrons, row selection highlights, and glass cell dividers.",
+          "tags": [
+            "table",
+            "grid",
+            "data"
+          ],
+          "functionalRequirements": [
+            "sortable columns",
+            "row selection checkboxes",
+            "sticky frosted header",
+            "hover row luminescent glow",
+            "zebra-glass striping",
+            "horizontal scroll support"
+          ],
+          "generatedDate": "2026-09-18T01:03:41.053Z",
+          "files": {
+            "html": "components/table-datagrid/liquid-glass-01/index.html",
+            "metadata": "components/table-datagrid/liquid-glass-01/metadata.json",
+            "preview": "components/table-datagrid/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "tree-view",
+      "name": "Tree View",
+      "group": "Data & Display",
+      "description": "Hierarchical glass file system explorer with expanding crystal branches, custom 3D folder icons, and active node highlight plates.",
+      "functional_requirements": [
+        "nested expandable nodes",
+        "keyboard arrow navigation",
+        "selection state",
+        "folder/file icon indicators",
+        "connecting glass guideline filaments"
+      ],
+      "aria_role": "tree",
+      "default_tags": [
+        "hierarchy",
+        "folder",
+        "tree"
+      ],
+      "components": [
+        {
+          "id": "tree-view-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "tree-view",
+          "categoryName": "Tree View",
+          "categoryGroup": "Data & Display",
+          "name": "Tree View - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Hierarchical glass file system explorer with expanding crystal branches, custom 3D folder icons, and active node highlight plates.",
+          "tags": [
+            "hierarchy",
+            "folder",
+            "tree"
+          ],
+          "functionalRequirements": [
+            "nested expandable nodes",
+            "keyboard arrow navigation",
+            "selection state",
+            "folder/file icon indicators",
+            "connecting glass guideline filaments"
+          ],
+          "generatedDate": "2026-09-18T01:03:41.838Z",
+          "files": {
+            "html": "components/tree-view/liquid-glass-01/index.html",
+            "metadata": "components/tree-view/liquid-glass-01/metadata.json",
+            "preview": "components/tree-view/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "stepper-wizard",
+      "name": "Stepper / Wizard",
+      "group": "Navigation",
+      "description": "Progressive sequence of crystal step nodes connected by glowing liquid energy conduits, tracking workflow progression.",
+      "functional_requirements": [
+        "completed, active, upcoming node states",
+        "animated interconnecting line glow",
+        "step click navigation",
+        "label and description subtext",
+        "responsive vertical/horizontal mode"
+      ],
+      "aria_role": "navigation",
+      "default_tags": [
+        "wizard",
+        "steps",
+        "workflow"
+      ],
+      "components": [
+        {
+          "id": "stepper-wizard-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "stepper-wizard",
+          "categoryName": "Stepper / Wizard",
+          "categoryGroup": "Navigation",
+          "name": "Stepper / Wizard - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Progressive sequence of crystal step nodes connected by glowing liquid energy conduits, tracking workflow progression.",
+          "tags": [
+            "wizard",
+            "steps",
+            "workflow"
+          ],
+          "functionalRequirements": [
+            "completed, active, upcoming node states",
+            "animated interconnecting line glow",
+            "step click navigation",
+            "label and description subtext",
+            "responsive vertical/horizontal mode"
+          ],
+          "generatedDate": "2026-09-18T01:03:42.488Z",
+          "files": {
+            "html": "components/stepper-wizard/liquid-glass-01/index.html",
+            "metadata": "components/stepper-wizard/liquid-glass-01/metadata.json",
+            "preview": "components/stepper-wizard/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "segmented-control",
+      "name": "Segmented Control",
+      "group": "Forms & Inputs",
+      "description": "Precision-milled recessed glass tray housing an elevated optical glass selector block that glides between view options.",
+      "functional_requirements": [
+        "gliding selection indicator",
+        "instant click selection",
+        "arrow key traversal",
+        "icon + text options",
+        "equal distribution grid"
+      ],
+      "aria_role": "radiogroup",
+      "default_tags": [
+        "segmented",
+        "toggle",
+        "tabs"
+      ],
+      "components": [
+        {
+          "id": "segmented-control-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "segmented-control",
+          "categoryName": "Segmented Control",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Segmented Control - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Precision-milled recessed glass tray housing an elevated optical glass selector block that glides between view options.",
+          "tags": [
+            "segmented",
+            "toggle",
+            "tabs"
+          ],
+          "functionalRequirements": [
+            "gliding selection indicator",
+            "instant click selection",
+            "arrow key traversal",
+            "icon + text options",
+            "equal distribution grid"
+          ],
+          "generatedDate": "2026-09-18T01:03:43.276Z",
+          "files": {
+            "html": "components/segmented-control/liquid-glass-01/index.html",
+            "metadata": "components/segmented-control/liquid-glass-01/metadata.json",
+            "preview": "components/segmented-control/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "rating-picker",
+      "name": "Rating / Star Picker",
+      "group": "Forms & Inputs",
+      "description": "Row of faceted crystal stars that illuminate with amber liquid fire on hover and lock into place with a subtle 3D pop.",
+      "functional_requirements": [
+        "half-star or full-star hover rating",
+        "click to commit rating",
+        "keyboard arrow adjustment",
+        "reset rating trigger",
+        "numerical score feedback"
+      ],
+      "aria_role": "slider",
+      "default_tags": [
+        "rating",
+        "stars",
+        "feedback"
+      ],
+      "components": [
+        {
+          "id": "rating-picker-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "rating-picker",
+          "categoryName": "Rating / Star Picker",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Rating / Star Picker - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Row of faceted crystal stars that illuminate with amber liquid fire on hover and lock into place with a subtle 3D pop.",
+          "tags": [
+            "rating",
+            "stars",
+            "feedback"
+          ],
+          "functionalRequirements": [
+            "half-star or full-star hover rating",
+            "click to commit rating",
+            "keyboard arrow adjustment",
+            "reset rating trigger",
+            "numerical score feedback"
+          ],
+          "generatedDate": "2026-09-18T01:03:43.905Z",
+          "files": {
+            "html": "components/rating-picker/liquid-glass-01/index.html",
+            "metadata": "components/rating-picker/liquid-glass-01/metadata.json",
+            "preview": "components/rating-picker/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "file-upload-dropzone",
+      "name": "File Upload / Dropzone",
+      "group": "Forms & Inputs",
+      "description": "Spacious frosted glass receiving bay with etched dashed perimeter, drag-over optical lens expansion, file queue chips, and upload progress.",
+      "functional_requirements": [
+        "drag-and-drop file detection",
+        "click to browse file picker",
+        "file validation chip list with size & remove action",
+        "simulated upload progress bar"
+      ],
+      "aria_role": "button",
+      "default_tags": [
+        "upload",
+        "dropzone",
+        "files"
+      ],
+      "components": [
+        {
+          "id": "file-upload-dropzone-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "file-upload-dropzone",
+          "categoryName": "File Upload / Dropzone",
+          "categoryGroup": "Forms & Inputs",
+          "name": "File Upload / Dropzone - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Spacious frosted glass receiving bay with etched dashed perimeter, drag-over optical lens expansion, file queue chips, and upload progress.",
+          "tags": [
+            "upload",
+            "dropzone",
+            "files"
+          ],
+          "functionalRequirements": [
+            "drag-and-drop file detection",
+            "click to browse file picker",
+            "file validation chip list with size & remove action",
+            "simulated upload progress bar"
+          ],
+          "generatedDate": "2026-09-18T01:03:44.494Z",
+          "files": {
+            "html": "components/file-upload-dropzone/liquid-glass-01/index.html",
+            "metadata": "components/file-upload-dropzone/liquid-glass-01/metadata.json",
+            "preview": "components/file-upload-dropzone/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "color-picker",
+      "name": "Color Picker",
+      "group": "Forms & Inputs",
+      "description": "Luminescent glass palette console with chromatic spectrum gradient slab, 3D reticle selector, opacity slider, and hex readout.",
+      "functional_requirements": [
+        "spectrum coordinate selection",
+        "hue and alpha glass slider rails",
+        "preset swatch jewels",
+        "hex/rgba format copy",
+        "live swatch preview gem"
+      ],
+      "aria_role": "dialog",
+      "default_tags": [
+        "color",
+        "picker",
+        "palette"
+      ],
+      "components": [
+        {
+          "id": "color-picker-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "color-picker",
+          "categoryName": "Color Picker",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Color Picker - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Luminescent glass palette console with chromatic spectrum gradient slab, 3D reticle selector, opacity slider, and hex readout.",
+          "tags": [
+            "color",
+            "picker",
+            "palette"
+          ],
+          "functionalRequirements": [
+            "spectrum coordinate selection",
+            "hue and alpha glass slider rails",
+            "preset swatch jewels",
+            "hex/rgba format copy",
+            "live swatch preview gem"
+          ],
+          "generatedDate": "2026-09-18T01:03:45.223Z",
+          "files": {
+            "html": "components/color-picker/liquid-glass-01/index.html",
+            "metadata": "components/color-picker/liquid-glass-01/metadata.json",
+            "preview": "components/color-picker/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "audio-player",
+      "name": "Audio Player",
+      "group": "Media & Creative",
+      "description": "Futuristic glass deck with floating disc play button, dynamic glowing frequency visualizer bars, track scrubber, and volume prism.",
+      "functional_requirements": [
+        "play/pause toggle",
+        "interactive waveform/scrubber track",
+        "time elapsed & remaining",
+        "volume slide control",
+        "track title & album thumbnail"
+      ],
+      "aria_role": "region",
+      "default_tags": [
+        "audio",
+        "media",
+        "player"
+      ],
+      "components": [
+        {
+          "id": "audio-player-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "audio-player",
+          "categoryName": "Audio Player",
+          "categoryGroup": "Media & Creative",
+          "name": "Audio Player - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Futuristic glass deck with floating disc play button, dynamic glowing frequency visualizer bars, track scrubber, and volume prism.",
+          "tags": [
+            "audio",
+            "media",
+            "player"
+          ],
+          "functionalRequirements": [
+            "play/pause toggle",
+            "interactive waveform/scrubber track",
+            "time elapsed & remaining",
+            "volume slide control",
+            "track title & album thumbnail"
+          ],
+          "generatedDate": "2026-09-18T01:03:45.748Z",
+          "files": {
+            "html": "components/audio-player/liquid-glass-01/index.html",
+            "metadata": "components/audio-player/liquid-glass-01/metadata.json",
+            "preview": "components/audio-player/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "video-player",
+      "name": "Video Player",
+      "group": "Media & Creative",
+      "description": "Immersive glass theater frame with floating auto-hide control bar, 3D time scrub dial, picture-in-picture glass trigger, and volume slider.",
+      "functional_requirements": [
+        "floating auto-hide controls",
+        "play/pause/rewind actions",
+        "buffered timeline scrubber",
+        "fullscreen & PIP triggers",
+        "volume & playback rate popup"
+      ],
+      "aria_role": "region",
+      "default_tags": [
+        "video",
+        "media",
+        "player"
+      ],
+      "components": [
+        {
+          "id": "video-player-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "video-player",
+          "categoryName": "Video Player",
+          "categoryGroup": "Media & Creative",
+          "name": "Video Player - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Immersive glass theater frame with floating auto-hide control bar, 3D time scrub dial, picture-in-picture glass trigger, and volume slider.",
+          "tags": [
+            "video",
+            "media",
+            "player"
+          ],
+          "functionalRequirements": [
+            "floating auto-hide controls",
+            "play/pause/rewind actions",
+            "buffered timeline scrubber",
+            "fullscreen & PIP triggers",
+            "volume & playback rate popup"
+          ],
+          "generatedDate": "2026-09-18T01:03:46.255Z",
+          "files": {
+            "html": "components/video-player/liquid-glass-01/index.html",
+            "metadata": "components/video-player/liquid-glass-01/metadata.json",
+            "preview": "components/video-player/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "carousel-slider",
+      "name": "Carousel / Slider Showcase",
+      "group": "Media & Creative",
+      "description": "3D coverflow-style carousel where frosted glass cards rotate in true 3D perspective with depth fading and optical navigation dots.",
+      "functional_requirements": [
+        "next/previous slide buttons",
+        "swipe touch/drag physics",
+        "3D card depth perspective offset",
+        "indicator dots with live progress",
+        "autoplay toggle"
+      ],
+      "aria_role": "region",
+      "default_tags": [
+        "carousel",
+        "gallery",
+        "slider"
+      ],
+      "components": [
+        {
+          "id": "carousel-slider-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "carousel-slider",
+          "categoryName": "Carousel / Slider Showcase",
+          "categoryGroup": "Media & Creative",
+          "name": "Carousel / Slider Showcase - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "3D coverflow-style carousel where frosted glass cards rotate in true 3D perspective with depth fading and optical navigation dots.",
+          "tags": [
+            "carousel",
+            "gallery",
+            "slider"
+          ],
+          "functionalRequirements": [
+            "next/previous slide buttons",
+            "swipe touch/drag physics",
+            "3D card depth perspective offset",
+            "indicator dots with live progress",
+            "autoplay toggle"
+          ],
+          "generatedDate": "2026-09-18T01:03:46.811Z",
+          "files": {
+            "html": "components/carousel-slider/liquid-glass-01/index.html",
+            "metadata": "components/carousel-slider/liquid-glass-01/metadata.json",
+            "preview": "components/carousel-slider/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "timeline",
+      "name": "Timeline",
+      "group": "Data & Display",
+      "description": "Vertical glass spine punctuated with glowing crystal milestones and staggered glass cards detailing historical logs.",
+      "functional_requirements": [
+        "chronological event cards",
+        "pulsed milestone orb status",
+        "date badges",
+        "expandable event details",
+        "interactive hover focus"
+      ],
+      "aria_role": "list",
+      "default_tags": [
+        "timeline",
+        "history",
+        "milestones"
+      ],
+      "components": [
+        {
+          "id": "timeline-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "timeline",
+          "categoryName": "Timeline",
+          "categoryGroup": "Data & Display",
+          "name": "Timeline - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Vertical glass spine punctuated with glowing crystal milestones and staggered glass cards detailing historical logs.",
+          "tags": [
+            "timeline",
+            "history",
+            "milestones"
+          ],
+          "functionalRequirements": [
+            "chronological event cards",
+            "pulsed milestone orb status",
+            "date badges",
+            "expandable event details",
+            "interactive hover focus"
+          ],
+          "generatedDate": "2026-09-18T01:03:47.594Z",
+          "files": {
+            "html": "components/timeline/liquid-glass-01/index.html",
+            "metadata": "components/timeline/liquid-glass-01/metadata.json",
+            "preview": "components/timeline/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "stat-metric-card",
+      "name": "Statistic / Metric Card",
+      "group": "Data & Display",
+      "description": "Executive glass dashboard tile featuring illuminated KPI figures, mini sparkline trend curve, and positive/negative trend pills.",
+      "functional_requirements": [
+        "large format metric counter",
+        "mini SVG sparkline chart",
+        "percentage delta indicator with up/down arrow",
+        "timeframe toggle selector",
+        "hover glass gloss refraction"
+      ],
+      "aria_role": "region",
+      "default_tags": [
+        "metric",
+        "kpi",
+        "analytics",
+        "dashboard"
+      ],
+      "components": [
+        {
+          "id": "stat-metric-card-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "stat-metric-card",
+          "categoryName": "Statistic / Metric Card",
+          "categoryGroup": "Data & Display",
+          "name": "Statistic / Metric Card - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Executive glass dashboard tile featuring illuminated KPI figures, mini sparkline trend curve, and positive/negative trend pills.",
+          "tags": [
+            "metric",
+            "kpi",
+            "analytics",
+            "dashboard"
+          ],
+          "functionalRequirements": [
+            "large format metric counter",
+            "mini SVG sparkline chart",
+            "percentage delta indicator with up/down arrow",
+            "timeframe toggle selector",
+            "hover glass gloss refraction"
+          ],
+          "generatedDate": "2026-09-18T01:03:48.171Z",
+          "files": {
+            "html": "components/stat-metric-card/liquid-glass-01/index.html",
+            "metadata": "components/stat-metric-card/liquid-glass-01/metadata.json",
+            "preview": "components/stat-metric-card/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "pricing-table",
+      "name": "Pricing Table",
+      "group": "Surfaces & Layout",
+      "description": "Trio of stepped glass monoliths featuring popular plan jewel accent, billing interval toggle, feature checklist, and liquid CTA button.",
+      "functional_requirements": [
+        "monthly/annual billing cycle toggle",
+        "featured/highlighted tier 3D pop",
+        "checklist feature rows with check icons",
+        "call-to-action trigger",
+        "responsive stacked mode"
+      ],
+      "aria_role": "region",
+      "default_tags": [
+        "pricing",
+        "plans",
+        "tier"
+      ],
+      "components": [
+        {
+          "id": "pricing-table-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "pricing-table",
+          "categoryName": "Pricing Table",
+          "categoryGroup": "Surfaces & Layout",
+          "name": "Pricing Table - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Trio of stepped glass monoliths featuring popular plan jewel accent, billing interval toggle, feature checklist, and liquid CTA button.",
+          "tags": [
+            "pricing",
+            "plans",
+            "tier"
+          ],
+          "functionalRequirements": [
+            "monthly/annual billing cycle toggle",
+            "featured/highlighted tier 3D pop",
+            "checklist feature rows with check icons",
+            "call-to-action trigger",
+            "responsive stacked mode"
+          ],
+          "generatedDate": "2026-09-18T01:03:49.023Z",
+          "files": {
+            "html": "components/pricing-table/liquid-glass-01/index.html",
+            "metadata": "components/pricing-table/liquid-glass-01/metadata.json",
+            "preview": "components/pricing-table/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "command-palette",
+      "name": "Command Palette / Spotlight",
+      "group": "Overlays & Disclosures",
+      "description": "Floating glass command center with hotkey trigger, fuzzy search input, grouped action listings, and keyboard navigation shortcuts.",
+      "functional_requirements": [
+        "Cmd+K keyboard activation shortcut",
+        "categorized command results",
+        "arrow key navigation with active glass glow",
+        "esc to close",
+        "enter to execute action"
+      ],
+      "aria_role": "combobox",
+      "default_tags": [
+        "command",
+        "spotlight",
+        "shortcuts"
+      ],
+      "components": [
+        {
+          "id": "command-palette-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "command-palette",
+          "categoryName": "Command Palette / Spotlight",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Command Palette / Spotlight - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Floating glass command center with hotkey trigger, fuzzy search input, grouped action listings, and keyboard navigation shortcuts.",
+          "tags": [
+            "command",
+            "spotlight",
+            "shortcuts"
+          ],
+          "functionalRequirements": [
+            "Cmd+K keyboard activation shortcut",
+            "categorized command results",
+            "arrow key navigation with active glass glow",
+            "esc to close",
+            "enter to execute action"
+          ],
+          "generatedDate": "2026-09-18T01:03:49.488Z",
+          "files": {
+            "html": "components/command-palette/liquid-glass-01/index.html",
+            "metadata": "components/command-palette/liquid-glass-01/metadata.json",
+            "preview": "components/command-palette/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "bottom-navigation",
+      "name": "Bottom Navigation Bar",
+      "group": "Navigation",
+      "description": "Curved mobile glass floating dock anchored to screen bottom with thumb-friendly tap targets and rising liquid indicator bubble.",
+      "functional_requirements": [
+        "fixed bottom viewport docking",
+        "active tab bubble elevation",
+        "icon + micro-label items",
+        "haptic tap bounce animation",
+        "badge notifications"
+      ],
+      "aria_role": "navigation",
+      "default_tags": [
+        "mobile",
+        "bottom-bar",
+        "navigation"
+      ],
+      "components": [
+        {
+          "id": "bottom-navigation-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "bottom-navigation",
+          "categoryName": "Bottom Navigation Bar",
+          "categoryGroup": "Navigation",
+          "name": "Bottom Navigation Bar - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Curved mobile glass floating dock anchored to screen bottom with thumb-friendly tap targets and rising liquid indicator bubble.",
+          "tags": [
+            "mobile",
+            "bottom-bar",
+            "navigation"
+          ],
+          "functionalRequirements": [
+            "fixed bottom viewport docking",
+            "active tab bubble elevation",
+            "icon + micro-label items",
+            "haptic tap bounce animation",
+            "badge notifications"
+          ],
+          "generatedDate": "2026-09-18T01:03:50.030Z",
+          "files": {
+            "html": "components/bottom-navigation/liquid-glass-01/index.html",
+            "metadata": "components/bottom-navigation/liquid-glass-01/metadata.json",
+            "preview": "components/bottom-navigation/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "floating-action-button",
+      "name": "Floating Action Button (FAB)",
+      "group": "Forms & Inputs",
+      "description": "Spherical optical crystal sphere suspended in space that expands into a fan of secondary glass quick-action nodes upon interaction.",
+      "functional_requirements": [
+        "fixed floating viewport positioning",
+        "fan-out secondary action dials",
+        "cross icon rotation to dismiss",
+        "ripple click feedback",
+        "hover lift elevation"
+      ],
+      "aria_role": "button",
+      "default_tags": [
+        "fab",
+        "action",
+        "floating"
+      ],
+      "components": [
+        {
+          "id": "floating-action-button-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "floating-action-button",
+          "categoryName": "Floating Action Button (FAB)",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Floating Action Button (FAB) - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Spherical optical crystal sphere suspended in space that expands into a fan of secondary glass quick-action nodes upon interaction.",
+          "tags": [
+            "fab",
+            "action",
+            "floating"
+          ],
+          "functionalRequirements": [
+            "fixed floating viewport positioning",
+            "fan-out secondary action dials",
+            "cross icon rotation to dismiss",
+            "ripple click feedback",
+            "hover lift elevation"
+          ],
+          "generatedDate": "2026-09-18T01:03:50.848Z",
+          "files": {
+            "html": "components/floating-action-button/liquid-glass-01/index.html",
+            "metadata": "components/floating-action-button/liquid-glass-01/metadata.json",
+            "preview": "components/floating-action-button/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "split-button-menu",
+      "name": "Split Button / Action Menu",
+      "group": "Forms & Inputs",
+      "description": "Unified glass capsule divided by a micro-refractive seam separating primary click execution from a secondary dropdown caret.",
+      "functional_requirements": [
+        "primary independent click action",
+        "secondary chevron menu toggle",
+        "floating glass dropdown items",
+        "keyboard enter & arrow navigation",
+        "hover seam illumination"
+      ],
+      "aria_role": "group",
+      "default_tags": [
+        "button",
+        "split",
+        "dropdown"
+      ],
+      "components": [
+        {
+          "id": "split-button-menu-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "split-button-menu",
+          "categoryName": "Split Button / Action Menu",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Split Button / Action Menu - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Unified glass capsule divided by a micro-refractive seam separating primary click execution from a secondary dropdown caret.",
+          "tags": [
+            "button",
+            "split",
+            "dropdown"
+          ],
+          "functionalRequirements": [
+            "primary independent click action",
+            "secondary chevron menu toggle",
+            "floating glass dropdown items",
+            "keyboard enter & arrow navigation",
+            "hover seam illumination"
+          ],
+          "generatedDate": "2026-09-18T01:03:51.388Z",
+          "files": {
+            "html": "components/split-button-menu/liquid-glass-01/index.html",
+            "metadata": "components/split-button-menu/liquid-glass-01/metadata.json",
+            "preview": "components/split-button-menu/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "divider-separator",
+      "name": "Divider / Glass Separator",
+      "group": "Surfaces & Layout",
+      "description": "Etched prismatic glass hairline rule with centered floating icon medallion and fading luminescence at the margins.",
+      "functional_requirements": [
+        "horizontal and vertical alignment options",
+        "centered optional badge or icon label",
+        "gradient light falloff edges",
+        "subtle 3D bevel ridge"
+      ],
+      "aria_role": "separator",
+      "default_tags": [
+        "divider",
+        "separator",
+        "rule"
+      ],
+      "components": [
+        {
+          "id": "divider-separator-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "divider-separator",
+          "categoryName": "Divider / Glass Separator",
+          "categoryGroup": "Surfaces & Layout",
+          "name": "Divider / Glass Separator - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Etched prismatic glass hairline rule with centered floating icon medallion and fading luminescence at the margins.",
+          "tags": [
+            "divider",
+            "separator",
+            "rule"
+          ],
+          "functionalRequirements": [
+            "horizontal and vertical alignment options",
+            "centered optional badge or icon label",
+            "gradient light falloff edges",
+            "subtle 3D bevel ridge"
+          ],
+          "generatedDate": "2026-09-18T01:03:52.156Z",
+          "files": {
+            "html": "components/divider-separator/liquid-glass-01/index.html",
+            "metadata": "components/divider-separator/liquid-glass-01/metadata.json",
+            "preview": "components/divider-separator/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "empty-state",
+      "name": "Empty State",
+      "group": "Feedback & Status",
+      "description": "Minimalist glass showcase containing a floating 3D refractive ghost gem illustration, explanatory headline, and primary recovery button.",
+      "functional_requirements": [
+        "3D floating glass illustration container",
+        "clear headline and helpful body copy",
+        "primary onboarding call-to-action button",
+        "secondary action link"
+      ],
+      "aria_role": "region",
+      "default_tags": [
+        "empty",
+        "zero-data",
+        "state"
+      ],
+      "components": [
+        {
+          "id": "empty-state-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "empty-state",
+          "categoryName": "Empty State",
+          "categoryGroup": "Feedback & Status",
+          "name": "Empty State - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Minimalist glass showcase containing a floating 3D refractive ghost gem illustration, explanatory headline, and primary recovery button.",
+          "tags": [
+            "empty",
+            "zero-data",
+            "state"
+          ],
+          "functionalRequirements": [
+            "3D floating glass illustration container",
+            "clear headline and helpful body copy",
+            "primary onboarding call-to-action button",
+            "secondary action link"
+          ],
+          "generatedDate": "2026-09-18T01:03:52.916Z",
+          "files": {
+            "html": "components/empty-state/liquid-glass-01/index.html",
+            "metadata": "components/empty-state/liquid-glass-01/metadata.json",
+            "preview": "components/empty-state/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "kpi-gauge",
+      "name": "KPI Gauge / Circular Meter",
+      "group": "Data & Display",
+      "description": "Radial 3D glass speedometer with glowing neon liquid fill arc, central crystal readout value, and needle/target markers.",
+      "functional_requirements": [
+        "circular progress arc rendering",
+        "central numeric value with units",
+        "colored warning threshold zones",
+        "needle or bead marker animation",
+        "interactive test value slider"
+      ],
+      "aria_role": "meter",
+      "default_tags": [
+        "gauge",
+        "meter",
+        "radial",
+        "analytics"
+      ],
+      "components": [
+        {
+          "id": "kpi-gauge-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "kpi-gauge",
+          "categoryName": "KPI Gauge / Circular Meter",
+          "categoryGroup": "Data & Display",
+          "name": "KPI Gauge / Circular Meter - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "Radial 3D glass speedometer with glowing neon liquid fill arc, central crystal readout value, and needle/target markers.",
+          "tags": [
+            "gauge",
+            "meter",
+            "radial",
+            "analytics"
+          ],
+          "functionalRequirements": [
+            "circular progress arc rendering",
+            "central numeric value with units",
+            "colored warning threshold zones",
+            "needle or bead marker animation",
+            "interactive test value slider"
+          ],
+          "generatedDate": "2026-09-18T01:03:53.410Z",
+          "files": {
+            "html": "components/kpi-gauge/liquid-glass-01/index.html",
+            "metadata": "components/kpi-gauge/liquid-glass-01/metadata.json",
+            "preview": "components/kpi-gauge/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    },
+    {
+      "id": "floating-dock",
+      "name": "Floating Dock",
+      "group": "Navigation",
+      "description": "macOS-inspired liquid glass shelf featuring parabolic icon magnification on proximity, active reflection mirror, and bouncy app indicators.",
+      "functional_requirements": [
+        "mouse proximity magnification physics",
+        "frosted glass shelf with mirrored reflection",
+        "running app indicator dots",
+        "click bounce animation",
+        "responsive collapse"
+      ],
+      "aria_role": "navigation",
+      "default_tags": [
+        "dock",
+        "macos",
+        "shelf",
+        "launcher"
+      ],
+      "components": [
+        {
+          "id": "floating-dock-liquid-glass-01",
+          "slug": "liquid-glass-01",
+          "categoryId": "floating-dock",
+          "categoryName": "Floating Dock",
+          "categoryGroup": "Navigation",
+          "name": "Floating Dock - Liquid Glass 01",
+          "designSystem": "liquid-glass-01",
+          "version": "1.0.0",
+          "description": "macOS-inspired liquid glass shelf featuring parabolic icon magnification on proximity, active reflection mirror, and bouncy app indicators.",
+          "tags": [
+            "dock",
+            "macos",
+            "shelf",
+            "launcher"
+          ],
+          "functionalRequirements": [
+            "mouse proximity magnification physics",
+            "frosted glass shelf with mirrored reflection",
+            "running app indicator dots",
+            "click bounce animation",
+            "responsive collapse"
+          ],
+          "generatedDate": "2026-09-18T01:03:54.027Z",
+          "files": {
+            "html": "components/floating-dock/liquid-glass-01/index.html",
+            "metadata": "components/floating-dock/liquid-glass-01/metadata.json",
+            "preview": "components/floating-dock/liquid-glass-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        }
+      ]
+    }
+  ],
+  "components": [
+    {
+      "id": "floating-dock-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "floating-dock",
+      "categoryName": "Floating Dock",
+      "categoryGroup": "Navigation",
+      "name": "Floating Dock - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "macOS-inspired liquid glass shelf featuring parabolic icon magnification on proximity, active reflection mirror, and bouncy app indicators.",
+      "tags": [
+        "dock",
+        "macos",
+        "shelf",
+        "launcher"
+      ],
+      "functionalRequirements": [
+        "mouse proximity magnification physics",
+        "frosted glass shelf with mirrored reflection",
+        "running app indicator dots",
+        "click bounce animation",
+        "responsive collapse"
+      ],
+      "generatedDate": "2026-09-18T01:03:54.027Z",
+      "files": {
+        "html": "components/floating-dock/liquid-glass-01/index.html",
+        "metadata": "components/floating-dock/liquid-glass-01/metadata.json",
+        "preview": "components/floating-dock/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "kpi-gauge-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "kpi-gauge",
+      "categoryName": "KPI Gauge / Circular Meter",
+      "categoryGroup": "Data & Display",
+      "name": "KPI Gauge / Circular Meter - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Radial 3D glass speedometer with glowing neon liquid fill arc, central crystal readout value, and needle/target markers.",
+      "tags": [
+        "gauge",
+        "meter",
+        "radial",
+        "analytics"
+      ],
+      "functionalRequirements": [
+        "circular progress arc rendering",
+        "central numeric value with units",
+        "colored warning threshold zones",
+        "needle or bead marker animation",
+        "interactive test value slider"
+      ],
+      "generatedDate": "2026-09-18T01:03:53.410Z",
+      "files": {
+        "html": "components/kpi-gauge/liquid-glass-01/index.html",
+        "metadata": "components/kpi-gauge/liquid-glass-01/metadata.json",
+        "preview": "components/kpi-gauge/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "empty-state-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "empty-state",
+      "categoryName": "Empty State",
+      "categoryGroup": "Feedback & Status",
+      "name": "Empty State - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Minimalist glass showcase containing a floating 3D refractive ghost gem illustration, explanatory headline, and primary recovery button.",
+      "tags": [
+        "empty",
+        "zero-data",
+        "state"
+      ],
+      "functionalRequirements": [
+        "3D floating glass illustration container",
+        "clear headline and helpful body copy",
+        "primary onboarding call-to-action button",
+        "secondary action link"
+      ],
+      "generatedDate": "2026-09-18T01:03:52.916Z",
+      "files": {
+        "html": "components/empty-state/liquid-glass-01/index.html",
+        "metadata": "components/empty-state/liquid-glass-01/metadata.json",
+        "preview": "components/empty-state/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "divider-separator-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "divider-separator",
+      "categoryName": "Divider / Glass Separator",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Divider / Glass Separator - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Etched prismatic glass hairline rule with centered floating icon medallion and fading luminescence at the margins.",
+      "tags": [
+        "divider",
+        "separator",
+        "rule"
+      ],
+      "functionalRequirements": [
+        "horizontal and vertical alignment options",
+        "centered optional badge or icon label",
+        "gradient light falloff edges",
+        "subtle 3D bevel ridge"
+      ],
+      "generatedDate": "2026-09-18T01:03:52.156Z",
+      "files": {
+        "html": "components/divider-separator/liquid-glass-01/index.html",
+        "metadata": "components/divider-separator/liquid-glass-01/metadata.json",
+        "preview": "components/divider-separator/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "split-button-menu-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "split-button-menu",
+      "categoryName": "Split Button / Action Menu",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Split Button / Action Menu - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Unified glass capsule divided by a micro-refractive seam separating primary click execution from a secondary dropdown caret.",
+      "tags": [
+        "button",
+        "split",
+        "dropdown"
+      ],
+      "functionalRequirements": [
+        "primary independent click action",
+        "secondary chevron menu toggle",
+        "floating glass dropdown items",
+        "keyboard enter & arrow navigation",
+        "hover seam illumination"
+      ],
+      "generatedDate": "2026-09-18T01:03:51.388Z",
+      "files": {
+        "html": "components/split-button-menu/liquid-glass-01/index.html",
+        "metadata": "components/split-button-menu/liquid-glass-01/metadata.json",
+        "preview": "components/split-button-menu/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "floating-action-button-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "floating-action-button",
+      "categoryName": "Floating Action Button (FAB)",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Floating Action Button (FAB) - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Spherical optical crystal sphere suspended in space that expands into a fan of secondary glass quick-action nodes upon interaction.",
+      "tags": [
+        "fab",
+        "action",
+        "floating"
+      ],
+      "functionalRequirements": [
+        "fixed floating viewport positioning",
+        "fan-out secondary action dials",
+        "cross icon rotation to dismiss",
+        "ripple click feedback",
+        "hover lift elevation"
+      ],
+      "generatedDate": "2026-09-18T01:03:50.848Z",
+      "files": {
+        "html": "components/floating-action-button/liquid-glass-01/index.html",
+        "metadata": "components/floating-action-button/liquid-glass-01/metadata.json",
+        "preview": "components/floating-action-button/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "bottom-navigation-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "bottom-navigation",
+      "categoryName": "Bottom Navigation Bar",
+      "categoryGroup": "Navigation",
+      "name": "Bottom Navigation Bar - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Curved mobile glass floating dock anchored to screen bottom with thumb-friendly tap targets and rising liquid indicator bubble.",
+      "tags": [
+        "mobile",
+        "bottom-bar",
+        "navigation"
+      ],
+      "functionalRequirements": [
+        "fixed bottom viewport docking",
+        "active tab bubble elevation",
+        "icon + micro-label items",
+        "haptic tap bounce animation",
+        "badge notifications"
+      ],
+      "generatedDate": "2026-09-18T01:03:50.030Z",
+      "files": {
+        "html": "components/bottom-navigation/liquid-glass-01/index.html",
+        "metadata": "components/bottom-navigation/liquid-glass-01/metadata.json",
+        "preview": "components/bottom-navigation/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "command-palette-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "command-palette",
+      "categoryName": "Command Palette / Spotlight",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Command Palette / Spotlight - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Floating glass command center with hotkey trigger, fuzzy search input, grouped action listings, and keyboard navigation shortcuts.",
+      "tags": [
+        "command",
+        "spotlight",
+        "shortcuts"
+      ],
+      "functionalRequirements": [
+        "Cmd+K keyboard activation shortcut",
+        "categorized command results",
+        "arrow key navigation with active glass glow",
+        "esc to close",
+        "enter to execute action"
+      ],
+      "generatedDate": "2026-09-18T01:03:49.488Z",
+      "files": {
+        "html": "components/command-palette/liquid-glass-01/index.html",
+        "metadata": "components/command-palette/liquid-glass-01/metadata.json",
+        "preview": "components/command-palette/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "pricing-table-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "pricing-table",
+      "categoryName": "Pricing Table",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Pricing Table - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Trio of stepped glass monoliths featuring popular plan jewel accent, billing interval toggle, feature checklist, and liquid CTA button.",
+      "tags": [
+        "pricing",
+        "plans",
+        "tier"
+      ],
+      "functionalRequirements": [
+        "monthly/annual billing cycle toggle",
+        "featured/highlighted tier 3D pop",
+        "checklist feature rows with check icons",
+        "call-to-action trigger",
+        "responsive stacked mode"
+      ],
+      "generatedDate": "2026-09-18T01:03:49.023Z",
+      "files": {
+        "html": "components/pricing-table/liquid-glass-01/index.html",
+        "metadata": "components/pricing-table/liquid-glass-01/metadata.json",
+        "preview": "components/pricing-table/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "stat-metric-card-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "stat-metric-card",
+      "categoryName": "Statistic / Metric Card",
+      "categoryGroup": "Data & Display",
+      "name": "Statistic / Metric Card - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Executive glass dashboard tile featuring illuminated KPI figures, mini sparkline trend curve, and positive/negative trend pills.",
+      "tags": [
+        "metric",
+        "kpi",
+        "analytics",
+        "dashboard"
+      ],
+      "functionalRequirements": [
+        "large format metric counter",
+        "mini SVG sparkline chart",
+        "percentage delta indicator with up/down arrow",
+        "timeframe toggle selector",
+        "hover glass gloss refraction"
+      ],
+      "generatedDate": "2026-09-18T01:03:48.171Z",
+      "files": {
+        "html": "components/stat-metric-card/liquid-glass-01/index.html",
+        "metadata": "components/stat-metric-card/liquid-glass-01/metadata.json",
+        "preview": "components/stat-metric-card/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "timeline-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "timeline",
+      "categoryName": "Timeline",
+      "categoryGroup": "Data & Display",
+      "name": "Timeline - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Vertical glass spine punctuated with glowing crystal milestones and staggered glass cards detailing historical logs.",
+      "tags": [
+        "timeline",
+        "history",
+        "milestones"
+      ],
+      "functionalRequirements": [
+        "chronological event cards",
+        "pulsed milestone orb status",
+        "date badges",
+        "expandable event details",
+        "interactive hover focus"
+      ],
+      "generatedDate": "2026-09-18T01:03:47.594Z",
+      "files": {
+        "html": "components/timeline/liquid-glass-01/index.html",
+        "metadata": "components/timeline/liquid-glass-01/metadata.json",
+        "preview": "components/timeline/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "carousel-slider-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "carousel-slider",
+      "categoryName": "Carousel / Slider Showcase",
+      "categoryGroup": "Media & Creative",
+      "name": "Carousel / Slider Showcase - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "3D coverflow-style carousel where frosted glass cards rotate in true 3D perspective with depth fading and optical navigation dots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "slider"
+      ],
+      "functionalRequirements": [
+        "next/previous slide buttons",
+        "swipe touch/drag physics",
+        "3D card depth perspective offset",
+        "indicator dots with live progress",
+        "autoplay toggle"
+      ],
+      "generatedDate": "2026-09-18T01:03:46.811Z",
+      "files": {
+        "html": "components/carousel-slider/liquid-glass-01/index.html",
+        "metadata": "components/carousel-slider/liquid-glass-01/metadata.json",
+        "preview": "components/carousel-slider/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "video-player-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "video-player",
+      "categoryName": "Video Player",
+      "categoryGroup": "Media & Creative",
+      "name": "Video Player - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Immersive glass theater frame with floating auto-hide control bar, 3D time scrub dial, picture-in-picture glass trigger, and volume slider.",
+      "tags": [
+        "video",
+        "media",
+        "player"
+      ],
+      "functionalRequirements": [
+        "floating auto-hide controls",
+        "play/pause/rewind actions",
+        "buffered timeline scrubber",
+        "fullscreen & PIP triggers",
+        "volume & playback rate popup"
+      ],
+      "generatedDate": "2026-09-18T01:03:46.255Z",
+      "files": {
+        "html": "components/video-player/liquid-glass-01/index.html",
+        "metadata": "components/video-player/liquid-glass-01/metadata.json",
+        "preview": "components/video-player/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "audio-player-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "audio-player",
+      "categoryName": "Audio Player",
+      "categoryGroup": "Media & Creative",
+      "name": "Audio Player - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Futuristic glass deck with floating disc play button, dynamic glowing frequency visualizer bars, track scrubber, and volume prism.",
+      "tags": [
+        "audio",
+        "media",
+        "player"
+      ],
+      "functionalRequirements": [
+        "play/pause toggle",
+        "interactive waveform/scrubber track",
+        "time elapsed & remaining",
+        "volume slide control",
+        "track title & album thumbnail"
+      ],
+      "generatedDate": "2026-09-18T01:03:45.748Z",
+      "files": {
+        "html": "components/audio-player/liquid-glass-01/index.html",
+        "metadata": "components/audio-player/liquid-glass-01/metadata.json",
+        "preview": "components/audio-player/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "color-picker-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "color-picker",
+      "categoryName": "Color Picker",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Color Picker - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Luminescent glass palette console with chromatic spectrum gradient slab, 3D reticle selector, opacity slider, and hex readout.",
+      "tags": [
+        "color",
+        "picker",
+        "palette"
+      ],
+      "functionalRequirements": [
+        "spectrum coordinate selection",
+        "hue and alpha glass slider rails",
+        "preset swatch jewels",
+        "hex/rgba format copy",
+        "live swatch preview gem"
+      ],
+      "generatedDate": "2026-09-18T01:03:45.223Z",
+      "files": {
+        "html": "components/color-picker/liquid-glass-01/index.html",
+        "metadata": "components/color-picker/liquid-glass-01/metadata.json",
+        "preview": "components/color-picker/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "file-upload-dropzone-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "file-upload-dropzone",
+      "categoryName": "File Upload / Dropzone",
+      "categoryGroup": "Forms & Inputs",
+      "name": "File Upload / Dropzone - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Spacious frosted glass receiving bay with etched dashed perimeter, drag-over optical lens expansion, file queue chips, and upload progress.",
+      "tags": [
+        "upload",
+        "dropzone",
+        "files"
+      ],
+      "functionalRequirements": [
+        "drag-and-drop file detection",
+        "click to browse file picker",
+        "file validation chip list with size & remove action",
+        "simulated upload progress bar"
+      ],
+      "generatedDate": "2026-09-18T01:03:44.494Z",
+      "files": {
+        "html": "components/file-upload-dropzone/liquid-glass-01/index.html",
+        "metadata": "components/file-upload-dropzone/liquid-glass-01/metadata.json",
+        "preview": "components/file-upload-dropzone/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "rating-picker-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "rating-picker",
+      "categoryName": "Rating / Star Picker",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Rating / Star Picker - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Row of faceted crystal stars that illuminate with amber liquid fire on hover and lock into place with a subtle 3D pop.",
+      "tags": [
+        "rating",
+        "stars",
+        "feedback"
+      ],
+      "functionalRequirements": [
+        "half-star or full-star hover rating",
+        "click to commit rating",
+        "keyboard arrow adjustment",
+        "reset rating trigger",
+        "numerical score feedback"
+      ],
+      "generatedDate": "2026-09-18T01:03:43.905Z",
+      "files": {
+        "html": "components/rating-picker/liquid-glass-01/index.html",
+        "metadata": "components/rating-picker/liquid-glass-01/metadata.json",
+        "preview": "components/rating-picker/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "segmented-control-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "segmented-control",
+      "categoryName": "Segmented Control",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Segmented Control - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Precision-milled recessed glass tray housing an elevated optical glass selector block that glides between view options.",
+      "tags": [
+        "segmented",
+        "toggle",
+        "tabs"
+      ],
+      "functionalRequirements": [
+        "gliding selection indicator",
+        "instant click selection",
+        "arrow key traversal",
+        "icon + text options",
+        "equal distribution grid"
+      ],
+      "generatedDate": "2026-09-18T01:03:43.276Z",
+      "files": {
+        "html": "components/segmented-control/liquid-glass-01/index.html",
+        "metadata": "components/segmented-control/liquid-glass-01/metadata.json",
+        "preview": "components/segmented-control/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "stepper-wizard-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "stepper-wizard",
+      "categoryName": "Stepper / Wizard",
+      "categoryGroup": "Navigation",
+      "name": "Stepper / Wizard - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Progressive sequence of crystal step nodes connected by glowing liquid energy conduits, tracking workflow progression.",
+      "tags": [
+        "wizard",
+        "steps",
+        "workflow"
+      ],
+      "functionalRequirements": [
+        "completed, active, upcoming node states",
+        "animated interconnecting line glow",
+        "step click navigation",
+        "label and description subtext",
+        "responsive vertical/horizontal mode"
+      ],
+      "generatedDate": "2026-09-18T01:03:42.488Z",
+      "files": {
+        "html": "components/stepper-wizard/liquid-glass-01/index.html",
+        "metadata": "components/stepper-wizard/liquid-glass-01/metadata.json",
+        "preview": "components/stepper-wizard/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "tree-view-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "tree-view",
+      "categoryName": "Tree View",
+      "categoryGroup": "Data & Display",
+      "name": "Tree View - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Hierarchical glass file system explorer with expanding crystal branches, custom 3D folder icons, and active node highlight plates.",
+      "tags": [
+        "hierarchy",
+        "folder",
+        "tree"
+      ],
+      "functionalRequirements": [
+        "nested expandable nodes",
+        "keyboard arrow navigation",
+        "selection state",
+        "folder/file icon indicators",
+        "connecting glass guideline filaments"
+      ],
+      "generatedDate": "2026-09-18T01:03:41.838Z",
+      "files": {
+        "html": "components/tree-view/liquid-glass-01/index.html",
+        "metadata": "components/tree-view/liquid-glass-01/metadata.json",
+        "preview": "components/tree-view/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "table-datagrid-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "table-datagrid",
+      "categoryName": "Table / Data Grid",
+      "categoryGroup": "Data & Display",
+      "name": "Table / Data Grid - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Multi-column frosted glass data console with sticky headers, sortable column chevrons, row selection highlights, and glass cell dividers.",
+      "tags": [
+        "table",
+        "grid",
+        "data"
+      ],
+      "functionalRequirements": [
+        "sortable columns",
+        "row selection checkboxes",
+        "sticky frosted header",
+        "hover row luminescent glow",
+        "zebra-glass striping",
+        "horizontal scroll support"
+      ],
+      "generatedDate": "2026-09-18T01:03:41.053Z",
+      "files": {
+        "html": "components/table-datagrid/liquid-glass-01/index.html",
+        "metadata": "components/table-datagrid/liquid-glass-01/metadata.json",
+        "preview": "components/table-datagrid/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "skeleton-loader-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "skeleton-loader",
+      "categoryName": "Skeleton Loader",
+      "categoryGroup": "Feedback & Status",
+      "name": "Skeleton Loader - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Translucent glass bone structures with shimmering light reflections that sweep across card and text placeholders.",
+      "tags": [
+        "skeleton",
+        "placeholder",
+        "loader"
+      ],
+      "functionalRequirements": [
+        "animated refractive sweep wave",
+        "multiple layout shapes (avatar, title, paragraph, button)",
+        "pulse opacity breathing mode",
+        "reduced motion compliance"
+      ],
+      "generatedDate": "2026-09-18T01:03:40.492Z",
+      "files": {
+        "html": "components/skeleton-loader/liquid-glass-01/index.html",
+        "metadata": "components/skeleton-loader/liquid-glass-01/metadata.json",
+        "preview": "components/skeleton-loader/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "avatar-group-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "avatar-group",
+      "categoryName": "Avatar / Avatar Group",
+      "categoryGroup": "Data & Display",
+      "name": "Avatar / Avatar Group - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Layered disc stack of frosted glass lens portraits with depth-staggered hover elevation, online presence jewels, and overflow counter.",
+      "tags": [
+        "avatar",
+        "user",
+        "profile"
+      ],
+      "functionalRequirements": [
+        "overlapping stack spacing",
+        "hover to elevate individual avatar",
+        "online status dot badge",
+        "overflow counter click flyout",
+        "initials fallback fallback"
+      ],
+      "generatedDate": "2026-09-18T01:03:39.924Z",
+      "files": {
+        "html": "components/avatar-group/liquid-glass-01/index.html",
+        "metadata": "components/avatar-group/liquid-glass-01/metadata.json",
+        "preview": "components/avatar-group/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "spinner-loader-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "spinner-loader",
+      "categoryName": "Spinner / Loading Indicator",
+      "categoryGroup": "Feedback & Status",
+      "name": "Spinner / Loading Indicator - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Hypnotic rotating 3D glass torus with trailing luminous particles, refractive caustic ring, and variable speed control.",
+      "tags": [
+        "loader",
+        "spinner",
+        "animation"
+      ],
+      "functionalRequirements": [
+        "smooth 3D orbit rotation",
+        "gradient caustic trail",
+        "multiple size presets (sm, md, lg)",
+        "accessibility reduced-motion pause",
+        "centered label"
+      ],
+      "generatedDate": "2026-09-18T01:03:39.298Z",
+      "files": {
+        "html": "components/spinner-loader/liquid-glass-01/index.html",
+        "metadata": "components/spinner-loader/liquid-glass-01/metadata.json",
+        "preview": "components/spinner-loader/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "progress-bar-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "progress-bar",
+      "categoryName": "Progress Bar",
+      "categoryGroup": "Feedback & Status",
+      "name": "Progress Bar - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "3D frosted tube with liquid-light energy core, iridescent wave shimmer animation, and percentage badge.",
+      "tags": [
+        "progress",
+        "loading",
+        "metric"
+      ],
+      "functionalRequirements": [
+        "determinate percentage fill",
+        "indeterminate pulsing wave",
+        "animated shimmer reflection",
+        "step milestone markers",
+        "value readout label"
+      ],
+      "generatedDate": "2026-09-18T01:03:38.482Z",
+      "files": {
+        "html": "components/progress-bar/liquid-glass-01/index.html",
+        "metadata": "components/progress-bar/liquid-glass-01/metadata.json",
+        "preview": "components/progress-bar/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "toast-notification-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "toast-notification",
+      "categoryName": "Toast / Notification",
+      "categoryGroup": "Feedback & Status",
+      "name": "Toast / Notification - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Floating corner glass notification shard that slides onto the viewport with time-decay progress bar and instant action.",
+      "tags": [
+        "toast",
+        "notification",
+        "feedback"
+      ],
+      "functionalRequirements": [
+        "auto-dismiss countdown bar",
+        "stacking animation physics",
+        "manual close trigger",
+        "status icon & action link",
+        "pause countdown on hover"
+      ],
+      "generatedDate": "2026-09-18T01:03:37.888Z",
+      "files": {
+        "html": "components/toast-notification/liquid-glass-01/index.html",
+        "metadata": "components/toast-notification/liquid-glass-01/metadata.json",
+        "preview": "components/toast-notification/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "alert-callout-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "alert-callout",
+      "categoryName": "Alert / Callout",
+      "categoryGroup": "Feedback & Status",
+      "name": "Alert / Callout - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Prominent glass warning bar with chromatic edge illumination, status insignia, rich body text, and optional action buttons.",
+      "tags": [
+        "feedback",
+        "message",
+        "alert"
+      ],
+      "functionalRequirements": [
+        "semantic status themes",
+        "dismissible button",
+        "action button row",
+        "frosted chromatic border glow",
+        "high contrast readability"
+      ],
+      "generatedDate": "2026-09-18T01:03:37.087Z",
+      "files": {
+        "html": "components/alert-callout/liquid-glass-01/index.html",
+        "metadata": "components/alert-callout/liquid-glass-01/metadata.json",
+        "preview": "components/alert-callout/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "icon-pack-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "icon-pack",
+      "categoryName": "Icon Pack",
+      "categoryGroup": "Media & Creative",
+      "name": "Icon Pack - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Cohesive family of 12 handcrafted 3D liquid glass icons sharing identical specular highlights, depth layers, cyan-sapphire refraction, and vector geometries.",
+      "tags": [
+        "icons",
+        "assets",
+        "3d-icons",
+        "vector"
+      ],
+      "functionalRequirements": [
+        "cohesive 12-icon 3D suite",
+        "consistent lighting vector & specular highlights",
+        "interactive hover rotation/glow",
+        "SVG vector scalability",
+        "copy SVG / export trigger"
+      ],
+      "generatedDate": "2026-09-18T01:03:36.379Z",
+      "files": {
+        "html": "components/icon-pack/liquid-glass-01/index.html",
+        "metadata": "components/icon-pack/liquid-glass-01/metadata.json",
+        "preview": "components/icon-pack/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "popover-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "popover",
+      "categoryName": "Popover",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Popover - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Interactive multi-element glass pod anchoring to trigger elements, complete with header, rich interactive form/card body, and close action.",
+      "tags": [
+        "overlay",
+        "flyout",
+        "popover"
+      ],
+      "functionalRequirements": [
+        "click toggle trigger",
+        "outside click dismissal",
+        "focus trapping or tab navigation",
+        "rich interactive body content",
+        "arrow pointer refraction"
+      ],
+      "generatedDate": "2026-09-18T01:03:35.762Z",
+      "files": {
+        "html": "components/popover/liquid-glass-01/index.html",
+        "metadata": "components/popover/liquid-glass-01/metadata.json",
+        "preview": "components/popover/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "tooltip-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "tooltip",
+      "categoryName": "Tooltip",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Tooltip - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Ultra-light floating frosted bubble with directional prism beak, micro drop shadow, and instant directional orientation.",
+      "tags": [
+        "hint",
+        "helper",
+        "overlay"
+      ],
+      "functionalRequirements": [
+        "hover & focus trigger",
+        "directional positioning (top, bottom, left, right)",
+        "delay timing configuration",
+        "smooth fade-in & scale pop"
+      ],
+      "generatedDate": "2026-09-18T01:03:34.923Z",
+      "files": {
+        "html": "components/tooltip/liquid-glass-01/index.html",
+        "metadata": "components/tooltip/liquid-glass-01/metadata.json",
+        "preview": "components/tooltip/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "chip-tag-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "chip-tag",
+      "categoryName": "Chip / Tag",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Chip / Tag - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Compact interactive glass capsule with removable 3D crystal cross, avatar thumbnail, and selectable state toggle.",
+      "tags": [
+        "filter",
+        "pill",
+        "tag"
+      ],
+      "functionalRequirements": [
+        "click-to-toggle filter state",
+        "remove button trigger",
+        "leading icon or avatar",
+        "keyboard backspace delete",
+        "focus ring"
+      ],
+      "generatedDate": "2026-09-18T01:03:34.343Z",
+      "files": {
+        "html": "components/chip-tag/liquid-glass-01/index.html",
+        "metadata": "components/chip-tag/liquid-glass-01/metadata.json",
+        "preview": "components/chip-tag/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "badge-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "badge",
+      "categoryName": "Badge",
+      "categoryGroup": "Feedback & Status",
+      "name": "Badge - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Microscopic glowing glass jewel with pulsed status halo, iridescent core, and crisp micro-typography.",
+      "tags": [
+        "status",
+        "indicator",
+        "pill"
+      ],
+      "functionalRequirements": [
+        "status variants (success, warning, error, info)",
+        "pulsing live radar dot",
+        "numeric count formatting (e.g. 99+)",
+        "pill or circular shapes"
+      ],
+      "generatedDate": "2026-09-18T01:03:33.771Z",
+      "files": {
+        "html": "components/badge/liquid-glass-01/index.html",
+        "metadata": "components/badge/liquid-glass-01/metadata.json",
+        "preview": "components/badge/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "pagination-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "pagination",
+      "categoryName": "Pagination",
+      "categoryGroup": "Navigation",
+      "name": "Pagination - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Row of bevel-edged glass numeric buttons with active illuminated plate, smooth prev/next steppers, and page jump dial.",
+      "tags": [
+        "pagination",
+        "numbers",
+        "navigation"
+      ],
+      "functionalRequirements": [
+        "page number selection",
+        "previous/next navigation",
+        "ellipsis truncation indicator",
+        "disabled edge states",
+        "keyboard navigation"
+      ],
+      "generatedDate": "2026-09-18T01:03:33.152Z",
+      "files": {
+        "html": "components/pagination/liquid-glass-01/index.html",
+        "metadata": "components/pagination/liquid-glass-01/metadata.json",
+        "preview": "components/pagination/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "breadcrumbs-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "breadcrumbs",
+      "categoryName": "Breadcrumbs",
+      "categoryGroup": "Navigation",
+      "name": "Breadcrumbs - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Linear glass trail with micro-faceted separators, subtle path hover glows, and current page crystal badge.",
+      "tags": [
+        "navigation",
+        "trail",
+        "breadcrumbs"
+      ],
+      "functionalRequirements": [
+        "navigational hierarchy links",
+        "custom 3D glass chevron divider",
+        "overflow dropdown for long paths",
+        "accessible aria-current link"
+      ],
+      "generatedDate": "2026-09-18T01:03:32.534Z",
+      "files": {
+        "html": "components/breadcrumbs/liquid-glass-01/index.html",
+        "metadata": "components/breadcrumbs/liquid-glass-01/metadata.json",
+        "preview": "components/breadcrumbs/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "tabs-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "tabs",
+      "categoryName": "Tabs",
+      "categoryGroup": "Navigation",
+      "name": "Tabs - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Segmented 3D glass tray with a floating luminous indicator pill that slides seamlessly beneath the active tab label.",
+      "tags": [
+        "navigation",
+        "panels",
+        "tabs"
+      ],
+      "functionalRequirements": [
+        "tab switching",
+        "sliding indicator bar",
+        "keyboard left/right arrow navigation",
+        "tabpanel association",
+        "badge count badges on tabs"
+      ],
+      "generatedDate": "2026-09-18T01:03:31.873Z",
+      "files": {
+        "html": "components/tabs/liquid-glass-01/index.html",
+        "metadata": "components/tabs/liquid-glass-01/metadata.json",
+        "preview": "components/tabs/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "sidebar-nav-rail-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "sidebar-nav-rail",
+      "categoryName": "Sidebar / Navigation Rail",
+      "categoryGroup": "Navigation",
+      "name": "Sidebar / Navigation Rail - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Vertical glass monolith with collapsible icon rail, sub-menu popouts, user profile capsule, and illuminated active item indicators.",
+      "tags": [
+        "sidebar",
+        "rail",
+        "navigation"
+      ],
+      "functionalRequirements": [
+        "expand/collapse rail toggle",
+        "active item glass highlight",
+        "nested group accordions",
+        "tooltip preview when collapsed",
+        "accessible navigation list"
+      ],
+      "generatedDate": "2026-09-18T01:03:31.307Z",
+      "files": {
+        "html": "components/sidebar-nav-rail/liquid-glass-01/index.html",
+        "metadata": "components/sidebar-nav-rail/liquid-glass-01/metadata.json",
+        "preview": "components/sidebar-nav-rail/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "navbar-app-bar-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "navbar-app-bar",
+      "categoryName": "Navbar / App Bar",
+      "categoryGroup": "Navigation",
+      "name": "Navbar / App Bar - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Floating translucent command bar with bevel-lit glass trim, integrated brand jewel, nav links with sliding glow indicator, and CTA.",
+      "tags": [
+        "header",
+        "navigation",
+        "top-bar"
+      ],
+      "functionalRequirements": [
+        "sticky glass blur on scroll",
+        "active item underline capsule",
+        "mobile hamburger drawer toggle",
+        "responsive collapse",
+        "quick search launcher"
+      ],
+      "generatedDate": "2026-09-18T01:03:30.707Z",
+      "files": {
+        "html": "components/navbar-app-bar/liquid-glass-01/index.html",
+        "metadata": "components/navbar-app-bar/liquid-glass-01/metadata.json",
+        "preview": "components/navbar-app-bar/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "accordion-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "accordion",
+      "categoryName": "Accordion",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Accordion - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Stack of interlocking crystal slats that expand with fluid ease, revealing nested glass content cards with chevron flip motion.",
+      "tags": [
+        "disclosure",
+        "collapse",
+        "expand"
+      ],
+      "functionalRequirements": [
+        "expand/collapse accordion items",
+        "single or multi-expand mode",
+        "smooth max-height CSS transition",
+        "keyboard tab and enter navigation",
+        "chevron rotation indicator"
+      ],
+      "generatedDate": "2026-09-18T01:03:30.105Z",
+      "files": {
+        "html": "components/accordion/liquid-glass-01/index.html",
+        "metadata": "components/accordion/liquid-glass-01/metadata.json",
+        "preview": "components/accordion/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "drawer-sheet-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "drawer-sheet",
+      "categoryName": "Drawer / Sheet",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Drawer / Sheet - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Slide-in frosted side monolith with edge highlights, gesture dismissal handle, and seamless glass blur integration.",
+      "tags": [
+        "panel",
+        "sidebar",
+        "overlay"
+      ],
+      "functionalRequirements": [
+        "side entry animation",
+        "swipe/drag to dismiss",
+        "backdrop blur transition",
+        "header close trigger",
+        "scrollable body",
+        "stackable layout"
+      ],
+      "generatedDate": "2026-09-18T01:03:29.222Z",
+      "files": {
+        "html": "components/drawer-sheet/liquid-glass-01/index.html",
+        "metadata": "components/drawer-sheet/liquid-glass-01/metadata.json",
+        "preview": "components/drawer-sheet/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "modal-dialog-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "modal-dialog",
+      "categoryName": "Modal / Dialog",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Modal / Dialog - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Heroic floating 3D glass fortress elevated above a dimmed, blurred backdrop with chromatic perimeter refraction and smooth spring entry.",
+      "tags": [
+        "overlay",
+        "window",
+        "dialog"
+      ],
+      "functionalRequirements": [
+        "backdrop click to dismiss",
+        "escape key exit",
+        "focus trap within modal",
+        "entrance scale & blur animation",
+        "header/body/footer actions",
+        "scrollable inner content"
+      ],
+      "generatedDate": "2026-09-18T01:03:28.607Z",
+      "files": {
+        "html": "components/modal-dialog/liquid-glass-01/index.html",
+        "metadata": "components/modal-dialog/liquid-glass-01/metadata.json",
+        "preview": "components/modal-dialog/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "card-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "card",
+      "categoryName": "Card",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Card - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Volumetric liquid glass panel with layered parallax surfaces, dynamic specular highlights that follow mouse movement, and rich content hierarchy.",
+      "tags": [
+        "container",
+        "surface",
+        "3d-tilt",
+        "card"
+      ],
+      "functionalRequirements": [
+        "3D mouse parallax tilt",
+        "layered glass plates",
+        "inner border reflections",
+        "action buttons",
+        "badge integration",
+        "smooth hover elevation"
+      ],
+      "generatedDate": "2026-09-18T01:03:28.038Z",
+      "files": {
+        "html": "components/card/liquid-glass-01/index.html",
+        "metadata": "components/card/liquid-glass-01/metadata.json",
+        "preview": "components/card/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "date-time-picker-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "date-time-picker",
+      "categoryName": "Date / Time Picker",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Date / Time Picker - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Multi-tier glass calendar slab displaying month grid, animated selection ripples, quick-jump month tabs, and precise time dials.",
+      "tags": [
+        "calendar",
+        "time",
+        "date"
+      ],
+      "functionalRequirements": [
+        "month navigation",
+        "date cell selection",
+        "today shortcut",
+        "time spinner dials",
+        "disabled past/future dates",
+        "popup modal or embedded view"
+      ],
+      "generatedDate": "2026-09-18T01:03:27.307Z",
+      "files": {
+        "html": "components/date-time-picker/liquid-glass-01/index.html",
+        "metadata": "components/date-time-picker/liquid-glass-01/metadata.json",
+        "preview": "components/date-time-picker/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "slider-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "slider",
+      "categoryName": "Slider",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Slider - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "3D refractive glass cylinder track with glowing fill progress and an elevated prismatic gem thumb with tooltip value.",
+      "tags": [
+        "range",
+        "value",
+        "drag"
+      ],
+      "functionalRequirements": [
+        "continuous dragging",
+        "stepped increments",
+        "touch/mouse tracking",
+        "floating value bubble",
+        "keyboard arrow nudge",
+        "fill bar synchronization"
+      ],
+      "generatedDate": "2026-09-18T01:03:26.655Z",
+      "files": {
+        "html": "components/slider/liquid-glass-01/index.html",
+        "metadata": "components/slider/liquid-glass-01/metadata.json",
+        "preview": "components/slider/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "combobox-autocomplete-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "combobox-autocomplete",
+      "categoryName": "Combobox / Autocomplete",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Combobox / Autocomplete - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Hybrid searchable glass input with live filtered suggestion drop-sheet, item highlighting, and quick keyboard completion.",
+      "tags": [
+        "search",
+        "filter",
+        "form"
+      ],
+      "functionalRequirements": [
+        "real-time text filtering",
+        "highlight matched substring",
+        "keyboard arrow selection",
+        "esc to close",
+        "tag pill generation"
+      ],
+      "generatedDate": "2026-09-18T01:03:25.951Z",
+      "files": {
+        "html": "components/combobox-autocomplete/liquid-glass-01/index.html",
+        "metadata": "components/combobox-autocomplete/liquid-glass-01/metadata.json",
+        "preview": "components/combobox-autocomplete/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "select-dropdown-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "select-dropdown",
+      "categoryName": "Select / Dropdown",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Select / Dropdown - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Sculpted crystal dropdown trigger paired with an elevated floating frosted listbox with smooth optic dispersion.",
+      "tags": [
+        "selection",
+        "menu",
+        "dropdown"
+      ],
+      "functionalRequirements": [
+        "open/close flyout",
+        "option selection",
+        "keyboard arrow navigation",
+        "outside click dismissal",
+        "chevron rotation",
+        "selected checkmark"
+      ],
+      "generatedDate": "2026-09-18T01:03:25.203Z",
+      "files": {
+        "html": "components/select-dropdown/liquid-glass-01/index.html",
+        "metadata": "components/select-dropdown/liquid-glass-01/metadata.json",
+        "preview": "components/select-dropdown/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "switch-toggle-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "switch-toggle",
+      "categoryName": "Switch / Toggle",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Switch / Toggle - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Pill-shaped frosted channel housing a floating illuminated glass bead that glides smoothly across friction-free rails.",
+      "tags": [
+        "control",
+        "settings",
+        "binary"
+      ],
+      "functionalRequirements": [
+        "on/off toggle animation",
+        "smooth spring transition",
+        "drag gesture support",
+        "keyboard enter/space trigger",
+        "focus outline",
+        "status icons"
+      ],
+      "generatedDate": "2026-09-18T01:03:24.588Z",
+      "files": {
+        "html": "components/switch-toggle/liquid-glass-01/index.html",
+        "metadata": "components/switch-toggle/liquid-glass-01/metadata.json",
+        "preview": "components/switch-toggle/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "radio-button-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "radio-button",
+      "categoryName": "Radio Button",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Radio Button - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Convex liquid droplet selector with floating glass ring, animated core sphere expansion, and mutually exclusive group physics.",
+      "tags": [
+        "selection",
+        "form",
+        "choice"
+      ],
+      "functionalRequirements": [
+        "selected state",
+        "unselected state",
+        "group mutual exclusion",
+        "arrow key navigation",
+        "hover highlight",
+        "scale bounce transition"
+      ],
+      "generatedDate": "2026-09-18T01:03:24.007Z",
+      "files": {
+        "html": "components/radio-button/liquid-glass-01/index.html",
+        "metadata": "components/radio-button/liquid-glass-01/metadata.json",
+        "preview": "components/radio-button/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "checkbox-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "checkbox",
+      "categoryName": "Checkbox",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Checkbox - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Beveled glass toggle box featuring volumetric depth, animated checkmark drawing, and luminous emerald-cyan active glow.",
+      "tags": [
+        "selection",
+        "form",
+        "toggle"
+      ],
+      "functionalRequirements": [
+        "checked state",
+        "unchecked state",
+        "indeterminate state",
+        "keyboard spacebar toggle",
+        "animated SVG check stroke",
+        "hover refraction"
+      ],
+      "generatedDate": "2026-09-18T01:03:23.373Z",
+      "files": {
+        "html": "components/checkbox/liquid-glass-01/index.html",
+        "metadata": "components/checkbox/liquid-glass-01/metadata.json",
+        "preview": "components/checkbox/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "textarea-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "textarea",
+      "categoryName": "Textarea",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Textarea - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Multi-line frosted glass surface with etched grid accents, live character counter, resizable grip, and fluid focus states.",
+      "tags": [
+        "form",
+        "input",
+        "multiline"
+      ],
+      "functionalRequirements": [
+        "multi-line text entry",
+        "auto-expand or resize handle",
+        "character count indicator",
+        "focus reflection",
+        "disabled state"
+      ],
+      "generatedDate": "2026-09-18T01:03:22.680Z",
+      "files": {
+        "html": "components/textarea/liquid-glass-01/index.html",
+        "metadata": "components/textarea/liquid-glass-01/metadata.json",
+        "preview": "components/textarea/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "text-input-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "text-input",
+      "categoryName": "Text Input",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Text Input - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Concave translucent glass entry field featuring inner ambient occlusion, glowing focus borders, floating label, and clear action.",
+      "tags": [
+        "form",
+        "input",
+        "typing",
+        "glass"
+      ],
+      "functionalRequirements": [
+        "typing interaction",
+        "floating label transition",
+        "focus glow",
+        "error validation state",
+        "clear button",
+        "placeholder support"
+      ],
+      "generatedDate": "2026-09-18T01:03:22.005Z",
+      "files": {
+        "html": "components/text-input/liquid-glass-01/index.html",
+        "metadata": "components/text-input/liquid-glass-01/metadata.json",
+        "preview": "components/text-input/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "button-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "button",
+      "categoryName": "Button",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Button - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Tactile 3D glass action trigger with dynamic specular refraction, glow response, and multi-state depth physics.",
+      "tags": [
+        "interactive",
+        "core",
+        "action",
+        "liquid-glass"
+      ],
+      "functionalRequirements": [
+        "hover elevation",
+        "pressed recession",
+        "focus-visible ring",
+        "disabled state",
+        "loading spinner state",
+        "subtle audio/haptic cue trigger"
+      ],
+      "generatedDate": "2026-09-18T01:03:21.345Z",
+      "files": {
+        "html": "components/button/liquid-glass-01/index.html",
+        "metadata": "components/button/liquid-glass-01/metadata.json",
+        "preview": "components/button/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    }
+  ],
+  "featured": [
+    {
+      "id": "icon-pack-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "icon-pack",
+      "categoryName": "Icon Pack",
+      "categoryGroup": "Media & Creative",
+      "name": "Icon Pack - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Cohesive family of 12 handcrafted 3D liquid glass icons sharing identical specular highlights, depth layers, cyan-sapphire refraction, and vector geometries.",
+      "tags": [
+        "icons",
+        "assets",
+        "3d-icons",
+        "vector"
+      ],
+      "functionalRequirements": [
+        "cohesive 12-icon 3D suite",
+        "consistent lighting vector & specular highlights",
+        "interactive hover rotation/glow",
+        "SVG vector scalability",
+        "copy SVG / export trigger"
+      ],
+      "generatedDate": "2026-09-18T01:03:36.379Z",
+      "files": {
+        "html": "components/icon-pack/liquid-glass-01/index.html",
+        "metadata": "components/icon-pack/liquid-glass-01/metadata.json",
+        "preview": "components/icon-pack/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "tabs-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "tabs",
+      "categoryName": "Tabs",
+      "categoryGroup": "Navigation",
+      "name": "Tabs - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Segmented 3D glass tray with a floating luminous indicator pill that slides seamlessly beneath the active tab label.",
+      "tags": [
+        "navigation",
+        "panels",
+        "tabs"
+      ],
+      "functionalRequirements": [
+        "tab switching",
+        "sliding indicator bar",
+        "keyboard left/right arrow navigation",
+        "tabpanel association",
+        "badge count badges on tabs"
+      ],
+      "generatedDate": "2026-09-18T01:03:31.873Z",
+      "files": {
+        "html": "components/tabs/liquid-glass-01/index.html",
+        "metadata": "components/tabs/liquid-glass-01/metadata.json",
+        "preview": "components/tabs/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "modal-dialog-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "modal-dialog",
+      "categoryName": "Modal / Dialog",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Modal / Dialog - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Heroic floating 3D glass fortress elevated above a dimmed, blurred backdrop with chromatic perimeter refraction and smooth spring entry.",
+      "tags": [
+        "overlay",
+        "window",
+        "dialog"
+      ],
+      "functionalRequirements": [
+        "backdrop click to dismiss",
+        "escape key exit",
+        "focus trap within modal",
+        "entrance scale & blur animation",
+        "header/body/footer actions",
+        "scrollable inner content"
+      ],
+      "generatedDate": "2026-09-18T01:03:28.607Z",
+      "files": {
+        "html": "components/modal-dialog/liquid-glass-01/index.html",
+        "metadata": "components/modal-dialog/liquid-glass-01/metadata.json",
+        "preview": "components/modal-dialog/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "card-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "card",
+      "categoryName": "Card",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Card - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Volumetric liquid glass panel with layered parallax surfaces, dynamic specular highlights that follow mouse movement, and rich content hierarchy.",
+      "tags": [
+        "container",
+        "surface",
+        "3d-tilt",
+        "card"
+      ],
+      "functionalRequirements": [
+        "3D mouse parallax tilt",
+        "layered glass plates",
+        "inner border reflections",
+        "action buttons",
+        "badge integration",
+        "smooth hover elevation"
+      ],
+      "generatedDate": "2026-09-18T01:03:28.038Z",
+      "files": {
+        "html": "components/card/liquid-glass-01/index.html",
+        "metadata": "components/card/liquid-glass-01/metadata.json",
+        "preview": "components/card/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "slider-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "slider",
+      "categoryName": "Slider",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Slider - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "3D refractive glass cylinder track with glowing fill progress and an elevated prismatic gem thumb with tooltip value.",
+      "tags": [
+        "range",
+        "value",
+        "drag"
+      ],
+      "functionalRequirements": [
+        "continuous dragging",
+        "stepped increments",
+        "touch/mouse tracking",
+        "floating value bubble",
+        "keyboard arrow nudge",
+        "fill bar synchronization"
+      ],
+      "generatedDate": "2026-09-18T01:03:26.655Z",
+      "files": {
+        "html": "components/slider/liquid-glass-01/index.html",
+        "metadata": "components/slider/liquid-glass-01/metadata.json",
+        "preview": "components/slider/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "switch-toggle-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "switch-toggle",
+      "categoryName": "Switch / Toggle",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Switch / Toggle - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Pill-shaped frosted channel housing a floating illuminated glass bead that glides smoothly across friction-free rails.",
+      "tags": [
+        "control",
+        "settings",
+        "binary"
+      ],
+      "functionalRequirements": [
+        "on/off toggle animation",
+        "smooth spring transition",
+        "drag gesture support",
+        "keyboard enter/space trigger",
+        "focus outline",
+        "status icons"
+      ],
+      "generatedDate": "2026-09-18T01:03:24.588Z",
+      "files": {
+        "html": "components/switch-toggle/liquid-glass-01/index.html",
+        "metadata": "components/switch-toggle/liquid-glass-01/metadata.json",
+        "preview": "components/switch-toggle/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "checkbox-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "checkbox",
+      "categoryName": "Checkbox",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Checkbox - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Beveled glass toggle box featuring volumetric depth, animated checkmark drawing, and luminous emerald-cyan active glow.",
+      "tags": [
+        "selection",
+        "form",
+        "toggle"
+      ],
+      "functionalRequirements": [
+        "checked state",
+        "unchecked state",
+        "indeterminate state",
+        "keyboard spacebar toggle",
+        "animated SVG check stroke",
+        "hover refraction"
+      ],
+      "generatedDate": "2026-09-18T01:03:23.373Z",
+      "files": {
+        "html": "components/checkbox/liquid-glass-01/index.html",
+        "metadata": "components/checkbox/liquid-glass-01/metadata.json",
+        "preview": "components/checkbox/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "button-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "button",
+      "categoryName": "Button",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Button - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Tactile 3D glass action trigger with dynamic specular refraction, glow response, and multi-state depth physics.",
+      "tags": [
+        "interactive",
+        "core",
+        "action",
+        "liquid-glass"
+      ],
+      "functionalRequirements": [
+        "hover elevation",
+        "pressed recession",
+        "focus-visible ring",
+        "disabled state",
+        "loading spinner state",
+        "subtle audio/haptic cue trigger"
+      ],
+      "generatedDate": "2026-09-18T01:03:21.345Z",
+      "files": {
+        "html": "components/button/liquid-glass-01/index.html",
+        "metadata": "components/button/liquid-glass-01/metadata.json",
+        "preview": "components/button/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    }
+  ],
+  "recent": [
+    {
+      "id": "floating-dock-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "floating-dock",
+      "categoryName": "Floating Dock",
+      "categoryGroup": "Navigation",
+      "name": "Floating Dock - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "macOS-inspired liquid glass shelf featuring parabolic icon magnification on proximity, active reflection mirror, and bouncy app indicators.",
+      "tags": [
+        "dock",
+        "macos",
+        "shelf",
+        "launcher"
+      ],
+      "functionalRequirements": [
+        "mouse proximity magnification physics",
+        "frosted glass shelf with mirrored reflection",
+        "running app indicator dots",
+        "click bounce animation",
+        "responsive collapse"
+      ],
+      "generatedDate": "2026-09-18T01:03:54.027Z",
+      "files": {
+        "html": "components/floating-dock/liquid-glass-01/index.html",
+        "metadata": "components/floating-dock/liquid-glass-01/metadata.json",
+        "preview": "components/floating-dock/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "kpi-gauge-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "kpi-gauge",
+      "categoryName": "KPI Gauge / Circular Meter",
+      "categoryGroup": "Data & Display",
+      "name": "KPI Gauge / Circular Meter - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Radial 3D glass speedometer with glowing neon liquid fill arc, central crystal readout value, and needle/target markers.",
+      "tags": [
+        "gauge",
+        "meter",
+        "radial",
+        "analytics"
+      ],
+      "functionalRequirements": [
+        "circular progress arc rendering",
+        "central numeric value with units",
+        "colored warning threshold zones",
+        "needle or bead marker animation",
+        "interactive test value slider"
+      ],
+      "generatedDate": "2026-09-18T01:03:53.410Z",
+      "files": {
+        "html": "components/kpi-gauge/liquid-glass-01/index.html",
+        "metadata": "components/kpi-gauge/liquid-glass-01/metadata.json",
+        "preview": "components/kpi-gauge/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "empty-state-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "empty-state",
+      "categoryName": "Empty State",
+      "categoryGroup": "Feedback & Status",
+      "name": "Empty State - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Minimalist glass showcase containing a floating 3D refractive ghost gem illustration, explanatory headline, and primary recovery button.",
+      "tags": [
+        "empty",
+        "zero-data",
+        "state"
+      ],
+      "functionalRequirements": [
+        "3D floating glass illustration container",
+        "clear headline and helpful body copy",
+        "primary onboarding call-to-action button",
+        "secondary action link"
+      ],
+      "generatedDate": "2026-09-18T01:03:52.916Z",
+      "files": {
+        "html": "components/empty-state/liquid-glass-01/index.html",
+        "metadata": "components/empty-state/liquid-glass-01/metadata.json",
+        "preview": "components/empty-state/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "divider-separator-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "divider-separator",
+      "categoryName": "Divider / Glass Separator",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Divider / Glass Separator - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Etched prismatic glass hairline rule with centered floating icon medallion and fading luminescence at the margins.",
+      "tags": [
+        "divider",
+        "separator",
+        "rule"
+      ],
+      "functionalRequirements": [
+        "horizontal and vertical alignment options",
+        "centered optional badge or icon label",
+        "gradient light falloff edges",
+        "subtle 3D bevel ridge"
+      ],
+      "generatedDate": "2026-09-18T01:03:52.156Z",
+      "files": {
+        "html": "components/divider-separator/liquid-glass-01/index.html",
+        "metadata": "components/divider-separator/liquid-glass-01/metadata.json",
+        "preview": "components/divider-separator/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "split-button-menu-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "split-button-menu",
+      "categoryName": "Split Button / Action Menu",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Split Button / Action Menu - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Unified glass capsule divided by a micro-refractive seam separating primary click execution from a secondary dropdown caret.",
+      "tags": [
+        "button",
+        "split",
+        "dropdown"
+      ],
+      "functionalRequirements": [
+        "primary independent click action",
+        "secondary chevron menu toggle",
+        "floating glass dropdown items",
+        "keyboard enter & arrow navigation",
+        "hover seam illumination"
+      ],
+      "generatedDate": "2026-09-18T01:03:51.388Z",
+      "files": {
+        "html": "components/split-button-menu/liquid-glass-01/index.html",
+        "metadata": "components/split-button-menu/liquid-glass-01/metadata.json",
+        "preview": "components/split-button-menu/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "floating-action-button-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "floating-action-button",
+      "categoryName": "Floating Action Button (FAB)",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Floating Action Button (FAB) - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Spherical optical crystal sphere suspended in space that expands into a fan of secondary glass quick-action nodes upon interaction.",
+      "tags": [
+        "fab",
+        "action",
+        "floating"
+      ],
+      "functionalRequirements": [
+        "fixed floating viewport positioning",
+        "fan-out secondary action dials",
+        "cross icon rotation to dismiss",
+        "ripple click feedback",
+        "hover lift elevation"
+      ],
+      "generatedDate": "2026-09-18T01:03:50.848Z",
+      "files": {
+        "html": "components/floating-action-button/liquid-glass-01/index.html",
+        "metadata": "components/floating-action-button/liquid-glass-01/metadata.json",
+        "preview": "components/floating-action-button/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "bottom-navigation-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "bottom-navigation",
+      "categoryName": "Bottom Navigation Bar",
+      "categoryGroup": "Navigation",
+      "name": "Bottom Navigation Bar - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Curved mobile glass floating dock anchored to screen bottom with thumb-friendly tap targets and rising liquid indicator bubble.",
+      "tags": [
+        "mobile",
+        "bottom-bar",
+        "navigation"
+      ],
+      "functionalRequirements": [
+        "fixed bottom viewport docking",
+        "active tab bubble elevation",
+        "icon + micro-label items",
+        "haptic tap bounce animation",
+        "badge notifications"
+      ],
+      "generatedDate": "2026-09-18T01:03:50.030Z",
+      "files": {
+        "html": "components/bottom-navigation/liquid-glass-01/index.html",
+        "metadata": "components/bottom-navigation/liquid-glass-01/metadata.json",
+        "preview": "components/bottom-navigation/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "command-palette-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "command-palette",
+      "categoryName": "Command Palette / Spotlight",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Command Palette / Spotlight - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Floating glass command center with hotkey trigger, fuzzy search input, grouped action listings, and keyboard navigation shortcuts.",
+      "tags": [
+        "command",
+        "spotlight",
+        "shortcuts"
+      ],
+      "functionalRequirements": [
+        "Cmd+K keyboard activation shortcut",
+        "categorized command results",
+        "arrow key navigation with active glass glow",
+        "esc to close",
+        "enter to execute action"
+      ],
+      "generatedDate": "2026-09-18T01:03:49.488Z",
+      "files": {
+        "html": "components/command-palette/liquid-glass-01/index.html",
+        "metadata": "components/command-palette/liquid-glass-01/metadata.json",
+        "preview": "components/command-palette/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "pricing-table-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "pricing-table",
+      "categoryName": "Pricing Table",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Pricing Table - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Trio of stepped glass monoliths featuring popular plan jewel accent, billing interval toggle, feature checklist, and liquid CTA button.",
+      "tags": [
+        "pricing",
+        "plans",
+        "tier"
+      ],
+      "functionalRequirements": [
+        "monthly/annual billing cycle toggle",
+        "featured/highlighted tier 3D pop",
+        "checklist feature rows with check icons",
+        "call-to-action trigger",
+        "responsive stacked mode"
+      ],
+      "generatedDate": "2026-09-18T01:03:49.023Z",
+      "files": {
+        "html": "components/pricing-table/liquid-glass-01/index.html",
+        "metadata": "components/pricing-table/liquid-glass-01/metadata.json",
+        "preview": "components/pricing-table/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "stat-metric-card-liquid-glass-01",
+      "slug": "liquid-glass-01",
+      "categoryId": "stat-metric-card",
+      "categoryName": "Statistic / Metric Card",
+      "categoryGroup": "Data & Display",
+      "name": "Statistic / Metric Card - Liquid Glass 01",
+      "designSystem": "liquid-glass-01",
+      "version": "1.0.0",
+      "description": "Executive glass dashboard tile featuring illuminated KPI figures, mini sparkline trend curve, and positive/negative trend pills.",
+      "tags": [
+        "metric",
+        "kpi",
+        "analytics",
+        "dashboard"
+      ],
+      "functionalRequirements": [
+        "large format metric counter",
+        "mini SVG sparkline chart",
+        "percentage delta indicator with up/down arrow",
+        "timeframe toggle selector",
+        "hover glass gloss refraction"
+      ],
+      "generatedDate": "2026-09-18T01:03:48.171Z",
+      "files": {
+        "html": "components/stat-metric-card/liquid-glass-01/index.html",
+        "metadata": "components/stat-metric-card/liquid-glass-01/metadata.json",
+        "preview": "components/stat-metric-card/liquid-glass-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    }
+  ]
+}

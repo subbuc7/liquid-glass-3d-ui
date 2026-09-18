@@ -1,0 +1,23 @@
+{
+  "id": "spinner-loader",
+  "name": "Spinner / Loading Indicator - Liquid Glass 01",
+  "category": "spinner-loader",
+  "categoryGroup": "Feedback & Status",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:39.298Z",
+  "description": "Hypnotic rotating 3D glass torus with trailing luminous particles, refractive caustic ring, and variable speed control.",
+  "tags": [
+    "loader",
+    "spinner",
+    "animation"
+  ],
+  "functional_requirements": [
+    "smooth 3D orbit rotation",
+    "gradient caustic trail",
+    "multiple size presets (sm, md, lg)",
+    "accessibility reduced-motion pause",
+    "centered label"
+  ],
+  "aria_role": "status"
+}

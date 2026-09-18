@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Button - Liquid Glass 01</title>
+  <style>
+    
+    :root {
+      --bg-canvas: #07090e;
+      --glass-surface: rgba(255, 255, 255, 0.08);
+      --glass-surface-hover: rgba(255, 255, 255, 0.14);
+      --glass-surface-active: rgba(255, 255, 255, 0.18);
+      --border-subtle: rgba(255, 255, 255, 0.15);
+      --border-highlight: rgba(255, 255, 255, 0.45);
+      --border-specular: rgba(255, 255, 255, 0.85);
+      --cyan: #00f0ff;
+      --cyan-glow: rgba(0, 240, 255, 0.45);
+      --sapphire: #2563eb;
+      --sapphire-glow: rgba(37, 99, 235, 0.35);
+      --emerald: #10b981;
+      --emerald-glow: rgba(16, 185, 129, 0.35);
+      --amber: #f59e0b;
+      --amber-glow: rgba(245, 158, 11, 0.35);
+      --crimson: #ef4444;
+      --crimson-glow: rgba(239, 68, 68, 0.35);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-full: 9999px;
+      --trans-smooth: 280ms cubic-bezier(0.16, 1, 0.3, 1);
+      --trans-spring: 380ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at 50% 20%, #0d1726 0%, #07090e 70%, #030508 100%);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      overflow-x: hidden;
+      perspective: 1200px;
+    }
+
+    .demo-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+      max-width: 900px;
+      width: 100%;
+      transform-style: preserve-3d;
+    }
+
+    .component-stage {
+      position: relative;
+      width: 100%;
+      min-height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: var(--radius-lg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.7), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+
+    .component-stage::before {
+      content: "";
+      position: absolute;
+      top: -15%;
+      left: -10%;
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(0, 240, 255, 0.15) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(40px);
+      pointer-events: none;
+    }
+
+    .component-stage::after {
+      content: "";
+      position: absolute;
+      bottom: -15%;
+      right: -10%;
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(40px);
+      pointer-events: none;
+    }
+
+    .controls-panel {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      padding: 14px 20px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-md);
+      backdrop-filter: blur(12px);
+    }
+
+    .ctrl-btn {
+      padding: 8px 16px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all var(--trans-smooth);
+    }
+
+    .ctrl-btn:hover, .ctrl-btn.active {
+      background: rgba(0, 240, 255, 0.15);
+      border-color: var(--cyan);
+      color: #ffffff;
+      box-shadow: 0 0 12px var(--cyan-glow);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        transform: none !important;
+      }
+    }
+    
+    
+    .lg-3d-button {
+      position: relative;
+      padding: 16px 36px;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: #ffffff;
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.03) 100%);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      border-top-color: rgba(255, 255, 255, 0.75);
+      border-left-color: rgba(255, 255, 255, 0.5);
+      border-radius: var(--radius-md);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      cursor: pointer;
+      outline: none;
+      transform-style: preserve-3d;
+      transform: translateZ(0px);
+      box-shadow: 0 12px 28px -4px rgba(0, 0, 0, 0.5), inset 0 1px 2px 0 rgba(255, 255, 255, 0.4);
+      transition: all var(--trans-smooth);
+    }
+    .lg-3d-button:hover {
+      transform: translateZ(16px) translateY(-4px);
+      background: linear-gradient(135deg, rgba(255, 255, 255, 0.22) 0%, rgba(255, 255, 255, 0.06) 100%);
+      border-top-color: #ffffff;
+      box-shadow: 0 24px 48px -8px rgba(0, 0, 0, 0.65), 0 0 24px var(--cyan-glow);
+    }
+    .lg-3d-button:active, .lg-3d-button.pressed {
+      transform: translateZ(-2px) translateY(2px) scale(0.98);
+      box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.6), 0 4px 12px rgba(0, 0, 0, 0.4);
+    }
+    .lg-3d-button:focus-visible {
+      border-color: var(--cyan);
+      box-shadow: 0 0 0 3px var(--cyan-glow), 0 16px 36px rgba(0,0,0,0.5);
+    }
+    .lg-3d-button.disabled {
+      opacity: 0.4;
+      pointer-events: none;
+      cursor: not-allowed;
+      transform: none;
+      box-shadow: none;
+    }
+    .lg-btn-specular {
+      position: absolute;
+      inset: 0;
+      border-radius: inherit;
+      background: linear-gradient(120deg, rgba(255, 255, 255, 0.5) 0%, rgba(255, 255, 255, 0.05) 30%, transparent 60%);
+      pointer-events: none;
+    }
+    .lg-btn-content {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transform: translateZ(12px);
+    }
+    .lg-spinner {
+      display: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid rgba(255, 255, 255, 0.2);
+      border-top-color: var(--cyan);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    .lg-3d-button.loading .lg-spinner { display: inline-block; }
+    .lg-3d-button.loading .lg-btn-icon { display: none; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  
+  </style>
+</head>
+<body>
+  <div class="demo-wrapper">
+    <div class="component-stage" id="stage" role="region" aria-label="Button 3D Showcase Stage">
+      
+    <div class="lg-button-container" style="perspective: 800px;">
+      <button class="lg-3d-button" id="mainButton" role="button" aria-pressed="false" tabindex="0">
+        <span class="lg-btn-specular"></span>
+        <span class="lg-btn-glow"></span>
+        <span class="lg-btn-content">
+          <svg class="lg-btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+          </svg>
+          <span class="lg-btn-text">Execute Matrix</span>
+          <span class="lg-spinner" aria-hidden="true"></span>
+        </span>
+      </button>
+    </div>
+  
+    </div>
+
+    <div class="controls-panel" role="toolbar" aria-label="Interactive State Controls">
+      
+    <button class="ctrl-btn" onclick="toggleState('hover')">Hover State</button>
+    <button class="ctrl-btn" onclick="toggleState('pressed')">Pressed State</button>
+    <button class="ctrl-btn" onclick="toggleState('loading')">Loading State</button>
+    <button class="ctrl-btn" onclick="toggleState('disabled')">Disabled State</button>
+    <button class="ctrl-btn active" onclick="resetState()">Default</button>
+  
+    </div>
+  </div>
+
+  <script>
+    
+    const btn = document.getElementById('mainButton');
+    btn.addEventListener('mousemove', (e) => {
+      if (btn.classList.contains('disabled')) return;
+      const rect = btn.getBoundingClientRect();
+      const x = e.clientX - rect.left - rect.width / 2;
+      const y = e.clientY - rect.top - rect.height / 2;
+      btn.style.transform = `translateZ(16px) translateY(-4px) rotateX(${-y / 6}deg) rotateY(${x / 6}deg)`;
+    });
+    btn.addEventListener('mouseleave', () => {
+      if (!btn.classList.contains('pressed') && !btn.classList.contains('disabled')) {
+        btn.style.transform = 'translateZ(0px) rotateX(0deg) rotateY(0deg)';
+      }
+    });
+    btn.addEventListener('click', () => {
+      if (btn.classList.contains('disabled')) return;
+      btn.classList.add('pressed');
+      setTimeout(() => btn.classList.remove('pressed'), 200);
+    });
+    function toggleState(state) {
+      btn.className = 'lg-3d-button ' + state;
+    }
+    function resetState() {
+      btn.className = 'lg-3d-button';
+      btn.style.transform = 'translateZ(0px)';
+    }
+  
+  </script>
+</body>
+</html>

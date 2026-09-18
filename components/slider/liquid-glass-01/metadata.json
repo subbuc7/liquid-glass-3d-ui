@@ -1,0 +1,24 @@
+{
+  "id": "slider",
+  "name": "Slider - Liquid Glass 01",
+  "category": "slider",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:26.655Z",
+  "description": "3D refractive glass cylinder track with glowing fill progress and an elevated prismatic gem thumb with tooltip value.",
+  "tags": [
+    "range",
+    "value",
+    "drag"
+  ],
+  "functional_requirements": [
+    "continuous dragging",
+    "stepped increments",
+    "touch/mouse tracking",
+    "floating value bubble",
+    "keyboard arrow nudge",
+    "fill bar synchronization"
+  ],
+  "aria_role": "slider"
+}

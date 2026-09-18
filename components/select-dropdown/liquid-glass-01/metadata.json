@@ -1,0 +1,24 @@
+{
+  "id": "select-dropdown",
+  "name": "Select / Dropdown - Liquid Glass 01",
+  "category": "select-dropdown",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:25.203Z",
+  "description": "Sculpted crystal dropdown trigger paired with an elevated floating frosted listbox with smooth optic dispersion.",
+  "tags": [
+    "selection",
+    "menu",
+    "dropdown"
+  ],
+  "functional_requirements": [
+    "open/close flyout",
+    "option selection",
+    "keyboard arrow navigation",
+    "outside click dismissal",
+    "chevron rotation",
+    "selected checkmark"
+  ],
+  "aria_role": "combobox"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "text-input",
+  "name": "Text Input - Liquid Glass 01",
+  "category": "text-input",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:22.005Z",
+  "description": "Concave translucent glass entry field featuring inner ambient occlusion, glowing focus borders, floating label, and clear action.",
+  "tags": [
+    "form",
+    "input",
+    "typing",
+    "glass"
+  ],
+  "functional_requirements": [
+    "typing interaction",
+    "floating label transition",
+    "focus glow",
+    "error validation state",
+    "clear button",
+    "placeholder support"
+  ],
+  "aria_role": "textbox"
+}

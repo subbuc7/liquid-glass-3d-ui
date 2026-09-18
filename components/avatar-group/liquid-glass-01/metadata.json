@@ -1,0 +1,23 @@
+{
+  "id": "avatar-group",
+  "name": "Avatar / Avatar Group - Liquid Glass 01",
+  "category": "avatar-group",
+  "categoryGroup": "Data & Display",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:39.924Z",
+  "description": "Layered disc stack of frosted glass lens portraits with depth-staggered hover elevation, online presence jewels, and overflow counter.",
+  "tags": [
+    "avatar",
+    "user",
+    "profile"
+  ],
+  "functional_requirements": [
+    "overlapping stack spacing",
+    "hover to elevate individual avatar",
+    "online status dot badge",
+    "overflow counter click flyout",
+    "initials fallback fallback"
+  ],
+  "aria_role": "group"
+}

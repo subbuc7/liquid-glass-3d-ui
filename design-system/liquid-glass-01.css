@@ -1,0 +1,155 @@
+/**
+ * LIQUID GLASS 01 - MASTER DESIGN SYSTEM
+ * Version: 1.0.0
+ * Pure 3D Liquid Glass Material & Spatial Physics
+ */
+
+:root {
+  /* Color Palette */
+  --lg-bg-canvas: #07090e;
+  --lg-bg-deep: #030508;
+  --lg-glass-surface: rgba(255, 255, 255, 0.07);
+  --lg-glass-surface-hover: rgba(255, 255, 255, 0.12);
+  --lg-glass-surface-active: rgba(255, 255, 255, 0.16);
+  --lg-glass-surface-elevated: rgba(255, 255, 255, 0.14);
+  --lg-glass-surface-recessed: rgba(0, 0, 0, 0.38);
+  
+  /* Specular Highlights & Borders */
+  --lg-border-subtle: rgba(255, 255, 255, 0.14);
+  --lg-border-highlight: rgba(255, 255, 255, 0.38);
+  --lg-border-specular: rgba(255, 255, 255, 0.85);
+  --lg-border-active: rgba(0, 240, 255, 0.7);
+
+  /* Accents & Neon Refractions */
+  --lg-cyan: #00f0ff;
+  --lg-cyan-glow: rgba(0, 240, 255, 0.45);
+  --lg-sapphire: #2563eb;
+  --lg-sapphire-glow: rgba(37, 99, 235, 0.35);
+  --lg-amethyst: #8b5cf6;
+  --lg-amethyst-glow: rgba(139, 92, 246, 0.35);
+  --lg-emerald: #10b981;
+  --lg-emerald-glow: rgba(16, 185, 129, 0.35);
+  --lg-amber: #f59e0b;
+  --lg-amber-glow: rgba(245, 158, 11, 0.35);
+  --lg-crimson: #ef4444;
+  --lg-crimson-glow: rgba(239, 68, 68, 0.35);
+
+  /* Typography */
+  --lg-text-primary: #f8fafc;
+  --lg-text-secondary: #94a3b8;
+  --lg-text-muted: #64748b;
+  --lg-text-accent: #38bdf8;
+  --lg-font-sans: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --lg-font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Material Refraction & Blur */
+  --lg-blur-sm: 8px;
+  --lg-blur-md: 18px;
+  --lg-blur-lg: 32px;
+
+  /* Volumetric 3D Shadows */
+  --lg-shadow-sm: 0 4px 16px -2px rgba(0, 0, 0, 0.45), 0 2px 6px -1px rgba(0, 0, 0, 0.3), inset 0 1px 1px 0 rgba(255, 255, 255, 0.35);
+  --lg-shadow-md: 0 12px 32px -4px rgba(0, 0, 0, 0.55), 0 4px 12px -2px rgba(0, 0, 0, 0.35), inset 0 1px 2px 0 rgba(255, 255, 255, 0.5);
+  --lg-shadow-lg: 0 24px 52px -8px rgba(0, 0, 0, 0.7), 0 8px 24px -4px rgba(0, 0, 0, 0.45), inset 0 1px 2px 0 rgba(255, 255, 255, 0.65);
+  --lg-shadow-glow: 0 0 25px var(--lg-cyan-glow), 0 0 50px rgba(0, 240, 255, 0.15);
+  --lg-shadow-recessed: inset 0 2px 6px rgba(0,0,0,0.5), inset 0 0 16px rgba(0,0,0,0.3);
+
+  /* Radii */
+  --lg-radius-sm: 8px;
+  --lg-radius-md: 14px;
+  --lg-radius-lg: 20px;
+  --lg-radius-xl: 28px;
+  --lg-radius-full: 9999px;
+
+  /* Animation Physics */
+  --lg-ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --lg-ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+  --lg-trans-fast: 160ms var(--lg-ease-smooth);
+  --lg-trans-normal: 280ms var(--lg-ease-smooth);
+  --lg-trans-spring: 380ms var(--lg-ease-spring);
+}
+
+/* Glass Surface Utility Classes */
+.lg-perspective-container {
+  perspective: 1200px;
+  transform-style: preserve-3d;
+}
+
+.lg-glass-surface {
+  position: relative;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%);
+  backdrop-filter: blur(var(--lg-blur-md)) saturate(180%);
+  -webkit-backdrop-filter: blur(var(--lg-blur-md)) saturate(180%);
+  border: 1px solid var(--lg-border-subtle);
+  border-top-color: var(--lg-border-highlight);
+  border-left-color: var(--lg-border-highlight);
+  border-radius: var(--lg-radius-md);
+  box-shadow: var(--lg-shadow-md);
+  color: var(--lg-text-primary);
+  transform-style: preserve-3d;
+  transition: transform var(--lg-trans-normal), box-shadow var(--lg-trans-normal), background var(--lg-trans-normal), border-color var(--lg-trans-normal);
+}
+
+/* 3D Specular Sheen Layer */
+.lg-glass-surface::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: linear-gradient(125deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.05) 30%, transparent 60%);
+  pointer-events: none;
+  opacity: 0.7;
+  transition: opacity var(--lg-trans-normal);
+}
+
+/* 3D Dynamic Ambient Glow */
+.lg-glass-surface::after {
+  content: "";
+  position: absolute;
+  inset: -1px;
+  border-radius: inherit;
+  background: radial-gradient(circle at var(--lg-mouse-x, 50%) var(--lg-mouse-y, 50%), var(--lg-cyan-glow) 0%, transparent 60%);
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--lg-trans-normal);
+  z-index: 1;
+}
+
+.lg-glass-surface:hover {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(255, 255, 255, 0.06) 100%);
+  border-color: var(--lg-border-highlight);
+  border-top-color: var(--lg-border-specular);
+  border-left-color: var(--lg-border-specular);
+  box-shadow: var(--lg-shadow-lg), 0 0 20px rgba(0, 240, 255, 0.2);
+}
+
+.lg-glass-surface:hover::after {
+  opacity: 0.6;
+}
+
+/* Depth Translation States */
+.lg-elevate-3d {
+  transform: translateZ(14px) translateY(-3px);
+}
+
+.lg-recess-3d {
+  transform: translateZ(-2px) translateY(1px) scale(0.98);
+  box-shadow: var(--lg-shadow-recessed);
+}
+
+/* Accessible Focus States */
+.lg-focusable:focus-visible {
+  outline: none;
+  border-color: var(--lg-cyan);
+  box-shadow: var(--lg-shadow-md), var(--lg-shadow-glow);
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .lg-glass-surface,
+  .lg-glass-surface * {
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+    transform: none !important;
+  }
+}

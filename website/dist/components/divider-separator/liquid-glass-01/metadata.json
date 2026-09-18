@@ -1,0 +1,22 @@
+{
+  "id": "divider-separator",
+  "name": "Divider / Glass Separator - Liquid Glass 01",
+  "category": "divider-separator",
+  "categoryGroup": "Surfaces & Layout",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:52.156Z",
+  "description": "Etched prismatic glass hairline rule with centered floating icon medallion and fading luminescence at the margins.",
+  "tags": [
+    "divider",
+    "separator",
+    "rule"
+  ],
+  "functional_requirements": [
+    "horizontal and vertical alignment options",
+    "centered optional badge or icon label",
+    "gradient light falloff edges",
+    "subtle 3D bevel ridge"
+  ],
+  "aria_role": "separator"
+}

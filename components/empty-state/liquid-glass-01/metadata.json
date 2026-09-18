@@ -1,0 +1,22 @@
+{
+  "id": "empty-state",
+  "name": "Empty State - Liquid Glass 01",
+  "category": "empty-state",
+  "categoryGroup": "Feedback & Status",
+  "designSystem": "liquid-glass-01",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T01:03:52.916Z",
+  "description": "Minimalist glass showcase containing a floating 3D refractive ghost gem illustration, explanatory headline, and primary recovery button.",
+  "tags": [
+    "empty",
+    "zero-data",
+    "state"
+  ],
+  "functional_requirements": [
+    "3D floating glass illustration container",
+    "clear headline and helpful body copy",
+    "primary onboarding call-to-action button",
+    "secondary action link"
+  ],
+  "aria_role": "region"
+}

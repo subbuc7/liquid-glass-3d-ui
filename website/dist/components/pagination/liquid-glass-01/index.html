@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pagination - Liquid Glass 01</title>
+  <style>
+    
+    :root {
+      --bg-canvas: #07090e;
+      --glass-surface: rgba(255, 255, 255, 0.08);
+      --glass-surface-hover: rgba(255, 255, 255, 0.14);
+      --glass-surface-active: rgba(255, 255, 255, 0.18);
+      --border-subtle: rgba(255, 255, 255, 0.15);
+      --border-highlight: rgba(255, 255, 255, 0.45);
+      --border-specular: rgba(255, 255, 255, 0.85);
+      --cyan: #00f0ff;
+      --cyan-glow: rgba(0, 240, 255, 0.45);
+      --sapphire: #2563eb;
+      --sapphire-glow: rgba(37, 99, 235, 0.35);
+      --emerald: #10b981;
+      --emerald-glow: rgba(16, 185, 129, 0.35);
+      --amber: #f59e0b;
+      --amber-glow: rgba(245, 158, 11, 0.35);
+      --crimson: #ef4444;
+      --crimson-glow: rgba(239, 68, 68, 0.35);
+      --text-main: #f8fafc;
+      --text-muted: #94a3b8;
+      --radius-sm: 8px;
+      --radius-md: 14px;
+      --radius-lg: 20px;
+      --radius-full: 9999px;
+      --trans-smooth: 280ms cubic-bezier(0.16, 1, 0.3, 1);
+      --trans-spring: 380ms cubic-bezier(0.34, 1.56, 0.64, 1);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      min-height: 100vh;
+      background: radial-gradient(circle at 50% 20%, #0d1726 0%, #07090e 70%, #030508 100%);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      color: var(--text-main);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+      overflow-x: hidden;
+      perspective: 1200px;
+    }
+
+    .demo-wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 28px;
+      max-width: 900px;
+      width: 100%;
+      transform-style: preserve-3d;
+    }
+
+    .component-stage {
+      position: relative;
+      width: 100%;
+      min-height: 380px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      background: rgba(255, 255, 255, 0.02);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      border-radius: var(--radius-lg);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.7), inset 0 1px 1px 0 rgba(255, 255, 255, 0.15);
+      transform-style: preserve-3d;
+      perspective: 1000px;
+    }
+
+    .component-stage::before {
+      content: "";
+      position: absolute;
+      top: -15%;
+      left: -10%;
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(0, 240, 255, 0.15) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(40px);
+      pointer-events: none;
+    }
+
+    .component-stage::after {
+      content: "";
+      position: absolute;
+      bottom: -15%;
+      right: -10%;
+      width: 350px;
+      height: 350px;
+      background: radial-gradient(circle, rgba(139, 92, 246, 0.12) 0%, transparent 70%);
+      border-radius: 50%;
+      filter: blur(40px);
+      pointer-events: none;
+    }
+
+    .controls-panel {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      justify-content: center;
+      padding: 14px 20px;
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: var(--radius-md);
+      backdrop-filter: blur(12px);
+    }
+
+    .ctrl-btn {
+      padding: 8px 16px;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: var(--radius-sm);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: all var(--trans-smooth);
+    }
+
+    .ctrl-btn:hover, .ctrl-btn.active {
+      background: rgba(0, 240, 255, 0.15);
+      border-color: var(--cyan);
+      color: #ffffff;
+      box-shadow: 0 0 12px var(--cyan-glow);
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        transform: none !important;
+      }
+    }
+    
+    
+      .lg-procedural-container {
+        width: 100%;
+        max-width: 520px;
+        perspective: 1200px;
+        transform-style: preserve-3d;
+      }
+      .lg-glass-panel {
+        position: relative;
+        padding: 32px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.16);
+        border-top-color: rgba(255, 255, 255, 0.7);
+        border-left-color: rgba(255, 255, 255, 0.45);
+        border-radius: var(--radius-lg);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(20px);
+        box-shadow: 0 20px 48px -8px rgba(0, 0, 0, 0.65), inset 0 1px 2px rgba(255, 255, 255, 0.4);
+        transform-style: preserve-3d;
+        transition: transform 280ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 280ms cubic-bezier(0.16, 1, 0.3, 1);
+      }
+      .lg-panel-specular {
+        position: absolute;
+        inset: 0;
+        border-radius: inherit;
+        background: linear-gradient(130deg, rgba(255, 255, 255, 0.3) 0%, transparent 60%);
+        pointer-events: none;
+      }
+      .lg-panel-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        transform: translateZ(10px);
+      }
+      .lg-node-indicator { display: flex; align-items: center; gap: 8px; }
+      .lg-dot {
+        width: 8px; height: 8px; border-radius: 50%;
+        background: var(--cyan); box-shadow: 0 0 8px var(--cyan);
+      }
+      .lg-tag {
+        font-size: 0.8rem; font-weight: 600; color: var(--cyan);
+        text-transform: uppercase; letter-spacing: 0.5px;
+      }
+      .lg-category-id { font-size: 0.8rem; font-family: monospace; color: var(--text-muted); }
+      .lg-component-headline {
+        font-size: 1.6rem; font-weight: 700; color: #ffffff;
+        margin-bottom: 10px; transform: translateZ(20px);
+      }
+      .lg-component-sub {
+        font-size: 0.95rem; line-height: 1.5; color: var(--text-muted);
+        margin-bottom: 24px; transform: translateZ(14px);
+      }
+      .lg-interactive-slot {
+        padding: 24px;
+        background: rgba(0, 0, 0, 0.35);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: var(--radius-md);
+        margin-bottom: 24px;
+        transform: translateZ(16px);
+      }
+      .lg-interactive-object {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 20px;
+        background: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 0%, rgba(255, 255, 255, 0.04) 100%);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: var(--radius-sm);
+        cursor: pointer;
+        outline: none;
+        transform-style: preserve-3d;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.5);
+        transition: all var(--trans-spring);
+      }
+      .lg-interactive-object:hover {
+        transform: translateZ(12px) translateY(-3px);
+        border-color: var(--cyan);
+        box-shadow: 0 16px 36px rgba(0, 0, 0, 0.6), 0 0 20px var(--cyan-glow);
+      }
+      .lg-interactive-object:active, .lg-interactive-object.triggered {
+        transform: translateZ(-2px) scale(0.98);
+        background: linear-gradient(135deg, rgba(0, 240, 255, 0.3) 0%, rgba(37, 99, 235, 0.15) 100%);
+      }
+      .lg-slot-badge { font-weight: 600; font-size: 0.95rem; color: #f8fafc; }
+      .lg-slot-status {
+        font-size: 0.85rem; font-weight: 700; color: var(--cyan);
+        padding: 4px 10px; background: rgba(0, 240, 255, 0.12);
+        border-radius: var(--radius-full);
+      }
+      .lg-panel-specs { display: flex; flex-wrap: wrap; gap: 8px; transform: translateZ(8px); }
+      .lg-spec-pill {
+        font-size: 0.75rem; color: var(--text-muted);
+        background: rgba(255, 255, 255, 0.04);
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        padding: 4px 10px; border-radius: var(--radius-sm);
+      }
+    
+  </style>
+</head>
+<body>
+  <div class="demo-wrapper">
+    <div class="component-stage" id="stage" role="region" aria-label="Pagination 3D Showcase Stage">
+      
+      <div class="lg-procedural-container" id="compContainer" role="navigation" aria-label="3D Liquid Glass Pagination">
+        <div class="lg-glass-panel">
+          <div class="lg-panel-specular"></div>
+          <div class="lg-panel-header">
+            <div class="lg-node-indicator">
+              <span class="lg-dot"></span>
+              <span class="lg-tag">Navigation</span>
+            </div>
+            <span class="lg-category-id">#pagination</span>
+          </div>
+
+          <div class="lg-panel-content">
+            <h2 class="lg-component-headline">Pagination</h2>
+            <p class="lg-component-sub">Row of bevel-edged glass numeric buttons with active illuminated plate, smooth prev/next steppers, and page jump dial.</p>
+            
+            <div class="lg-interactive-slot" id="interactiveSlot">
+              <div class="lg-interactive-object" id="activeObj" tabindex="0">
+                <span class="lg-slot-badge">3D Active Surface</span>
+                <span class="lg-slot-status" id="slotStatus">Ready</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="lg-panel-specs">
+            <div class="lg-spec-pill">Depth: translateZ(18px)</div>
+            <div class="lg-spec-pill">Material: Frosted Silica</div>
+            <div class="lg-spec-pill">Refraction: 1.52 IOR</div>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+
+    <div class="controls-panel" role="toolbar" aria-label="Interactive State Controls">
+      
+      <button class="ctrl-btn" onclick="triggerObject()">Interact Action</button>
+      <button class="ctrl-btn" onclick="tiltPerspective()">Toggle 3D Tilt</button>
+    
+    </div>
+  </div>
+
+  <script>
+    
+      const obj = document.getElementById('activeObj');
+      const status = document.getElementById('slotStatus');
+      const panel = document.querySelector('.lg-glass-panel');
+      obj.addEventListener('click', () => triggerObject());
+      obj.addEventListener('keydown', (e) => {
+        if (e.key === ' ' || e.key === 'Enter') {
+          e.preventDefault();
+          triggerObject();
+        }
+      });
+      function triggerObject() {
+        obj.classList.add('triggered');
+        status.innerText = 'Engaged';
+        status.style.color = '#ffffff';
+        status.style.background = 'rgba(16, 185, 129, 0.4)';
+        setTimeout(() => {
+          obj.classList.remove('triggered');
+          status.innerText = 'Ready';
+          status.style.color = 'var(--cyan)';
+          status.style.background = 'rgba(0, 240, 255, 0.12)';
+        }, 1200);
+      }
+      let tilted = false;
+      function tiltPerspective() {
+        tilted = !tilted;
+        if (tilted) {
+          panel.style.transform = 'rotateX(12deg) rotateY(-14deg) translateZ(24px)';
+        } else {
+          panel.style.transform = 'rotateX(0deg) rotateY(0deg) translateZ(0px)';
+        }
+      }
+    
+  </script>
+</body>
+</html>
