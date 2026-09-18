@@ -1,0 +1,83 @@
+name: Generate 3D Components & Publish
+
+on:
+  workflow_dispatch:
+    inputs:
+      design_system:
+        description: 'Design System'
+        required: true
+        default: 'Liquid Glass 01'
+        type: choice
+        options:
+          - 'Liquid Glass 01'
+          - 'Crystal 02'
+      generation_mode:
+        description: 'Generation Mode'
+        required: true
+        default: 'Regenerate all'
+        type: choice
+        options:
+          - 'Regenerate all'
+          - 'Generate all missing'
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Generate Components & Validate Quality Gate
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          MODE="missing"
+          if [ "${{ inputs.generation_mode }}" = "Regenerate all" ]; then
+            MODE="all"
+          fi
+          node generator/engine.js $MODE
+
+      - name: Update Catalog & Build Site
+        run: |
+          node scripts/generate-catalog.js
+          node scripts/build-website.js
+
+      - name: Commit New Components
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add components/ website/
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: publish generated 3D components [skip ci]"
+            git push origin main
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 'website/dist'
+
+  deploy-pages:
+    needs: generate-and-publish
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+      
