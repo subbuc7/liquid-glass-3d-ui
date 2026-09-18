@@ -1,0 +1,23 @@
+{
+  "id": "timeline",
+  "name": "Timeline - Crystal Quartz 02",
+  "category": "timeline",
+  "categoryGroup": "Data & Display",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.969Z",
+  "description": "Vertical glass spine punctuated with glowing crystal milestones and staggered glass cards detailing historical logs.",
+  "tags": [
+    "timeline",
+    "history",
+    "milestones"
+  ],
+  "functional_requirements": [
+    "chronological event cards",
+    "pulsed milestone orb status",
+    "date badges",
+    "expandable event details",
+    "interactive hover focus"
+  ],
+  "aria_role": "list"
+}

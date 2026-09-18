@@ -1,0 +1,23 @@
+{
+  "id": "popover",
+  "name": "Popover - Crystal Quartz 02",
+  "category": "popover",
+  "categoryGroup": "Overlays & Disclosures",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.959Z",
+  "description": "Interactive multi-element glass pod anchoring to trigger elements, complete with header, rich interactive form/card body, and close action.",
+  "tags": [
+    "overlay",
+    "flyout",
+    "popover"
+  ],
+  "functional_requirements": [
+    "click toggle trigger",
+    "outside click dismissal",
+    "focus trapping or tab navigation",
+    "rich interactive body content",
+    "arrow pointer refraction"
+  ],
+  "aria_role": "dialog"
+}

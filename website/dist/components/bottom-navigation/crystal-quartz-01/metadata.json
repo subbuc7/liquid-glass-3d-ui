@@ -1,0 +1,23 @@
+{
+  "id": "bottom-navigation",
+  "name": "Bottom Navigation Bar - Crystal Quartz 02",
+  "category": "bottom-navigation",
+  "categoryGroup": "Navigation",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.971Z",
+  "description": "Curved mobile glass floating dock anchored to screen bottom with thumb-friendly tap targets and rising liquid indicator bubble.",
+  "tags": [
+    "mobile",
+    "bottom-bar",
+    "navigation"
+  ],
+  "functional_requirements": [
+    "fixed bottom viewport docking",
+    "active tab bubble elevation",
+    "icon + micro-label items",
+    "haptic tap bounce animation",
+    "badge notifications"
+  ],
+  "aria_role": "navigation"
+}

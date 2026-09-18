@@ -1,0 +1,23 @@
+{
+  "id": "command-palette",
+  "name": "Command Palette / Spotlight - Crystal Quartz 02",
+  "category": "command-palette",
+  "categoryGroup": "Overlays & Disclosures",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.971Z",
+  "description": "Floating glass command center with hotkey trigger, fuzzy search input, grouped action listings, and keyboard navigation shortcuts.",
+  "tags": [
+    "command",
+    "spotlight",
+    "shortcuts"
+  ],
+  "functional_requirements": [
+    "Cmd+K keyboard activation shortcut",
+    "categorized command results",
+    "arrow key navigation with active glass glow",
+    "esc to close",
+    "enter to execute action"
+  ],
+  "aria_role": "combobox"
+}

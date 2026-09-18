@@ -1,0 +1,23 @@
+{
+  "id": "split-button-menu",
+  "name": "Split Button / Action Menu - Crystal Quartz 02",
+  "category": "split-button-menu",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.973Z",
+  "description": "Unified glass capsule divided by a micro-refractive seam separating primary click execution from a secondary dropdown caret.",
+  "tags": [
+    "button",
+    "split",
+    "dropdown"
+  ],
+  "functional_requirements": [
+    "primary independent click action",
+    "secondary chevron menu toggle",
+    "floating glass dropdown items",
+    "keyboard enter & arrow navigation",
+    "hover seam illumination"
+  ],
+  "aria_role": "group"
+}

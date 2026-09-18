@@ -1,0 +1,24 @@
+{
+  "id": "stat-metric-card",
+  "name": "Statistic / Metric Card - Crystal Quartz 02",
+  "category": "stat-metric-card",
+  "categoryGroup": "Data & Display",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.970Z",
+  "description": "Executive glass dashboard tile featuring illuminated KPI figures, mini sparkline trend curve, and positive/negative trend pills.",
+  "tags": [
+    "metric",
+    "kpi",
+    "analytics",
+    "dashboard"
+  ],
+  "functional_requirements": [
+    "large format metric counter",
+    "mini SVG sparkline chart",
+    "percentage delta indicator with up/down arrow",
+    "timeframe toggle selector",
+    "hover glass gloss refraction"
+  ],
+  "aria_role": "region"
+}

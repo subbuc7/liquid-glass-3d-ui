@@ -1,0 +1,23 @@
+{
+  "id": "video-player",
+  "name": "Video Player - Crystal Quartz 02",
+  "category": "video-player",
+  "categoryGroup": "Media & Creative",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.968Z",
+  "description": "Immersive glass theater frame with floating auto-hide control bar, 3D time scrub dial, picture-in-picture glass trigger, and volume slider.",
+  "tags": [
+    "video",
+    "media",
+    "player"
+  ],
+  "functional_requirements": [
+    "floating auto-hide controls",
+    "play/pause/rewind actions",
+    "buffered timeline scrubber",
+    "fullscreen & PIP triggers",
+    "volume & playback rate popup"
+  ],
+  "aria_role": "region"
+}

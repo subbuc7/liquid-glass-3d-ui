@@ -1,14 +1,15 @@
 {
-  "generatedAt": "2026-09-18T01:08:32.038Z",
+  "generatedAt": "2026-09-18T21:41:13.984Z",
   "stats": {
     "totalCategories": 51,
-    "totalComponents": 51,
+    "totalComponents": 102,
     "designSystems": [
+      "crystal-quartz-02",
       "liquid-glass-01"
     ],
     "categoryGroups": {
       "Forms & Inputs": {
-        "count": 17,
+        "count": 34,
         "categories": [
           "button",
           "text-input",
@@ -30,7 +31,7 @@
         ]
       },
       "Surfaces & Layout": {
-        "count": 4,
+        "count": 8,
         "categories": [
           "card",
           "accordion",
@@ -39,7 +40,7 @@
         ]
       },
       "Overlays & Disclosures": {
-        "count": 5,
+        "count": 10,
         "categories": [
           "modal-dialog",
           "drawer-sheet",
@@ -49,7 +50,7 @@
         ]
       },
       "Navigation": {
-        "count": 8,
+        "count": 16,
         "categories": [
           "navbar-app-bar",
           "sidebar-nav-rail",
@@ -62,7 +63,7 @@
         ]
       },
       "Feedback & Status": {
-        "count": 7,
+        "count": 14,
         "categories": [
           "badge",
           "alert-callout",
@@ -74,7 +75,7 @@
         ]
       },
       "Media & Creative": {
-        "count": 4,
+        "count": 8,
         "categories": [
           "icon-pack",
           "audio-player",
@@ -83,7 +84,7 @@
         ]
       },
       "Data & Display": {
-        "count": 6,
+        "count": 12,
         "categories": [
           "avatar-group",
           "table-datagrid",
@@ -117,6 +118,39 @@
         "liquid-glass"
       ],
       "components": [
+        {
+          "id": "button-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "button",
+          "categoryName": "Button",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Button - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Tactile 3D glass action trigger with dynamic specular refraction, glow response, and multi-state depth physics.",
+          "tags": [
+            "interactive",
+            "core",
+            "action",
+            "liquid-glass"
+          ],
+          "functionalRequirements": [
+            "hover elevation",
+            "pressed recession",
+            "focus-visible ring",
+            "disabled state",
+            "loading spinner state",
+            "subtle audio/haptic cue trigger"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.938Z",
+          "files": {
+            "html": "components/button/crystal-quartz-01/index.html",
+            "metadata": "components/button/crystal-quartz-01/metadata.json",
+            "preview": "components/button/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "button-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -174,6 +208,39 @@
       ],
       "components": [
         {
+          "id": "text-input-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "text-input",
+          "categoryName": "Text Input",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Text Input - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Concave translucent glass entry field featuring inner ambient occlusion, glowing focus borders, floating label, and clear action.",
+          "tags": [
+            "form",
+            "input",
+            "typing",
+            "glass"
+          ],
+          "functionalRequirements": [
+            "typing interaction",
+            "floating label transition",
+            "focus glow",
+            "error validation state",
+            "clear button",
+            "placeholder support"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.940Z",
+          "files": {
+            "html": "components/text-input/crystal-quartz-01/index.html",
+            "metadata": "components/text-input/crystal-quartz-01/metadata.json",
+            "preview": "components/text-input/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "text-input-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "text-input",
@@ -228,6 +295,37 @@
       ],
       "components": [
         {
+          "id": "textarea-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "textarea",
+          "categoryName": "Textarea",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Textarea - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Multi-line frosted glass surface with etched grid accents, live character counter, resizable grip, and fluid focus states.",
+          "tags": [
+            "form",
+            "input",
+            "multiline"
+          ],
+          "functionalRequirements": [
+            "multi-line text entry",
+            "auto-expand or resize handle",
+            "character count indicator",
+            "focus reflection",
+            "disabled state"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.942Z",
+          "files": {
+            "html": "components/textarea/crystal-quartz-01/index.html",
+            "metadata": "components/textarea/crystal-quartz-01/metadata.json",
+            "preview": "components/textarea/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "textarea-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "textarea",
@@ -280,6 +378,38 @@
         "toggle"
       ],
       "components": [
+        {
+          "id": "checkbox-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "checkbox",
+          "categoryName": "Checkbox",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Checkbox - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Beveled glass toggle box featuring volumetric depth, animated checkmark drawing, and luminous emerald-cyan active glow.",
+          "tags": [
+            "selection",
+            "form",
+            "toggle"
+          ],
+          "functionalRequirements": [
+            "checked state",
+            "unchecked state",
+            "indeterminate state",
+            "keyboard spacebar toggle",
+            "animated SVG check stroke",
+            "hover refraction"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.943Z",
+          "files": {
+            "html": "components/checkbox/crystal-quartz-01/index.html",
+            "metadata": "components/checkbox/crystal-quartz-01/metadata.json",
+            "preview": "components/checkbox/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "checkbox-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -335,6 +465,38 @@
       ],
       "components": [
         {
+          "id": "radio-button-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "radio-button",
+          "categoryName": "Radio Button",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Radio Button - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Convex liquid droplet selector with floating glass ring, animated core sphere expansion, and mutually exclusive group physics.",
+          "tags": [
+            "selection",
+            "form",
+            "choice"
+          ],
+          "functionalRequirements": [
+            "selected state",
+            "unselected state",
+            "group mutual exclusion",
+            "arrow key navigation",
+            "hover highlight",
+            "scale bounce transition"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.945Z",
+          "files": {
+            "html": "components/radio-button/crystal-quartz-01/index.html",
+            "metadata": "components/radio-button/crystal-quartz-01/metadata.json",
+            "preview": "components/radio-button/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "radio-button-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "radio-button",
@@ -388,6 +550,38 @@
         "binary"
       ],
       "components": [
+        {
+          "id": "switch-toggle-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "switch-toggle",
+          "categoryName": "Switch / Toggle",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Switch / Toggle - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Pill-shaped frosted channel housing a floating illuminated glass bead that glides smoothly across friction-free rails.",
+          "tags": [
+            "control",
+            "settings",
+            "binary"
+          ],
+          "functionalRequirements": [
+            "on/off toggle animation",
+            "smooth spring transition",
+            "drag gesture support",
+            "keyboard enter/space trigger",
+            "focus outline",
+            "status icons"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.946Z",
+          "files": {
+            "html": "components/switch-toggle/crystal-quartz-01/index.html",
+            "metadata": "components/switch-toggle/crystal-quartz-01/metadata.json",
+            "preview": "components/switch-toggle/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "switch-toggle-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -443,6 +637,38 @@
       ],
       "components": [
         {
+          "id": "select-dropdown-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "select-dropdown",
+          "categoryName": "Select / Dropdown",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Select / Dropdown - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Sculpted crystal dropdown trigger paired with an elevated floating frosted listbox with smooth optic dispersion.",
+          "tags": [
+            "selection",
+            "menu",
+            "dropdown"
+          ],
+          "functionalRequirements": [
+            "open/close flyout",
+            "option selection",
+            "keyboard arrow navigation",
+            "outside click dismissal",
+            "chevron rotation",
+            "selected checkmark"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.947Z",
+          "files": {
+            "html": "components/select-dropdown/crystal-quartz-01/index.html",
+            "metadata": "components/select-dropdown/crystal-quartz-01/metadata.json",
+            "preview": "components/select-dropdown/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "select-dropdown-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "select-dropdown",
@@ -495,6 +721,37 @@
         "form"
       ],
       "components": [
+        {
+          "id": "combobox-autocomplete-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "combobox-autocomplete",
+          "categoryName": "Combobox / Autocomplete",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Combobox / Autocomplete - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Hybrid searchable glass input with live filtered suggestion drop-sheet, item highlighting, and quick keyboard completion.",
+          "tags": [
+            "search",
+            "filter",
+            "form"
+          ],
+          "functionalRequirements": [
+            "real-time text filtering",
+            "highlight matched substring",
+            "keyboard arrow selection",
+            "esc to close",
+            "tag pill generation"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.948Z",
+          "files": {
+            "html": "components/combobox-autocomplete/crystal-quartz-01/index.html",
+            "metadata": "components/combobox-autocomplete/crystal-quartz-01/metadata.json",
+            "preview": "components/combobox-autocomplete/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "combobox-autocomplete-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -549,6 +806,38 @@
       ],
       "components": [
         {
+          "id": "slider-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "slider",
+          "categoryName": "Slider",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Slider - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "3D refractive glass cylinder track with glowing fill progress and an elevated prismatic gem thumb with tooltip value.",
+          "tags": [
+            "range",
+            "value",
+            "drag"
+          ],
+          "functionalRequirements": [
+            "continuous dragging",
+            "stepped increments",
+            "touch/mouse tracking",
+            "floating value bubble",
+            "keyboard arrow nudge",
+            "fill bar synchronization"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.948Z",
+          "files": {
+            "html": "components/slider/crystal-quartz-01/index.html",
+            "metadata": "components/slider/crystal-quartz-01/metadata.json",
+            "preview": "components/slider/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "slider-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "slider",
@@ -602,6 +891,38 @@
         "date"
       ],
       "components": [
+        {
+          "id": "date-time-picker-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "date-time-picker",
+          "categoryName": "Date / Time Picker",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Date / Time Picker - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Multi-tier glass calendar slab displaying month grid, animated selection ripples, quick-jump month tabs, and precise time dials.",
+          "tags": [
+            "calendar",
+            "time",
+            "date"
+          ],
+          "functionalRequirements": [
+            "month navigation",
+            "date cell selection",
+            "today shortcut",
+            "time spinner dials",
+            "disabled past/future dates",
+            "popup modal or embedded view"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.950Z",
+          "files": {
+            "html": "components/date-time-picker/crystal-quartz-01/index.html",
+            "metadata": "components/date-time-picker/crystal-quartz-01/metadata.json",
+            "preview": "components/date-time-picker/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "date-time-picker-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -658,6 +979,39 @@
       ],
       "components": [
         {
+          "id": "card-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "card",
+          "categoryName": "Card",
+          "categoryGroup": "Surfaces & Layout",
+          "name": "Card - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Volumetric liquid glass panel with layered parallax surfaces, dynamic specular highlights that follow mouse movement, and rich content hierarchy.",
+          "tags": [
+            "container",
+            "surface",
+            "3d-tilt",
+            "card"
+          ],
+          "functionalRequirements": [
+            "3D mouse parallax tilt",
+            "layered glass plates",
+            "inner border reflections",
+            "action buttons",
+            "badge integration",
+            "smooth hover elevation"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.950Z",
+          "files": {
+            "html": "components/card/crystal-quartz-01/index.html",
+            "metadata": "components/card/crystal-quartz-01/metadata.json",
+            "preview": "components/card/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "card-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "card",
@@ -713,6 +1067,38 @@
       ],
       "components": [
         {
+          "id": "modal-dialog-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "modal-dialog",
+          "categoryName": "Modal / Dialog",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Modal / Dialog - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Heroic floating 3D glass fortress elevated above a dimmed, blurred backdrop with chromatic perimeter refraction and smooth spring entry.",
+          "tags": [
+            "overlay",
+            "window",
+            "dialog"
+          ],
+          "functionalRequirements": [
+            "backdrop click to dismiss",
+            "escape key exit",
+            "focus trap within modal",
+            "entrance scale & blur animation",
+            "header/body/footer actions",
+            "scrollable inner content"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.951Z",
+          "files": {
+            "html": "components/modal-dialog/crystal-quartz-01/index.html",
+            "metadata": "components/modal-dialog/crystal-quartz-01/metadata.json",
+            "preview": "components/modal-dialog/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "modal-dialog-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "modal-dialog",
@@ -767,6 +1153,38 @@
       ],
       "components": [
         {
+          "id": "drawer-sheet-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "drawer-sheet",
+          "categoryName": "Drawer / Sheet",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Drawer / Sheet - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Slide-in frosted side monolith with edge highlights, gesture dismissal handle, and seamless glass blur integration.",
+          "tags": [
+            "panel",
+            "sidebar",
+            "overlay"
+          ],
+          "functionalRequirements": [
+            "side entry animation",
+            "swipe/drag to dismiss",
+            "backdrop blur transition",
+            "header close trigger",
+            "scrollable body",
+            "stackable layout"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.952Z",
+          "files": {
+            "html": "components/drawer-sheet/crystal-quartz-01/index.html",
+            "metadata": "components/drawer-sheet/crystal-quartz-01/metadata.json",
+            "preview": "components/drawer-sheet/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "drawer-sheet-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "drawer-sheet",
@@ -820,6 +1238,37 @@
       ],
       "components": [
         {
+          "id": "accordion-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "accordion",
+          "categoryName": "Accordion",
+          "categoryGroup": "Surfaces & Layout",
+          "name": "Accordion - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Stack of interlocking crystal slats that expand with fluid ease, revealing nested glass content cards with chevron flip motion.",
+          "tags": [
+            "disclosure",
+            "collapse",
+            "expand"
+          ],
+          "functionalRequirements": [
+            "expand/collapse accordion items",
+            "single or multi-expand mode",
+            "smooth max-height CSS transition",
+            "keyboard tab and enter navigation",
+            "chevron rotation indicator"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.953Z",
+          "files": {
+            "html": "components/accordion/crystal-quartz-01/index.html",
+            "metadata": "components/accordion/crystal-quartz-01/metadata.json",
+            "preview": "components/accordion/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "accordion-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "accordion",
@@ -871,6 +1320,37 @@
         "top-bar"
       ],
       "components": [
+        {
+          "id": "navbar-app-bar-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "navbar-app-bar",
+          "categoryName": "Navbar / App Bar",
+          "categoryGroup": "Navigation",
+          "name": "Navbar / App Bar - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Floating translucent command bar with bevel-lit glass trim, integrated brand jewel, nav links with sliding glow indicator, and CTA.",
+          "tags": [
+            "header",
+            "navigation",
+            "top-bar"
+          ],
+          "functionalRequirements": [
+            "sticky glass blur on scroll",
+            "active item underline capsule",
+            "mobile hamburger drawer toggle",
+            "responsive collapse",
+            "quick search launcher"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.953Z",
+          "files": {
+            "html": "components/navbar-app-bar/crystal-quartz-01/index.html",
+            "metadata": "components/navbar-app-bar/crystal-quartz-01/metadata.json",
+            "preview": "components/navbar-app-bar/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "navbar-app-bar-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -924,6 +1404,37 @@
       ],
       "components": [
         {
+          "id": "sidebar-nav-rail-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "sidebar-nav-rail",
+          "categoryName": "Sidebar / Navigation Rail",
+          "categoryGroup": "Navigation",
+          "name": "Sidebar / Navigation Rail - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Vertical glass monolith with collapsible icon rail, sub-menu popouts, user profile capsule, and illuminated active item indicators.",
+          "tags": [
+            "sidebar",
+            "rail",
+            "navigation"
+          ],
+          "functionalRequirements": [
+            "expand/collapse rail toggle",
+            "active item glass highlight",
+            "nested group accordions",
+            "tooltip preview when collapsed",
+            "accessible navigation list"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.954Z",
+          "files": {
+            "html": "components/sidebar-nav-rail/crystal-quartz-01/index.html",
+            "metadata": "components/sidebar-nav-rail/crystal-quartz-01/metadata.json",
+            "preview": "components/sidebar-nav-rail/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "sidebar-nav-rail-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "sidebar-nav-rail",
@@ -976,6 +1487,37 @@
       ],
       "components": [
         {
+          "id": "tabs-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "tabs",
+          "categoryName": "Tabs",
+          "categoryGroup": "Navigation",
+          "name": "Tabs - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Segmented 3D glass tray with a floating luminous indicator pill that slides seamlessly beneath the active tab label.",
+          "tags": [
+            "navigation",
+            "panels",
+            "tabs"
+          ],
+          "functionalRequirements": [
+            "tab switching",
+            "sliding indicator bar",
+            "keyboard left/right arrow navigation",
+            "tabpanel association",
+            "badge count badges on tabs"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.955Z",
+          "files": {
+            "html": "components/tabs/crystal-quartz-01/index.html",
+            "metadata": "components/tabs/crystal-quartz-01/metadata.json",
+            "preview": "components/tabs/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "tabs-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "tabs",
@@ -1026,6 +1568,36 @@
         "breadcrumbs"
       ],
       "components": [
+        {
+          "id": "breadcrumbs-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "breadcrumbs",
+          "categoryName": "Breadcrumbs",
+          "categoryGroup": "Navigation",
+          "name": "Breadcrumbs - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Linear glass trail with micro-faceted separators, subtle path hover glows, and current page crystal badge.",
+          "tags": [
+            "navigation",
+            "trail",
+            "breadcrumbs"
+          ],
+          "functionalRequirements": [
+            "navigational hierarchy links",
+            "custom 3D glass chevron divider",
+            "overflow dropdown for long paths",
+            "accessible aria-current link"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.955Z",
+          "files": {
+            "html": "components/breadcrumbs/crystal-quartz-01/index.html",
+            "metadata": "components/breadcrumbs/crystal-quartz-01/metadata.json",
+            "preview": "components/breadcrumbs/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "breadcrumbs-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -1078,6 +1650,37 @@
       ],
       "components": [
         {
+          "id": "pagination-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "pagination",
+          "categoryName": "Pagination",
+          "categoryGroup": "Navigation",
+          "name": "Pagination - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Row of bevel-edged glass numeric buttons with active illuminated plate, smooth prev/next steppers, and page jump dial.",
+          "tags": [
+            "pagination",
+            "numbers",
+            "navigation"
+          ],
+          "functionalRequirements": [
+            "page number selection",
+            "previous/next navigation",
+            "ellipsis truncation indicator",
+            "disabled edge states",
+            "keyboard navigation"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.956Z",
+          "files": {
+            "html": "components/pagination/crystal-quartz-01/index.html",
+            "metadata": "components/pagination/crystal-quartz-01/metadata.json",
+            "preview": "components/pagination/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "pagination-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "pagination",
@@ -1128,6 +1731,36 @@
         "pill"
       ],
       "components": [
+        {
+          "id": "badge-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "badge",
+          "categoryName": "Badge",
+          "categoryGroup": "Feedback & Status",
+          "name": "Badge - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Microscopic glowing glass jewel with pulsed status halo, iridescent core, and crisp micro-typography.",
+          "tags": [
+            "status",
+            "indicator",
+            "pill"
+          ],
+          "functionalRequirements": [
+            "status variants (success, warning, error, info)",
+            "pulsing live radar dot",
+            "numeric count formatting (e.g. 99+)",
+            "pill or circular shapes"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.957Z",
+          "files": {
+            "html": "components/badge/crystal-quartz-01/index.html",
+            "metadata": "components/badge/crystal-quartz-01/metadata.json",
+            "preview": "components/badge/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "badge-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -1180,6 +1813,37 @@
       ],
       "components": [
         {
+          "id": "chip-tag-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "chip-tag",
+          "categoryName": "Chip / Tag",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Chip / Tag - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Compact interactive glass capsule with removable 3D crystal cross, avatar thumbnail, and selectable state toggle.",
+          "tags": [
+            "filter",
+            "pill",
+            "tag"
+          ],
+          "functionalRequirements": [
+            "click-to-toggle filter state",
+            "remove button trigger",
+            "leading icon or avatar",
+            "keyboard backspace delete",
+            "focus ring"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.957Z",
+          "files": {
+            "html": "components/chip-tag/crystal-quartz-01/index.html",
+            "metadata": "components/chip-tag/crystal-quartz-01/metadata.json",
+            "preview": "components/chip-tag/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "chip-tag-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "chip-tag",
@@ -1231,6 +1895,36 @@
       ],
       "components": [
         {
+          "id": "tooltip-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "tooltip",
+          "categoryName": "Tooltip",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Tooltip - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Ultra-light floating frosted bubble with directional prism beak, micro drop shadow, and instant directional orientation.",
+          "tags": [
+            "hint",
+            "helper",
+            "overlay"
+          ],
+          "functionalRequirements": [
+            "hover & focus trigger",
+            "directional positioning (top, bottom, left, right)",
+            "delay timing configuration",
+            "smooth fade-in & scale pop"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.958Z",
+          "files": {
+            "html": "components/tooltip/crystal-quartz-01/index.html",
+            "metadata": "components/tooltip/crystal-quartz-01/metadata.json",
+            "preview": "components/tooltip/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "tooltip-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "tooltip",
@@ -1281,6 +1975,37 @@
         "popover"
       ],
       "components": [
+        {
+          "id": "popover-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "popover",
+          "categoryName": "Popover",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Popover - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Interactive multi-element glass pod anchoring to trigger elements, complete with header, rich interactive form/card body, and close action.",
+          "tags": [
+            "overlay",
+            "flyout",
+            "popover"
+          ],
+          "functionalRequirements": [
+            "click toggle trigger",
+            "outside click dismissal",
+            "focus trapping or tab navigation",
+            "rich interactive body content",
+            "arrow pointer refraction"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.959Z",
+          "files": {
+            "html": "components/popover/crystal-quartz-01/index.html",
+            "metadata": "components/popover/crystal-quartz-01/metadata.json",
+            "preview": "components/popover/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "popover-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -1335,6 +2060,38 @@
       ],
       "components": [
         {
+          "id": "icon-pack-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "icon-pack",
+          "categoryName": "Icon Pack",
+          "categoryGroup": "Media & Creative",
+          "name": "Icon Pack - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Cohesive family of 12 handcrafted 3D liquid glass icons sharing identical specular highlights, depth layers, cyan-sapphire refraction, and vector geometries.",
+          "tags": [
+            "icons",
+            "assets",
+            "3d-icons",
+            "vector"
+          ],
+          "functionalRequirements": [
+            "cohesive 12-icon 3D suite",
+            "consistent lighting vector & specular highlights",
+            "interactive hover rotation/glow",
+            "SVG vector scalability",
+            "copy SVG / export trigger"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.959Z",
+          "files": {
+            "html": "components/icon-pack/crystal-quartz-01/index.html",
+            "metadata": "components/icon-pack/crystal-quartz-01/metadata.json",
+            "preview": "components/icon-pack/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "icon-pack-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "icon-pack",
@@ -1388,6 +2145,37 @@
       ],
       "components": [
         {
+          "id": "alert-callout-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "alert-callout",
+          "categoryName": "Alert / Callout",
+          "categoryGroup": "Feedback & Status",
+          "name": "Alert / Callout - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Prominent glass warning bar with chromatic edge illumination, status insignia, rich body text, and optional action buttons.",
+          "tags": [
+            "feedback",
+            "message",
+            "alert"
+          ],
+          "functionalRequirements": [
+            "semantic status themes",
+            "dismissible button",
+            "action button row",
+            "frosted chromatic border glow",
+            "high contrast readability"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.960Z",
+          "files": {
+            "html": "components/alert-callout/crystal-quartz-01/index.html",
+            "metadata": "components/alert-callout/crystal-quartz-01/metadata.json",
+            "preview": "components/alert-callout/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "alert-callout-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "alert-callout",
@@ -1439,6 +2227,37 @@
         "feedback"
       ],
       "components": [
+        {
+          "id": "toast-notification-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "toast-notification",
+          "categoryName": "Toast / Notification",
+          "categoryGroup": "Feedback & Status",
+          "name": "Toast / Notification - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Floating corner glass notification shard that slides onto the viewport with time-decay progress bar and instant action.",
+          "tags": [
+            "toast",
+            "notification",
+            "feedback"
+          ],
+          "functionalRequirements": [
+            "auto-dismiss countdown bar",
+            "stacking animation physics",
+            "manual close trigger",
+            "status icon & action link",
+            "pause countdown on hover"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.960Z",
+          "files": {
+            "html": "components/toast-notification/crystal-quartz-01/index.html",
+            "metadata": "components/toast-notification/crystal-quartz-01/metadata.json",
+            "preview": "components/toast-notification/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "toast-notification-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -1492,6 +2311,37 @@
       ],
       "components": [
         {
+          "id": "progress-bar-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "progress-bar",
+          "categoryName": "Progress Bar",
+          "categoryGroup": "Feedback & Status",
+          "name": "Progress Bar - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "3D frosted tube with liquid-light energy core, iridescent wave shimmer animation, and percentage badge.",
+          "tags": [
+            "progress",
+            "loading",
+            "metric"
+          ],
+          "functionalRequirements": [
+            "determinate percentage fill",
+            "indeterminate pulsing wave",
+            "animated shimmer reflection",
+            "step milestone markers",
+            "value readout label"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.961Z",
+          "files": {
+            "html": "components/progress-bar/crystal-quartz-01/index.html",
+            "metadata": "components/progress-bar/crystal-quartz-01/metadata.json",
+            "preview": "components/progress-bar/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "progress-bar-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "progress-bar",
@@ -1543,6 +2393,37 @@
         "animation"
       ],
       "components": [
+        {
+          "id": "spinner-loader-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "spinner-loader",
+          "categoryName": "Spinner / Loading Indicator",
+          "categoryGroup": "Feedback & Status",
+          "name": "Spinner / Loading Indicator - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Hypnotic rotating 3D glass torus with trailing luminous particles, refractive caustic ring, and variable speed control.",
+          "tags": [
+            "loader",
+            "spinner",
+            "animation"
+          ],
+          "functionalRequirements": [
+            "smooth 3D orbit rotation",
+            "gradient caustic trail",
+            "multiple size presets (sm, md, lg)",
+            "accessibility reduced-motion pause",
+            "centered label"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.962Z",
+          "files": {
+            "html": "components/spinner-loader/crystal-quartz-01/index.html",
+            "metadata": "components/spinner-loader/crystal-quartz-01/metadata.json",
+            "preview": "components/spinner-loader/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "spinner-loader-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -1596,6 +2477,37 @@
       ],
       "components": [
         {
+          "id": "avatar-group-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "avatar-group",
+          "categoryName": "Avatar / Avatar Group",
+          "categoryGroup": "Data & Display",
+          "name": "Avatar / Avatar Group - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Layered disc stack of frosted glass lens portraits with depth-staggered hover elevation, online presence jewels, and overflow counter.",
+          "tags": [
+            "avatar",
+            "user",
+            "profile"
+          ],
+          "functionalRequirements": [
+            "overlapping stack spacing",
+            "hover to elevate individual avatar",
+            "online status dot badge",
+            "overflow counter click flyout",
+            "initials fallback fallback"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.962Z",
+          "files": {
+            "html": "components/avatar-group/crystal-quartz-01/index.html",
+            "metadata": "components/avatar-group/crystal-quartz-01/metadata.json",
+            "preview": "components/avatar-group/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "avatar-group-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "avatar-group",
@@ -1646,6 +2558,36 @@
         "loader"
       ],
       "components": [
+        {
+          "id": "skeleton-loader-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "skeleton-loader",
+          "categoryName": "Skeleton Loader",
+          "categoryGroup": "Feedback & Status",
+          "name": "Skeleton Loader - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Translucent glass bone structures with shimmering light reflections that sweep across card and text placeholders.",
+          "tags": [
+            "skeleton",
+            "placeholder",
+            "loader"
+          ],
+          "functionalRequirements": [
+            "animated refractive sweep wave",
+            "multiple layout shapes (avatar, title, paragraph, button)",
+            "pulse opacity breathing mode",
+            "reduced motion compliance"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.963Z",
+          "files": {
+            "html": "components/skeleton-loader/crystal-quartz-01/index.html",
+            "metadata": "components/skeleton-loader/crystal-quartz-01/metadata.json",
+            "preview": "components/skeleton-loader/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "skeleton-loader-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -1698,6 +2640,38 @@
         "data"
       ],
       "components": [
+        {
+          "id": "table-datagrid-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "table-datagrid",
+          "categoryName": "Table / Data Grid",
+          "categoryGroup": "Data & Display",
+          "name": "Table / Data Grid - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Multi-column frosted glass data console with sticky headers, sortable column chevrons, row selection highlights, and glass cell dividers.",
+          "tags": [
+            "table",
+            "grid",
+            "data"
+          ],
+          "functionalRequirements": [
+            "sortable columns",
+            "row selection checkboxes",
+            "sticky frosted header",
+            "hover row luminescent glow",
+            "zebra-glass striping",
+            "horizontal scroll support"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.963Z",
+          "files": {
+            "html": "components/table-datagrid/crystal-quartz-01/index.html",
+            "metadata": "components/table-datagrid/crystal-quartz-01/metadata.json",
+            "preview": "components/table-datagrid/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "table-datagrid-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -1752,6 +2726,37 @@
       ],
       "components": [
         {
+          "id": "tree-view-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "tree-view",
+          "categoryName": "Tree View",
+          "categoryGroup": "Data & Display",
+          "name": "Tree View - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Hierarchical glass file system explorer with expanding crystal branches, custom 3D folder icons, and active node highlight plates.",
+          "tags": [
+            "hierarchy",
+            "folder",
+            "tree"
+          ],
+          "functionalRequirements": [
+            "nested expandable nodes",
+            "keyboard arrow navigation",
+            "selection state",
+            "folder/file icon indicators",
+            "connecting glass guideline filaments"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.964Z",
+          "files": {
+            "html": "components/tree-view/crystal-quartz-01/index.html",
+            "metadata": "components/tree-view/crystal-quartz-01/metadata.json",
+            "preview": "components/tree-view/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "tree-view-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "tree-view",
@@ -1803,6 +2808,37 @@
         "workflow"
       ],
       "components": [
+        {
+          "id": "stepper-wizard-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "stepper-wizard",
+          "categoryName": "Stepper / Wizard",
+          "categoryGroup": "Navigation",
+          "name": "Stepper / Wizard - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Progressive sequence of crystal step nodes connected by glowing liquid energy conduits, tracking workflow progression.",
+          "tags": [
+            "wizard",
+            "steps",
+            "workflow"
+          ],
+          "functionalRequirements": [
+            "completed, active, upcoming node states",
+            "animated interconnecting line glow",
+            "step click navigation",
+            "label and description subtext",
+            "responsive vertical/horizontal mode"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.965Z",
+          "files": {
+            "html": "components/stepper-wizard/crystal-quartz-01/index.html",
+            "metadata": "components/stepper-wizard/crystal-quartz-01/metadata.json",
+            "preview": "components/stepper-wizard/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "stepper-wizard-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -1856,6 +2892,37 @@
       ],
       "components": [
         {
+          "id": "segmented-control-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "segmented-control",
+          "categoryName": "Segmented Control",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Segmented Control - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Precision-milled recessed glass tray housing an elevated optical glass selector block that glides between view options.",
+          "tags": [
+            "segmented",
+            "toggle",
+            "tabs"
+          ],
+          "functionalRequirements": [
+            "gliding selection indicator",
+            "instant click selection",
+            "arrow key traversal",
+            "icon + text options",
+            "equal distribution grid"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.965Z",
+          "files": {
+            "html": "components/segmented-control/crystal-quartz-01/index.html",
+            "metadata": "components/segmented-control/crystal-quartz-01/metadata.json",
+            "preview": "components/segmented-control/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "segmented-control-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "segmented-control",
@@ -1908,6 +2975,37 @@
       ],
       "components": [
         {
+          "id": "rating-picker-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "rating-picker",
+          "categoryName": "Rating / Star Picker",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Rating / Star Picker - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Row of faceted crystal stars that illuminate with amber liquid fire on hover and lock into place with a subtle 3D pop.",
+          "tags": [
+            "rating",
+            "stars",
+            "feedback"
+          ],
+          "functionalRequirements": [
+            "half-star or full-star hover rating",
+            "click to commit rating",
+            "keyboard arrow adjustment",
+            "reset rating trigger",
+            "numerical score feedback"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.966Z",
+          "files": {
+            "html": "components/rating-picker/crystal-quartz-01/index.html",
+            "metadata": "components/rating-picker/crystal-quartz-01/metadata.json",
+            "preview": "components/rating-picker/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "rating-picker-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "rating-picker",
@@ -1959,6 +3057,36 @@
       ],
       "components": [
         {
+          "id": "file-upload-dropzone-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "file-upload-dropzone",
+          "categoryName": "File Upload / Dropzone",
+          "categoryGroup": "Forms & Inputs",
+          "name": "File Upload / Dropzone - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Spacious frosted glass receiving bay with etched dashed perimeter, drag-over optical lens expansion, file queue chips, and upload progress.",
+          "tags": [
+            "upload",
+            "dropzone",
+            "files"
+          ],
+          "functionalRequirements": [
+            "drag-and-drop file detection",
+            "click to browse file picker",
+            "file validation chip list with size & remove action",
+            "simulated upload progress bar"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.966Z",
+          "files": {
+            "html": "components/file-upload-dropzone/crystal-quartz-01/index.html",
+            "metadata": "components/file-upload-dropzone/crystal-quartz-01/metadata.json",
+            "preview": "components/file-upload-dropzone/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "file-upload-dropzone-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "file-upload-dropzone",
@@ -2009,6 +3137,37 @@
         "palette"
       ],
       "components": [
+        {
+          "id": "color-picker-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "color-picker",
+          "categoryName": "Color Picker",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Color Picker - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Luminescent glass palette console with chromatic spectrum gradient slab, 3D reticle selector, opacity slider, and hex readout.",
+          "tags": [
+            "color",
+            "picker",
+            "palette"
+          ],
+          "functionalRequirements": [
+            "spectrum coordinate selection",
+            "hue and alpha glass slider rails",
+            "preset swatch jewels",
+            "hex/rgba format copy",
+            "live swatch preview gem"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.967Z",
+          "files": {
+            "html": "components/color-picker/crystal-quartz-01/index.html",
+            "metadata": "components/color-picker/crystal-quartz-01/metadata.json",
+            "preview": "components/color-picker/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "color-picker-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -2062,6 +3221,37 @@
       ],
       "components": [
         {
+          "id": "audio-player-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "audio-player",
+          "categoryName": "Audio Player",
+          "categoryGroup": "Media & Creative",
+          "name": "Audio Player - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Futuristic glass deck with floating disc play button, dynamic glowing frequency visualizer bars, track scrubber, and volume prism.",
+          "tags": [
+            "audio",
+            "media",
+            "player"
+          ],
+          "functionalRequirements": [
+            "play/pause toggle",
+            "interactive waveform/scrubber track",
+            "time elapsed & remaining",
+            "volume slide control",
+            "track title & album thumbnail"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.967Z",
+          "files": {
+            "html": "components/audio-player/crystal-quartz-01/index.html",
+            "metadata": "components/audio-player/crystal-quartz-01/metadata.json",
+            "preview": "components/audio-player/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "audio-player-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "audio-player",
@@ -2113,6 +3303,37 @@
         "player"
       ],
       "components": [
+        {
+          "id": "video-player-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "video-player",
+          "categoryName": "Video Player",
+          "categoryGroup": "Media & Creative",
+          "name": "Video Player - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Immersive glass theater frame with floating auto-hide control bar, 3D time scrub dial, picture-in-picture glass trigger, and volume slider.",
+          "tags": [
+            "video",
+            "media",
+            "player"
+          ],
+          "functionalRequirements": [
+            "floating auto-hide controls",
+            "play/pause/rewind actions",
+            "buffered timeline scrubber",
+            "fullscreen & PIP triggers",
+            "volume & playback rate popup"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.968Z",
+          "files": {
+            "html": "components/video-player/crystal-quartz-01/index.html",
+            "metadata": "components/video-player/crystal-quartz-01/metadata.json",
+            "preview": "components/video-player/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "video-player-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -2166,6 +3387,37 @@
       ],
       "components": [
         {
+          "id": "carousel-slider-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "carousel-slider",
+          "categoryName": "Carousel / Slider Showcase",
+          "categoryGroup": "Media & Creative",
+          "name": "Carousel / Slider Showcase - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "3D coverflow-style carousel where frosted glass cards rotate in true 3D perspective with depth fading and optical navigation dots.",
+          "tags": [
+            "carousel",
+            "gallery",
+            "slider"
+          ],
+          "functionalRequirements": [
+            "next/previous slide buttons",
+            "swipe touch/drag physics",
+            "3D card depth perspective offset",
+            "indicator dots with live progress",
+            "autoplay toggle"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.969Z",
+          "files": {
+            "html": "components/carousel-slider/crystal-quartz-01/index.html",
+            "metadata": "components/carousel-slider/crystal-quartz-01/metadata.json",
+            "preview": "components/carousel-slider/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "carousel-slider-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "carousel-slider",
@@ -2217,6 +3469,37 @@
         "milestones"
       ],
       "components": [
+        {
+          "id": "timeline-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "timeline",
+          "categoryName": "Timeline",
+          "categoryGroup": "Data & Display",
+          "name": "Timeline - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Vertical glass spine punctuated with glowing crystal milestones and staggered glass cards detailing historical logs.",
+          "tags": [
+            "timeline",
+            "history",
+            "milestones"
+          ],
+          "functionalRequirements": [
+            "chronological event cards",
+            "pulsed milestone orb status",
+            "date badges",
+            "expandable event details",
+            "interactive hover focus"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.969Z",
+          "files": {
+            "html": "components/timeline/crystal-quartz-01/index.html",
+            "metadata": "components/timeline/crystal-quartz-01/metadata.json",
+            "preview": "components/timeline/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "timeline-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -2271,6 +3554,38 @@
       ],
       "components": [
         {
+          "id": "stat-metric-card-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "stat-metric-card",
+          "categoryName": "Statistic / Metric Card",
+          "categoryGroup": "Data & Display",
+          "name": "Statistic / Metric Card - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Executive glass dashboard tile featuring illuminated KPI figures, mini sparkline trend curve, and positive/negative trend pills.",
+          "tags": [
+            "metric",
+            "kpi",
+            "analytics",
+            "dashboard"
+          ],
+          "functionalRequirements": [
+            "large format metric counter",
+            "mini SVG sparkline chart",
+            "percentage delta indicator with up/down arrow",
+            "timeframe toggle selector",
+            "hover glass gloss refraction"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.970Z",
+          "files": {
+            "html": "components/stat-metric-card/crystal-quartz-01/index.html",
+            "metadata": "components/stat-metric-card/crystal-quartz-01/metadata.json",
+            "preview": "components/stat-metric-card/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "stat-metric-card-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "stat-metric-card",
@@ -2324,6 +3639,37 @@
       ],
       "components": [
         {
+          "id": "pricing-table-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "pricing-table",
+          "categoryName": "Pricing Table",
+          "categoryGroup": "Surfaces & Layout",
+          "name": "Pricing Table - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Trio of stepped glass monoliths featuring popular plan jewel accent, billing interval toggle, feature checklist, and liquid CTA button.",
+          "tags": [
+            "pricing",
+            "plans",
+            "tier"
+          ],
+          "functionalRequirements": [
+            "monthly/annual billing cycle toggle",
+            "featured/highlighted tier 3D pop",
+            "checklist feature rows with check icons",
+            "call-to-action trigger",
+            "responsive stacked mode"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.970Z",
+          "files": {
+            "html": "components/pricing-table/crystal-quartz-01/index.html",
+            "metadata": "components/pricing-table/crystal-quartz-01/metadata.json",
+            "preview": "components/pricing-table/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "pricing-table-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "pricing-table",
@@ -2375,6 +3721,37 @@
         "shortcuts"
       ],
       "components": [
+        {
+          "id": "command-palette-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "command-palette",
+          "categoryName": "Command Palette / Spotlight",
+          "categoryGroup": "Overlays & Disclosures",
+          "name": "Command Palette / Spotlight - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Floating glass command center with hotkey trigger, fuzzy search input, grouped action listings, and keyboard navigation shortcuts.",
+          "tags": [
+            "command",
+            "spotlight",
+            "shortcuts"
+          ],
+          "functionalRequirements": [
+            "Cmd+K keyboard activation shortcut",
+            "categorized command results",
+            "arrow key navigation with active glass glow",
+            "esc to close",
+            "enter to execute action"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.971Z",
+          "files": {
+            "html": "components/command-palette/crystal-quartz-01/index.html",
+            "metadata": "components/command-palette/crystal-quartz-01/metadata.json",
+            "preview": "components/command-palette/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "command-palette-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -2428,6 +3805,37 @@
       ],
       "components": [
         {
+          "id": "bottom-navigation-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "bottom-navigation",
+          "categoryName": "Bottom Navigation Bar",
+          "categoryGroup": "Navigation",
+          "name": "Bottom Navigation Bar - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Curved mobile glass floating dock anchored to screen bottom with thumb-friendly tap targets and rising liquid indicator bubble.",
+          "tags": [
+            "mobile",
+            "bottom-bar",
+            "navigation"
+          ],
+          "functionalRequirements": [
+            "fixed bottom viewport docking",
+            "active tab bubble elevation",
+            "icon + micro-label items",
+            "haptic tap bounce animation",
+            "badge notifications"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.971Z",
+          "files": {
+            "html": "components/bottom-navigation/crystal-quartz-01/index.html",
+            "metadata": "components/bottom-navigation/crystal-quartz-01/metadata.json",
+            "preview": "components/bottom-navigation/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "bottom-navigation-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "bottom-navigation",
@@ -2479,6 +3887,37 @@
         "floating"
       ],
       "components": [
+        {
+          "id": "floating-action-button-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "floating-action-button",
+          "categoryName": "Floating Action Button (FAB)",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Floating Action Button (FAB) - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Spherical optical crystal sphere suspended in space that expands into a fan of secondary glass quick-action nodes upon interaction.",
+          "tags": [
+            "fab",
+            "action",
+            "floating"
+          ],
+          "functionalRequirements": [
+            "fixed floating viewport positioning",
+            "fan-out secondary action dials",
+            "cross icon rotation to dismiss",
+            "ripple click feedback",
+            "hover lift elevation"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.972Z",
+          "files": {
+            "html": "components/floating-action-button/crystal-quartz-01/index.html",
+            "metadata": "components/floating-action-button/crystal-quartz-01/metadata.json",
+            "preview": "components/floating-action-button/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "floating-action-button-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -2532,6 +3971,37 @@
       ],
       "components": [
         {
+          "id": "split-button-menu-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "split-button-menu",
+          "categoryName": "Split Button / Action Menu",
+          "categoryGroup": "Forms & Inputs",
+          "name": "Split Button / Action Menu - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Unified glass capsule divided by a micro-refractive seam separating primary click execution from a secondary dropdown caret.",
+          "tags": [
+            "button",
+            "split",
+            "dropdown"
+          ],
+          "functionalRequirements": [
+            "primary independent click action",
+            "secondary chevron menu toggle",
+            "floating glass dropdown items",
+            "keyboard enter & arrow navigation",
+            "hover seam illumination"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.973Z",
+          "files": {
+            "html": "components/split-button-menu/crystal-quartz-01/index.html",
+            "metadata": "components/split-button-menu/crystal-quartz-01/metadata.json",
+            "preview": "components/split-button-menu/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "split-button-menu-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "split-button-menu",
@@ -2583,6 +4053,36 @@
       ],
       "components": [
         {
+          "id": "divider-separator-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "divider-separator",
+          "categoryName": "Divider / Glass Separator",
+          "categoryGroup": "Surfaces & Layout",
+          "name": "Divider / Glass Separator - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Etched prismatic glass hairline rule with centered floating icon medallion and fading luminescence at the margins.",
+          "tags": [
+            "divider",
+            "separator",
+            "rule"
+          ],
+          "functionalRequirements": [
+            "horizontal and vertical alignment options",
+            "centered optional badge or icon label",
+            "gradient light falloff edges",
+            "subtle 3D bevel ridge"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.973Z",
+          "files": {
+            "html": "components/divider-separator/crystal-quartz-01/index.html",
+            "metadata": "components/divider-separator/crystal-quartz-01/metadata.json",
+            "preview": "components/divider-separator/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "divider-separator-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "divider-separator",
@@ -2632,6 +4132,36 @@
         "state"
       ],
       "components": [
+        {
+          "id": "empty-state-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "empty-state",
+          "categoryName": "Empty State",
+          "categoryGroup": "Feedback & Status",
+          "name": "Empty State - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Minimalist glass showcase containing a floating 3D refractive ghost gem illustration, explanatory headline, and primary recovery button.",
+          "tags": [
+            "empty",
+            "zero-data",
+            "state"
+          ],
+          "functionalRequirements": [
+            "3D floating glass illustration container",
+            "clear headline and helpful body copy",
+            "primary onboarding call-to-action button",
+            "secondary action link"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.974Z",
+          "files": {
+            "html": "components/empty-state/crystal-quartz-01/index.html",
+            "metadata": "components/empty-state/crystal-quartz-01/metadata.json",
+            "preview": "components/empty-state/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "empty-state-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -2684,6 +4214,38 @@
         "analytics"
       ],
       "components": [
+        {
+          "id": "kpi-gauge-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "kpi-gauge",
+          "categoryName": "KPI Gauge / Circular Meter",
+          "categoryGroup": "Data & Display",
+          "name": "KPI Gauge / Circular Meter - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "Radial 3D glass speedometer with glowing neon liquid fill arc, central crystal readout value, and needle/target markers.",
+          "tags": [
+            "gauge",
+            "meter",
+            "radial",
+            "analytics"
+          ],
+          "functionalRequirements": [
+            "circular progress arc rendering",
+            "central numeric value with units",
+            "colored warning threshold zones",
+            "needle or bead marker animation",
+            "interactive test value slider"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.974Z",
+          "files": {
+            "html": "components/kpi-gauge/crystal-quartz-01/index.html",
+            "metadata": "components/kpi-gauge/crystal-quartz-01/metadata.json",
+            "preview": "components/kpi-gauge/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
         {
           "id": "kpi-gauge-liquid-glass-01",
           "slug": "liquid-glass-01",
@@ -2739,6 +4301,38 @@
       ],
       "components": [
         {
+          "id": "floating-dock-crystal-quartz-01",
+          "slug": "crystal-quartz-01",
+          "categoryId": "floating-dock",
+          "categoryName": "Floating Dock",
+          "categoryGroup": "Navigation",
+          "name": "Floating Dock - Crystal Quartz 02",
+          "designSystem": "crystal-quartz-02",
+          "version": "1.0.0",
+          "description": "macOS-inspired liquid glass shelf featuring parabolic icon magnification on proximity, active reflection mirror, and bouncy app indicators.",
+          "tags": [
+            "dock",
+            "macos",
+            "shelf",
+            "launcher"
+          ],
+          "functionalRequirements": [
+            "mouse proximity magnification physics",
+            "frosted glass shelf with mirrored reflection",
+            "running app indicator dots",
+            "click bounce animation",
+            "responsive collapse"
+          ],
+          "generatedDate": "2026-09-18T21:41:13.975Z",
+          "files": {
+            "html": "components/floating-dock/crystal-quartz-01/index.html",
+            "metadata": "components/floating-dock/crystal-quartz-01/metadata.json",
+            "preview": "components/floating-dock/crystal-quartz-01/preview.svg"
+          },
+          "hasPreview": true,
+          "hasHtml": true
+        },
+        {
           "id": "floating-dock-liquid-glass-01",
           "slug": "liquid-glass-01",
           "categoryId": "floating-dock",
@@ -2774,6 +4368,1599 @@
     }
   ],
   "components": [
+    {
+      "id": "floating-dock-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "floating-dock",
+      "categoryName": "Floating Dock",
+      "categoryGroup": "Navigation",
+      "name": "Floating Dock - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "macOS-inspired liquid glass shelf featuring parabolic icon magnification on proximity, active reflection mirror, and bouncy app indicators.",
+      "tags": [
+        "dock",
+        "macos",
+        "shelf",
+        "launcher"
+      ],
+      "functionalRequirements": [
+        "mouse proximity magnification physics",
+        "frosted glass shelf with mirrored reflection",
+        "running app indicator dots",
+        "click bounce animation",
+        "responsive collapse"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.975Z",
+      "files": {
+        "html": "components/floating-dock/crystal-quartz-01/index.html",
+        "metadata": "components/floating-dock/crystal-quartz-01/metadata.json",
+        "preview": "components/floating-dock/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "empty-state-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "empty-state",
+      "categoryName": "Empty State",
+      "categoryGroup": "Feedback & Status",
+      "name": "Empty State - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Minimalist glass showcase containing a floating 3D refractive ghost gem illustration, explanatory headline, and primary recovery button.",
+      "tags": [
+        "empty",
+        "zero-data",
+        "state"
+      ],
+      "functionalRequirements": [
+        "3D floating glass illustration container",
+        "clear headline and helpful body copy",
+        "primary onboarding call-to-action button",
+        "secondary action link"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.974Z",
+      "files": {
+        "html": "components/empty-state/crystal-quartz-01/index.html",
+        "metadata": "components/empty-state/crystal-quartz-01/metadata.json",
+        "preview": "components/empty-state/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "kpi-gauge-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "kpi-gauge",
+      "categoryName": "KPI Gauge / Circular Meter",
+      "categoryGroup": "Data & Display",
+      "name": "KPI Gauge / Circular Meter - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Radial 3D glass speedometer with glowing neon liquid fill arc, central crystal readout value, and needle/target markers.",
+      "tags": [
+        "gauge",
+        "meter",
+        "radial",
+        "analytics"
+      ],
+      "functionalRequirements": [
+        "circular progress arc rendering",
+        "central numeric value with units",
+        "colored warning threshold zones",
+        "needle or bead marker animation",
+        "interactive test value slider"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.974Z",
+      "files": {
+        "html": "components/kpi-gauge/crystal-quartz-01/index.html",
+        "metadata": "components/kpi-gauge/crystal-quartz-01/metadata.json",
+        "preview": "components/kpi-gauge/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "divider-separator-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "divider-separator",
+      "categoryName": "Divider / Glass Separator",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Divider / Glass Separator - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Etched prismatic glass hairline rule with centered floating icon medallion and fading luminescence at the margins.",
+      "tags": [
+        "divider",
+        "separator",
+        "rule"
+      ],
+      "functionalRequirements": [
+        "horizontal and vertical alignment options",
+        "centered optional badge or icon label",
+        "gradient light falloff edges",
+        "subtle 3D bevel ridge"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.973Z",
+      "files": {
+        "html": "components/divider-separator/crystal-quartz-01/index.html",
+        "metadata": "components/divider-separator/crystal-quartz-01/metadata.json",
+        "preview": "components/divider-separator/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "split-button-menu-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "split-button-menu",
+      "categoryName": "Split Button / Action Menu",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Split Button / Action Menu - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Unified glass capsule divided by a micro-refractive seam separating primary click execution from a secondary dropdown caret.",
+      "tags": [
+        "button",
+        "split",
+        "dropdown"
+      ],
+      "functionalRequirements": [
+        "primary independent click action",
+        "secondary chevron menu toggle",
+        "floating glass dropdown items",
+        "keyboard enter & arrow navigation",
+        "hover seam illumination"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.973Z",
+      "files": {
+        "html": "components/split-button-menu/crystal-quartz-01/index.html",
+        "metadata": "components/split-button-menu/crystal-quartz-01/metadata.json",
+        "preview": "components/split-button-menu/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "floating-action-button-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "floating-action-button",
+      "categoryName": "Floating Action Button (FAB)",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Floating Action Button (FAB) - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Spherical optical crystal sphere suspended in space that expands into a fan of secondary glass quick-action nodes upon interaction.",
+      "tags": [
+        "fab",
+        "action",
+        "floating"
+      ],
+      "functionalRequirements": [
+        "fixed floating viewport positioning",
+        "fan-out secondary action dials",
+        "cross icon rotation to dismiss",
+        "ripple click feedback",
+        "hover lift elevation"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.972Z",
+      "files": {
+        "html": "components/floating-action-button/crystal-quartz-01/index.html",
+        "metadata": "components/floating-action-button/crystal-quartz-01/metadata.json",
+        "preview": "components/floating-action-button/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "bottom-navigation-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "bottom-navigation",
+      "categoryName": "Bottom Navigation Bar",
+      "categoryGroup": "Navigation",
+      "name": "Bottom Navigation Bar - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Curved mobile glass floating dock anchored to screen bottom with thumb-friendly tap targets and rising liquid indicator bubble.",
+      "tags": [
+        "mobile",
+        "bottom-bar",
+        "navigation"
+      ],
+      "functionalRequirements": [
+        "fixed bottom viewport docking",
+        "active tab bubble elevation",
+        "icon + micro-label items",
+        "haptic tap bounce animation",
+        "badge notifications"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.971Z",
+      "files": {
+        "html": "components/bottom-navigation/crystal-quartz-01/index.html",
+        "metadata": "components/bottom-navigation/crystal-quartz-01/metadata.json",
+        "preview": "components/bottom-navigation/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "command-palette-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "command-palette",
+      "categoryName": "Command Palette / Spotlight",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Command Palette / Spotlight - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Floating glass command center with hotkey trigger, fuzzy search input, grouped action listings, and keyboard navigation shortcuts.",
+      "tags": [
+        "command",
+        "spotlight",
+        "shortcuts"
+      ],
+      "functionalRequirements": [
+        "Cmd+K keyboard activation shortcut",
+        "categorized command results",
+        "arrow key navigation with active glass glow",
+        "esc to close",
+        "enter to execute action"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.971Z",
+      "files": {
+        "html": "components/command-palette/crystal-quartz-01/index.html",
+        "metadata": "components/command-palette/crystal-quartz-01/metadata.json",
+        "preview": "components/command-palette/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "pricing-table-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "pricing-table",
+      "categoryName": "Pricing Table",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Pricing Table - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Trio of stepped glass monoliths featuring popular plan jewel accent, billing interval toggle, feature checklist, and liquid CTA button.",
+      "tags": [
+        "pricing",
+        "plans",
+        "tier"
+      ],
+      "functionalRequirements": [
+        "monthly/annual billing cycle toggle",
+        "featured/highlighted tier 3D pop",
+        "checklist feature rows with check icons",
+        "call-to-action trigger",
+        "responsive stacked mode"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.970Z",
+      "files": {
+        "html": "components/pricing-table/crystal-quartz-01/index.html",
+        "metadata": "components/pricing-table/crystal-quartz-01/metadata.json",
+        "preview": "components/pricing-table/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "stat-metric-card-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "stat-metric-card",
+      "categoryName": "Statistic / Metric Card",
+      "categoryGroup": "Data & Display",
+      "name": "Statistic / Metric Card - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Executive glass dashboard tile featuring illuminated KPI figures, mini sparkline trend curve, and positive/negative trend pills.",
+      "tags": [
+        "metric",
+        "kpi",
+        "analytics",
+        "dashboard"
+      ],
+      "functionalRequirements": [
+        "large format metric counter",
+        "mini SVG sparkline chart",
+        "percentage delta indicator with up/down arrow",
+        "timeframe toggle selector",
+        "hover glass gloss refraction"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.970Z",
+      "files": {
+        "html": "components/stat-metric-card/crystal-quartz-01/index.html",
+        "metadata": "components/stat-metric-card/crystal-quartz-01/metadata.json",
+        "preview": "components/stat-metric-card/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "carousel-slider-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "carousel-slider",
+      "categoryName": "Carousel / Slider Showcase",
+      "categoryGroup": "Media & Creative",
+      "name": "Carousel / Slider Showcase - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "3D coverflow-style carousel where frosted glass cards rotate in true 3D perspective with depth fading and optical navigation dots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "slider"
+      ],
+      "functionalRequirements": [
+        "next/previous slide buttons",
+        "swipe touch/drag physics",
+        "3D card depth perspective offset",
+        "indicator dots with live progress",
+        "autoplay toggle"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.969Z",
+      "files": {
+        "html": "components/carousel-slider/crystal-quartz-01/index.html",
+        "metadata": "components/carousel-slider/crystal-quartz-01/metadata.json",
+        "preview": "components/carousel-slider/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "timeline-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "timeline",
+      "categoryName": "Timeline",
+      "categoryGroup": "Data & Display",
+      "name": "Timeline - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Vertical glass spine punctuated with glowing crystal milestones and staggered glass cards detailing historical logs.",
+      "tags": [
+        "timeline",
+        "history",
+        "milestones"
+      ],
+      "functionalRequirements": [
+        "chronological event cards",
+        "pulsed milestone orb status",
+        "date badges",
+        "expandable event details",
+        "interactive hover focus"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.969Z",
+      "files": {
+        "html": "components/timeline/crystal-quartz-01/index.html",
+        "metadata": "components/timeline/crystal-quartz-01/metadata.json",
+        "preview": "components/timeline/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "video-player-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "video-player",
+      "categoryName": "Video Player",
+      "categoryGroup": "Media & Creative",
+      "name": "Video Player - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Immersive glass theater frame with floating auto-hide control bar, 3D time scrub dial, picture-in-picture glass trigger, and volume slider.",
+      "tags": [
+        "video",
+        "media",
+        "player"
+      ],
+      "functionalRequirements": [
+        "floating auto-hide controls",
+        "play/pause/rewind actions",
+        "buffered timeline scrubber",
+        "fullscreen & PIP triggers",
+        "volume & playback rate popup"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.968Z",
+      "files": {
+        "html": "components/video-player/crystal-quartz-01/index.html",
+        "metadata": "components/video-player/crystal-quartz-01/metadata.json",
+        "preview": "components/video-player/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "audio-player-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "audio-player",
+      "categoryName": "Audio Player",
+      "categoryGroup": "Media & Creative",
+      "name": "Audio Player - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Futuristic glass deck with floating disc play button, dynamic glowing frequency visualizer bars, track scrubber, and volume prism.",
+      "tags": [
+        "audio",
+        "media",
+        "player"
+      ],
+      "functionalRequirements": [
+        "play/pause toggle",
+        "interactive waveform/scrubber track",
+        "time elapsed & remaining",
+        "volume slide control",
+        "track title & album thumbnail"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.967Z",
+      "files": {
+        "html": "components/audio-player/crystal-quartz-01/index.html",
+        "metadata": "components/audio-player/crystal-quartz-01/metadata.json",
+        "preview": "components/audio-player/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "color-picker-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "color-picker",
+      "categoryName": "Color Picker",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Color Picker - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Luminescent glass palette console with chromatic spectrum gradient slab, 3D reticle selector, opacity slider, and hex readout.",
+      "tags": [
+        "color",
+        "picker",
+        "palette"
+      ],
+      "functionalRequirements": [
+        "spectrum coordinate selection",
+        "hue and alpha glass slider rails",
+        "preset swatch jewels",
+        "hex/rgba format copy",
+        "live swatch preview gem"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.967Z",
+      "files": {
+        "html": "components/color-picker/crystal-quartz-01/index.html",
+        "metadata": "components/color-picker/crystal-quartz-01/metadata.json",
+        "preview": "components/color-picker/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "file-upload-dropzone-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "file-upload-dropzone",
+      "categoryName": "File Upload / Dropzone",
+      "categoryGroup": "Forms & Inputs",
+      "name": "File Upload / Dropzone - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Spacious frosted glass receiving bay with etched dashed perimeter, drag-over optical lens expansion, file queue chips, and upload progress.",
+      "tags": [
+        "upload",
+        "dropzone",
+        "files"
+      ],
+      "functionalRequirements": [
+        "drag-and-drop file detection",
+        "click to browse file picker",
+        "file validation chip list with size & remove action",
+        "simulated upload progress bar"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.966Z",
+      "files": {
+        "html": "components/file-upload-dropzone/crystal-quartz-01/index.html",
+        "metadata": "components/file-upload-dropzone/crystal-quartz-01/metadata.json",
+        "preview": "components/file-upload-dropzone/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "rating-picker-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "rating-picker",
+      "categoryName": "Rating / Star Picker",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Rating / Star Picker - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Row of faceted crystal stars that illuminate with amber liquid fire on hover and lock into place with a subtle 3D pop.",
+      "tags": [
+        "rating",
+        "stars",
+        "feedback"
+      ],
+      "functionalRequirements": [
+        "half-star or full-star hover rating",
+        "click to commit rating",
+        "keyboard arrow adjustment",
+        "reset rating trigger",
+        "numerical score feedback"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.966Z",
+      "files": {
+        "html": "components/rating-picker/crystal-quartz-01/index.html",
+        "metadata": "components/rating-picker/crystal-quartz-01/metadata.json",
+        "preview": "components/rating-picker/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "segmented-control-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "segmented-control",
+      "categoryName": "Segmented Control",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Segmented Control - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Precision-milled recessed glass tray housing an elevated optical glass selector block that glides between view options.",
+      "tags": [
+        "segmented",
+        "toggle",
+        "tabs"
+      ],
+      "functionalRequirements": [
+        "gliding selection indicator",
+        "instant click selection",
+        "arrow key traversal",
+        "icon + text options",
+        "equal distribution grid"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.965Z",
+      "files": {
+        "html": "components/segmented-control/crystal-quartz-01/index.html",
+        "metadata": "components/segmented-control/crystal-quartz-01/metadata.json",
+        "preview": "components/segmented-control/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "stepper-wizard-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "stepper-wizard",
+      "categoryName": "Stepper / Wizard",
+      "categoryGroup": "Navigation",
+      "name": "Stepper / Wizard - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Progressive sequence of crystal step nodes connected by glowing liquid energy conduits, tracking workflow progression.",
+      "tags": [
+        "wizard",
+        "steps",
+        "workflow"
+      ],
+      "functionalRequirements": [
+        "completed, active, upcoming node states",
+        "animated interconnecting line glow",
+        "step click navigation",
+        "label and description subtext",
+        "responsive vertical/horizontal mode"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.965Z",
+      "files": {
+        "html": "components/stepper-wizard/crystal-quartz-01/index.html",
+        "metadata": "components/stepper-wizard/crystal-quartz-01/metadata.json",
+        "preview": "components/stepper-wizard/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "tree-view-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "tree-view",
+      "categoryName": "Tree View",
+      "categoryGroup": "Data & Display",
+      "name": "Tree View - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Hierarchical glass file system explorer with expanding crystal branches, custom 3D folder icons, and active node highlight plates.",
+      "tags": [
+        "hierarchy",
+        "folder",
+        "tree"
+      ],
+      "functionalRequirements": [
+        "nested expandable nodes",
+        "keyboard arrow navigation",
+        "selection state",
+        "folder/file icon indicators",
+        "connecting glass guideline filaments"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.964Z",
+      "files": {
+        "html": "components/tree-view/crystal-quartz-01/index.html",
+        "metadata": "components/tree-view/crystal-quartz-01/metadata.json",
+        "preview": "components/tree-view/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "skeleton-loader-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "skeleton-loader",
+      "categoryName": "Skeleton Loader",
+      "categoryGroup": "Feedback & Status",
+      "name": "Skeleton Loader - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Translucent glass bone structures with shimmering light reflections that sweep across card and text placeholders.",
+      "tags": [
+        "skeleton",
+        "placeholder",
+        "loader"
+      ],
+      "functionalRequirements": [
+        "animated refractive sweep wave",
+        "multiple layout shapes (avatar, title, paragraph, button)",
+        "pulse opacity breathing mode",
+        "reduced motion compliance"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.963Z",
+      "files": {
+        "html": "components/skeleton-loader/crystal-quartz-01/index.html",
+        "metadata": "components/skeleton-loader/crystal-quartz-01/metadata.json",
+        "preview": "components/skeleton-loader/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "table-datagrid-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "table-datagrid",
+      "categoryName": "Table / Data Grid",
+      "categoryGroup": "Data & Display",
+      "name": "Table / Data Grid - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Multi-column frosted glass data console with sticky headers, sortable column chevrons, row selection highlights, and glass cell dividers.",
+      "tags": [
+        "table",
+        "grid",
+        "data"
+      ],
+      "functionalRequirements": [
+        "sortable columns",
+        "row selection checkboxes",
+        "sticky frosted header",
+        "hover row luminescent glow",
+        "zebra-glass striping",
+        "horizontal scroll support"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.963Z",
+      "files": {
+        "html": "components/table-datagrid/crystal-quartz-01/index.html",
+        "metadata": "components/table-datagrid/crystal-quartz-01/metadata.json",
+        "preview": "components/table-datagrid/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "avatar-group-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "avatar-group",
+      "categoryName": "Avatar / Avatar Group",
+      "categoryGroup": "Data & Display",
+      "name": "Avatar / Avatar Group - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Layered disc stack of frosted glass lens portraits with depth-staggered hover elevation, online presence jewels, and overflow counter.",
+      "tags": [
+        "avatar",
+        "user",
+        "profile"
+      ],
+      "functionalRequirements": [
+        "overlapping stack spacing",
+        "hover to elevate individual avatar",
+        "online status dot badge",
+        "overflow counter click flyout",
+        "initials fallback fallback"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.962Z",
+      "files": {
+        "html": "components/avatar-group/crystal-quartz-01/index.html",
+        "metadata": "components/avatar-group/crystal-quartz-01/metadata.json",
+        "preview": "components/avatar-group/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "spinner-loader-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "spinner-loader",
+      "categoryName": "Spinner / Loading Indicator",
+      "categoryGroup": "Feedback & Status",
+      "name": "Spinner / Loading Indicator - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Hypnotic rotating 3D glass torus with trailing luminous particles, refractive caustic ring, and variable speed control.",
+      "tags": [
+        "loader",
+        "spinner",
+        "animation"
+      ],
+      "functionalRequirements": [
+        "smooth 3D orbit rotation",
+        "gradient caustic trail",
+        "multiple size presets (sm, md, lg)",
+        "accessibility reduced-motion pause",
+        "centered label"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.962Z",
+      "files": {
+        "html": "components/spinner-loader/crystal-quartz-01/index.html",
+        "metadata": "components/spinner-loader/crystal-quartz-01/metadata.json",
+        "preview": "components/spinner-loader/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "progress-bar-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "progress-bar",
+      "categoryName": "Progress Bar",
+      "categoryGroup": "Feedback & Status",
+      "name": "Progress Bar - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "3D frosted tube with liquid-light energy core, iridescent wave shimmer animation, and percentage badge.",
+      "tags": [
+        "progress",
+        "loading",
+        "metric"
+      ],
+      "functionalRequirements": [
+        "determinate percentage fill",
+        "indeterminate pulsing wave",
+        "animated shimmer reflection",
+        "step milestone markers",
+        "value readout label"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.961Z",
+      "files": {
+        "html": "components/progress-bar/crystal-quartz-01/index.html",
+        "metadata": "components/progress-bar/crystal-quartz-01/metadata.json",
+        "preview": "components/progress-bar/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "alert-callout-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "alert-callout",
+      "categoryName": "Alert / Callout",
+      "categoryGroup": "Feedback & Status",
+      "name": "Alert / Callout - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Prominent glass warning bar with chromatic edge illumination, status insignia, rich body text, and optional action buttons.",
+      "tags": [
+        "feedback",
+        "message",
+        "alert"
+      ],
+      "functionalRequirements": [
+        "semantic status themes",
+        "dismissible button",
+        "action button row",
+        "frosted chromatic border glow",
+        "high contrast readability"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.960Z",
+      "files": {
+        "html": "components/alert-callout/crystal-quartz-01/index.html",
+        "metadata": "components/alert-callout/crystal-quartz-01/metadata.json",
+        "preview": "components/alert-callout/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "toast-notification-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "toast-notification",
+      "categoryName": "Toast / Notification",
+      "categoryGroup": "Feedback & Status",
+      "name": "Toast / Notification - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Floating corner glass notification shard that slides onto the viewport with time-decay progress bar and instant action.",
+      "tags": [
+        "toast",
+        "notification",
+        "feedback"
+      ],
+      "functionalRequirements": [
+        "auto-dismiss countdown bar",
+        "stacking animation physics",
+        "manual close trigger",
+        "status icon & action link",
+        "pause countdown on hover"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.960Z",
+      "files": {
+        "html": "components/toast-notification/crystal-quartz-01/index.html",
+        "metadata": "components/toast-notification/crystal-quartz-01/metadata.json",
+        "preview": "components/toast-notification/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "icon-pack-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "icon-pack",
+      "categoryName": "Icon Pack",
+      "categoryGroup": "Media & Creative",
+      "name": "Icon Pack - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Cohesive family of 12 handcrafted 3D liquid glass icons sharing identical specular highlights, depth layers, cyan-sapphire refraction, and vector geometries.",
+      "tags": [
+        "icons",
+        "assets",
+        "3d-icons",
+        "vector"
+      ],
+      "functionalRequirements": [
+        "cohesive 12-icon 3D suite",
+        "consistent lighting vector & specular highlights",
+        "interactive hover rotation/glow",
+        "SVG vector scalability",
+        "copy SVG / export trigger"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.959Z",
+      "files": {
+        "html": "components/icon-pack/crystal-quartz-01/index.html",
+        "metadata": "components/icon-pack/crystal-quartz-01/metadata.json",
+        "preview": "components/icon-pack/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "popover-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "popover",
+      "categoryName": "Popover",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Popover - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Interactive multi-element glass pod anchoring to trigger elements, complete with header, rich interactive form/card body, and close action.",
+      "tags": [
+        "overlay",
+        "flyout",
+        "popover"
+      ],
+      "functionalRequirements": [
+        "click toggle trigger",
+        "outside click dismissal",
+        "focus trapping or tab navigation",
+        "rich interactive body content",
+        "arrow pointer refraction"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.959Z",
+      "files": {
+        "html": "components/popover/crystal-quartz-01/index.html",
+        "metadata": "components/popover/crystal-quartz-01/metadata.json",
+        "preview": "components/popover/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "tooltip-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "tooltip",
+      "categoryName": "Tooltip",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Tooltip - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Ultra-light floating frosted bubble with directional prism beak, micro drop shadow, and instant directional orientation.",
+      "tags": [
+        "hint",
+        "helper",
+        "overlay"
+      ],
+      "functionalRequirements": [
+        "hover & focus trigger",
+        "directional positioning (top, bottom, left, right)",
+        "delay timing configuration",
+        "smooth fade-in & scale pop"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.958Z",
+      "files": {
+        "html": "components/tooltip/crystal-quartz-01/index.html",
+        "metadata": "components/tooltip/crystal-quartz-01/metadata.json",
+        "preview": "components/tooltip/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "badge-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "badge",
+      "categoryName": "Badge",
+      "categoryGroup": "Feedback & Status",
+      "name": "Badge - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Microscopic glowing glass jewel with pulsed status halo, iridescent core, and crisp micro-typography.",
+      "tags": [
+        "status",
+        "indicator",
+        "pill"
+      ],
+      "functionalRequirements": [
+        "status variants (success, warning, error, info)",
+        "pulsing live radar dot",
+        "numeric count formatting (e.g. 99+)",
+        "pill or circular shapes"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.957Z",
+      "files": {
+        "html": "components/badge/crystal-quartz-01/index.html",
+        "metadata": "components/badge/crystal-quartz-01/metadata.json",
+        "preview": "components/badge/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "chip-tag-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "chip-tag",
+      "categoryName": "Chip / Tag",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Chip / Tag - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Compact interactive glass capsule with removable 3D crystal cross, avatar thumbnail, and selectable state toggle.",
+      "tags": [
+        "filter",
+        "pill",
+        "tag"
+      ],
+      "functionalRequirements": [
+        "click-to-toggle filter state",
+        "remove button trigger",
+        "leading icon or avatar",
+        "keyboard backspace delete",
+        "focus ring"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.957Z",
+      "files": {
+        "html": "components/chip-tag/crystal-quartz-01/index.html",
+        "metadata": "components/chip-tag/crystal-quartz-01/metadata.json",
+        "preview": "components/chip-tag/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "pagination-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "pagination",
+      "categoryName": "Pagination",
+      "categoryGroup": "Navigation",
+      "name": "Pagination - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Row of bevel-edged glass numeric buttons with active illuminated plate, smooth prev/next steppers, and page jump dial.",
+      "tags": [
+        "pagination",
+        "numbers",
+        "navigation"
+      ],
+      "functionalRequirements": [
+        "page number selection",
+        "previous/next navigation",
+        "ellipsis truncation indicator",
+        "disabled edge states",
+        "keyboard navigation"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.956Z",
+      "files": {
+        "html": "components/pagination/crystal-quartz-01/index.html",
+        "metadata": "components/pagination/crystal-quartz-01/metadata.json",
+        "preview": "components/pagination/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "breadcrumbs-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "breadcrumbs",
+      "categoryName": "Breadcrumbs",
+      "categoryGroup": "Navigation",
+      "name": "Breadcrumbs - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Linear glass trail with micro-faceted separators, subtle path hover glows, and current page crystal badge.",
+      "tags": [
+        "navigation",
+        "trail",
+        "breadcrumbs"
+      ],
+      "functionalRequirements": [
+        "navigational hierarchy links",
+        "custom 3D glass chevron divider",
+        "overflow dropdown for long paths",
+        "accessible aria-current link"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.955Z",
+      "files": {
+        "html": "components/breadcrumbs/crystal-quartz-01/index.html",
+        "metadata": "components/breadcrumbs/crystal-quartz-01/metadata.json",
+        "preview": "components/breadcrumbs/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "tabs-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "tabs",
+      "categoryName": "Tabs",
+      "categoryGroup": "Navigation",
+      "name": "Tabs - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Segmented 3D glass tray with a floating luminous indicator pill that slides seamlessly beneath the active tab label.",
+      "tags": [
+        "navigation",
+        "panels",
+        "tabs"
+      ],
+      "functionalRequirements": [
+        "tab switching",
+        "sliding indicator bar",
+        "keyboard left/right arrow navigation",
+        "tabpanel association",
+        "badge count badges on tabs"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.955Z",
+      "files": {
+        "html": "components/tabs/crystal-quartz-01/index.html",
+        "metadata": "components/tabs/crystal-quartz-01/metadata.json",
+        "preview": "components/tabs/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "sidebar-nav-rail-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "sidebar-nav-rail",
+      "categoryName": "Sidebar / Navigation Rail",
+      "categoryGroup": "Navigation",
+      "name": "Sidebar / Navigation Rail - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Vertical glass monolith with collapsible icon rail, sub-menu popouts, user profile capsule, and illuminated active item indicators.",
+      "tags": [
+        "sidebar",
+        "rail",
+        "navigation"
+      ],
+      "functionalRequirements": [
+        "expand/collapse rail toggle",
+        "active item glass highlight",
+        "nested group accordions",
+        "tooltip preview when collapsed",
+        "accessible navigation list"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.954Z",
+      "files": {
+        "html": "components/sidebar-nav-rail/crystal-quartz-01/index.html",
+        "metadata": "components/sidebar-nav-rail/crystal-quartz-01/metadata.json",
+        "preview": "components/sidebar-nav-rail/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "accordion-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "accordion",
+      "categoryName": "Accordion",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Accordion - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Stack of interlocking crystal slats that expand with fluid ease, revealing nested glass content cards with chevron flip motion.",
+      "tags": [
+        "disclosure",
+        "collapse",
+        "expand"
+      ],
+      "functionalRequirements": [
+        "expand/collapse accordion items",
+        "single or multi-expand mode",
+        "smooth max-height CSS transition",
+        "keyboard tab and enter navigation",
+        "chevron rotation indicator"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.953Z",
+      "files": {
+        "html": "components/accordion/crystal-quartz-01/index.html",
+        "metadata": "components/accordion/crystal-quartz-01/metadata.json",
+        "preview": "components/accordion/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "navbar-app-bar-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "navbar-app-bar",
+      "categoryName": "Navbar / App Bar",
+      "categoryGroup": "Navigation",
+      "name": "Navbar / App Bar - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Floating translucent command bar with bevel-lit glass trim, integrated brand jewel, nav links with sliding glow indicator, and CTA.",
+      "tags": [
+        "header",
+        "navigation",
+        "top-bar"
+      ],
+      "functionalRequirements": [
+        "sticky glass blur on scroll",
+        "active item underline capsule",
+        "mobile hamburger drawer toggle",
+        "responsive collapse",
+        "quick search launcher"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.953Z",
+      "files": {
+        "html": "components/navbar-app-bar/crystal-quartz-01/index.html",
+        "metadata": "components/navbar-app-bar/crystal-quartz-01/metadata.json",
+        "preview": "components/navbar-app-bar/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "drawer-sheet-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "drawer-sheet",
+      "categoryName": "Drawer / Sheet",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Drawer / Sheet - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Slide-in frosted side monolith with edge highlights, gesture dismissal handle, and seamless glass blur integration.",
+      "tags": [
+        "panel",
+        "sidebar",
+        "overlay"
+      ],
+      "functionalRequirements": [
+        "side entry animation",
+        "swipe/drag to dismiss",
+        "backdrop blur transition",
+        "header close trigger",
+        "scrollable body",
+        "stackable layout"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.952Z",
+      "files": {
+        "html": "components/drawer-sheet/crystal-quartz-01/index.html",
+        "metadata": "components/drawer-sheet/crystal-quartz-01/metadata.json",
+        "preview": "components/drawer-sheet/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "modal-dialog-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "modal-dialog",
+      "categoryName": "Modal / Dialog",
+      "categoryGroup": "Overlays & Disclosures",
+      "name": "Modal / Dialog - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Heroic floating 3D glass fortress elevated above a dimmed, blurred backdrop with chromatic perimeter refraction and smooth spring entry.",
+      "tags": [
+        "overlay",
+        "window",
+        "dialog"
+      ],
+      "functionalRequirements": [
+        "backdrop click to dismiss",
+        "escape key exit",
+        "focus trap within modal",
+        "entrance scale & blur animation",
+        "header/body/footer actions",
+        "scrollable inner content"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.951Z",
+      "files": {
+        "html": "components/modal-dialog/crystal-quartz-01/index.html",
+        "metadata": "components/modal-dialog/crystal-quartz-01/metadata.json",
+        "preview": "components/modal-dialog/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "card-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "card",
+      "categoryName": "Card",
+      "categoryGroup": "Surfaces & Layout",
+      "name": "Card - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Volumetric liquid glass panel with layered parallax surfaces, dynamic specular highlights that follow mouse movement, and rich content hierarchy.",
+      "tags": [
+        "container",
+        "surface",
+        "3d-tilt",
+        "card"
+      ],
+      "functionalRequirements": [
+        "3D mouse parallax tilt",
+        "layered glass plates",
+        "inner border reflections",
+        "action buttons",
+        "badge integration",
+        "smooth hover elevation"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.950Z",
+      "files": {
+        "html": "components/card/crystal-quartz-01/index.html",
+        "metadata": "components/card/crystal-quartz-01/metadata.json",
+        "preview": "components/card/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "date-time-picker-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "date-time-picker",
+      "categoryName": "Date / Time Picker",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Date / Time Picker - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Multi-tier glass calendar slab displaying month grid, animated selection ripples, quick-jump month tabs, and precise time dials.",
+      "tags": [
+        "calendar",
+        "time",
+        "date"
+      ],
+      "functionalRequirements": [
+        "month navigation",
+        "date cell selection",
+        "today shortcut",
+        "time spinner dials",
+        "disabled past/future dates",
+        "popup modal or embedded view"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.950Z",
+      "files": {
+        "html": "components/date-time-picker/crystal-quartz-01/index.html",
+        "metadata": "components/date-time-picker/crystal-quartz-01/metadata.json",
+        "preview": "components/date-time-picker/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "combobox-autocomplete-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "combobox-autocomplete",
+      "categoryName": "Combobox / Autocomplete",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Combobox / Autocomplete - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Hybrid searchable glass input with live filtered suggestion drop-sheet, item highlighting, and quick keyboard completion.",
+      "tags": [
+        "search",
+        "filter",
+        "form"
+      ],
+      "functionalRequirements": [
+        "real-time text filtering",
+        "highlight matched substring",
+        "keyboard arrow selection",
+        "esc to close",
+        "tag pill generation"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.948Z",
+      "files": {
+        "html": "components/combobox-autocomplete/crystal-quartz-01/index.html",
+        "metadata": "components/combobox-autocomplete/crystal-quartz-01/metadata.json",
+        "preview": "components/combobox-autocomplete/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "slider-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "slider",
+      "categoryName": "Slider",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Slider - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "3D refractive glass cylinder track with glowing fill progress and an elevated prismatic gem thumb with tooltip value.",
+      "tags": [
+        "range",
+        "value",
+        "drag"
+      ],
+      "functionalRequirements": [
+        "continuous dragging",
+        "stepped increments",
+        "touch/mouse tracking",
+        "floating value bubble",
+        "keyboard arrow nudge",
+        "fill bar synchronization"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.948Z",
+      "files": {
+        "html": "components/slider/crystal-quartz-01/index.html",
+        "metadata": "components/slider/crystal-quartz-01/metadata.json",
+        "preview": "components/slider/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "select-dropdown-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "select-dropdown",
+      "categoryName": "Select / Dropdown",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Select / Dropdown - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Sculpted crystal dropdown trigger paired with an elevated floating frosted listbox with smooth optic dispersion.",
+      "tags": [
+        "selection",
+        "menu",
+        "dropdown"
+      ],
+      "functionalRequirements": [
+        "open/close flyout",
+        "option selection",
+        "keyboard arrow navigation",
+        "outside click dismissal",
+        "chevron rotation",
+        "selected checkmark"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.947Z",
+      "files": {
+        "html": "components/select-dropdown/crystal-quartz-01/index.html",
+        "metadata": "components/select-dropdown/crystal-quartz-01/metadata.json",
+        "preview": "components/select-dropdown/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "switch-toggle-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "switch-toggle",
+      "categoryName": "Switch / Toggle",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Switch / Toggle - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Pill-shaped frosted channel housing a floating illuminated glass bead that glides smoothly across friction-free rails.",
+      "tags": [
+        "control",
+        "settings",
+        "binary"
+      ],
+      "functionalRequirements": [
+        "on/off toggle animation",
+        "smooth spring transition",
+        "drag gesture support",
+        "keyboard enter/space trigger",
+        "focus outline",
+        "status icons"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.946Z",
+      "files": {
+        "html": "components/switch-toggle/crystal-quartz-01/index.html",
+        "metadata": "components/switch-toggle/crystal-quartz-01/metadata.json",
+        "preview": "components/switch-toggle/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "radio-button-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "radio-button",
+      "categoryName": "Radio Button",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Radio Button - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Convex liquid droplet selector with floating glass ring, animated core sphere expansion, and mutually exclusive group physics.",
+      "tags": [
+        "selection",
+        "form",
+        "choice"
+      ],
+      "functionalRequirements": [
+        "selected state",
+        "unselected state",
+        "group mutual exclusion",
+        "arrow key navigation",
+        "hover highlight",
+        "scale bounce transition"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.945Z",
+      "files": {
+        "html": "components/radio-button/crystal-quartz-01/index.html",
+        "metadata": "components/radio-button/crystal-quartz-01/metadata.json",
+        "preview": "components/radio-button/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "checkbox-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "checkbox",
+      "categoryName": "Checkbox",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Checkbox - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Beveled glass toggle box featuring volumetric depth, animated checkmark drawing, and luminous emerald-cyan active glow.",
+      "tags": [
+        "selection",
+        "form",
+        "toggle"
+      ],
+      "functionalRequirements": [
+        "checked state",
+        "unchecked state",
+        "indeterminate state",
+        "keyboard spacebar toggle",
+        "animated SVG check stroke",
+        "hover refraction"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.943Z",
+      "files": {
+        "html": "components/checkbox/crystal-quartz-01/index.html",
+        "metadata": "components/checkbox/crystal-quartz-01/metadata.json",
+        "preview": "components/checkbox/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "textarea-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "textarea",
+      "categoryName": "Textarea",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Textarea - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Multi-line frosted glass surface with etched grid accents, live character counter, resizable grip, and fluid focus states.",
+      "tags": [
+        "form",
+        "input",
+        "multiline"
+      ],
+      "functionalRequirements": [
+        "multi-line text entry",
+        "auto-expand or resize handle",
+        "character count indicator",
+        "focus reflection",
+        "disabled state"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.942Z",
+      "files": {
+        "html": "components/textarea/crystal-quartz-01/index.html",
+        "metadata": "components/textarea/crystal-quartz-01/metadata.json",
+        "preview": "components/textarea/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "text-input-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "text-input",
+      "categoryName": "Text Input",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Text Input - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Concave translucent glass entry field featuring inner ambient occlusion, glowing focus borders, floating label, and clear action.",
+      "tags": [
+        "form",
+        "input",
+        "typing",
+        "glass"
+      ],
+      "functionalRequirements": [
+        "typing interaction",
+        "floating label transition",
+        "focus glow",
+        "error validation state",
+        "clear button",
+        "placeholder support"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.940Z",
+      "files": {
+        "html": "components/text-input/crystal-quartz-01/index.html",
+        "metadata": "components/text-input/crystal-quartz-01/metadata.json",
+        "preview": "components/text-input/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "button-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "button",
+      "categoryName": "Button",
+      "categoryGroup": "Forms & Inputs",
+      "name": "Button - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Tactile 3D glass action trigger with dynamic specular refraction, glow response, and multi-state depth physics.",
+      "tags": [
+        "interactive",
+        "core",
+        "action",
+        "liquid-glass"
+      ],
+      "functionalRequirements": [
+        "hover elevation",
+        "pressed recession",
+        "focus-visible ring",
+        "disabled state",
+        "loading spinner state",
+        "subtle audio/haptic cue trigger"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.938Z",
+      "files": {
+        "html": "components/button/crystal-quartz-01/index.html",
+        "metadata": "components/button/crystal-quartz-01/metadata.json",
+        "preview": "components/button/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
     {
       "id": "floating-dock-liquid-glass-01",
       "slug": "liquid-glass-01",
@@ -4370,13 +7557,13 @@
   ],
   "featured": [
     {
-      "id": "icon-pack-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "icon-pack-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "icon-pack",
       "categoryName": "Icon Pack",
       "categoryGroup": "Media & Creative",
-      "name": "Icon Pack - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Icon Pack - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Cohesive family of 12 handcrafted 3D liquid glass icons sharing identical specular highlights, depth layers, cyan-sapphire refraction, and vector geometries.",
       "tags": [
@@ -4392,23 +7579,23 @@
         "SVG vector scalability",
         "copy SVG / export trigger"
       ],
-      "generatedDate": "2026-09-18T01:03:36.379Z",
+      "generatedDate": "2026-09-18T21:41:13.959Z",
       "files": {
-        "html": "components/icon-pack/liquid-glass-01/index.html",
-        "metadata": "components/icon-pack/liquid-glass-01/metadata.json",
-        "preview": "components/icon-pack/liquid-glass-01/preview.svg"
+        "html": "components/icon-pack/crystal-quartz-01/index.html",
+        "metadata": "components/icon-pack/crystal-quartz-01/metadata.json",
+        "preview": "components/icon-pack/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "tabs-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "tabs-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "tabs",
       "categoryName": "Tabs",
       "categoryGroup": "Navigation",
-      "name": "Tabs - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Tabs - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Segmented 3D glass tray with a floating luminous indicator pill that slides seamlessly beneath the active tab label.",
       "tags": [
@@ -4423,23 +7610,23 @@
         "tabpanel association",
         "badge count badges on tabs"
       ],
-      "generatedDate": "2026-09-18T01:03:31.873Z",
+      "generatedDate": "2026-09-18T21:41:13.955Z",
       "files": {
-        "html": "components/tabs/liquid-glass-01/index.html",
-        "metadata": "components/tabs/liquid-glass-01/metadata.json",
-        "preview": "components/tabs/liquid-glass-01/preview.svg"
+        "html": "components/tabs/crystal-quartz-01/index.html",
+        "metadata": "components/tabs/crystal-quartz-01/metadata.json",
+        "preview": "components/tabs/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "modal-dialog-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "modal-dialog-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "modal-dialog",
       "categoryName": "Modal / Dialog",
       "categoryGroup": "Overlays & Disclosures",
-      "name": "Modal / Dialog - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Modal / Dialog - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Heroic floating 3D glass fortress elevated above a dimmed, blurred backdrop with chromatic perimeter refraction and smooth spring entry.",
       "tags": [
@@ -4455,23 +7642,23 @@
         "header/body/footer actions",
         "scrollable inner content"
       ],
-      "generatedDate": "2026-09-18T01:03:28.607Z",
+      "generatedDate": "2026-09-18T21:41:13.951Z",
       "files": {
-        "html": "components/modal-dialog/liquid-glass-01/index.html",
-        "metadata": "components/modal-dialog/liquid-glass-01/metadata.json",
-        "preview": "components/modal-dialog/liquid-glass-01/preview.svg"
+        "html": "components/modal-dialog/crystal-quartz-01/index.html",
+        "metadata": "components/modal-dialog/crystal-quartz-01/metadata.json",
+        "preview": "components/modal-dialog/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "card-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "card-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "card",
       "categoryName": "Card",
       "categoryGroup": "Surfaces & Layout",
-      "name": "Card - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Card - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Volumetric liquid glass panel with layered parallax surfaces, dynamic specular highlights that follow mouse movement, and rich content hierarchy.",
       "tags": [
@@ -4488,23 +7675,23 @@
         "badge integration",
         "smooth hover elevation"
       ],
-      "generatedDate": "2026-09-18T01:03:28.038Z",
+      "generatedDate": "2026-09-18T21:41:13.950Z",
       "files": {
-        "html": "components/card/liquid-glass-01/index.html",
-        "metadata": "components/card/liquid-glass-01/metadata.json",
-        "preview": "components/card/liquid-glass-01/preview.svg"
+        "html": "components/card/crystal-quartz-01/index.html",
+        "metadata": "components/card/crystal-quartz-01/metadata.json",
+        "preview": "components/card/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "slider-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "slider-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "slider",
       "categoryName": "Slider",
       "categoryGroup": "Forms & Inputs",
-      "name": "Slider - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Slider - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "3D refractive glass cylinder track with glowing fill progress and an elevated prismatic gem thumb with tooltip value.",
       "tags": [
@@ -4520,23 +7707,23 @@
         "keyboard arrow nudge",
         "fill bar synchronization"
       ],
-      "generatedDate": "2026-09-18T01:03:26.655Z",
+      "generatedDate": "2026-09-18T21:41:13.948Z",
       "files": {
-        "html": "components/slider/liquid-glass-01/index.html",
-        "metadata": "components/slider/liquid-glass-01/metadata.json",
-        "preview": "components/slider/liquid-glass-01/preview.svg"
+        "html": "components/slider/crystal-quartz-01/index.html",
+        "metadata": "components/slider/crystal-quartz-01/metadata.json",
+        "preview": "components/slider/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "switch-toggle-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "switch-toggle-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "switch-toggle",
       "categoryName": "Switch / Toggle",
       "categoryGroup": "Forms & Inputs",
-      "name": "Switch / Toggle - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Switch / Toggle - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Pill-shaped frosted channel housing a floating illuminated glass bead that glides smoothly across friction-free rails.",
       "tags": [
@@ -4552,23 +7739,23 @@
         "focus outline",
         "status icons"
       ],
-      "generatedDate": "2026-09-18T01:03:24.588Z",
+      "generatedDate": "2026-09-18T21:41:13.946Z",
       "files": {
-        "html": "components/switch-toggle/liquid-glass-01/index.html",
-        "metadata": "components/switch-toggle/liquid-glass-01/metadata.json",
-        "preview": "components/switch-toggle/liquid-glass-01/preview.svg"
+        "html": "components/switch-toggle/crystal-quartz-01/index.html",
+        "metadata": "components/switch-toggle/crystal-quartz-01/metadata.json",
+        "preview": "components/switch-toggle/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "checkbox-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "checkbox-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "checkbox",
       "categoryName": "Checkbox",
       "categoryGroup": "Forms & Inputs",
-      "name": "Checkbox - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Checkbox - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Beveled glass toggle box featuring volumetric depth, animated checkmark drawing, and luminous emerald-cyan active glow.",
       "tags": [
@@ -4584,23 +7771,23 @@
         "animated SVG check stroke",
         "hover refraction"
       ],
-      "generatedDate": "2026-09-18T01:03:23.373Z",
+      "generatedDate": "2026-09-18T21:41:13.943Z",
       "files": {
-        "html": "components/checkbox/liquid-glass-01/index.html",
-        "metadata": "components/checkbox/liquid-glass-01/metadata.json",
-        "preview": "components/checkbox/liquid-glass-01/preview.svg"
+        "html": "components/checkbox/crystal-quartz-01/index.html",
+        "metadata": "components/checkbox/crystal-quartz-01/metadata.json",
+        "preview": "components/checkbox/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "button-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "button-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "button",
       "categoryName": "Button",
       "categoryGroup": "Forms & Inputs",
-      "name": "Button - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Button - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Tactile 3D glass action trigger with dynamic specular refraction, glow response, and multi-state depth physics.",
       "tags": [
@@ -4617,11 +7804,11 @@
         "loading spinner state",
         "subtle audio/haptic cue trigger"
       ],
-      "generatedDate": "2026-09-18T01:03:21.345Z",
+      "generatedDate": "2026-09-18T21:41:13.938Z",
       "files": {
-        "html": "components/button/liquid-glass-01/index.html",
-        "metadata": "components/button/liquid-glass-01/metadata.json",
-        "preview": "components/button/liquid-glass-01/preview.svg"
+        "html": "components/button/crystal-quartz-01/index.html",
+        "metadata": "components/button/crystal-quartz-01/metadata.json",
+        "preview": "components/button/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
@@ -4629,13 +7816,13 @@
   ],
   "recent": [
     {
-      "id": "floating-dock-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "floating-dock-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "floating-dock",
       "categoryName": "Floating Dock",
       "categoryGroup": "Navigation",
-      "name": "Floating Dock - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Floating Dock - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "macOS-inspired liquid glass shelf featuring parabolic icon magnification on proximity, active reflection mirror, and bouncy app indicators.",
       "tags": [
@@ -4651,23 +7838,53 @@
         "click bounce animation",
         "responsive collapse"
       ],
-      "generatedDate": "2026-09-18T01:03:54.027Z",
+      "generatedDate": "2026-09-18T21:41:13.975Z",
       "files": {
-        "html": "components/floating-dock/liquid-glass-01/index.html",
-        "metadata": "components/floating-dock/liquid-glass-01/metadata.json",
-        "preview": "components/floating-dock/liquid-glass-01/preview.svg"
+        "html": "components/floating-dock/crystal-quartz-01/index.html",
+        "metadata": "components/floating-dock/crystal-quartz-01/metadata.json",
+        "preview": "components/floating-dock/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "kpi-gauge-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "empty-state-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
+      "categoryId": "empty-state",
+      "categoryName": "Empty State",
+      "categoryGroup": "Feedback & Status",
+      "name": "Empty State - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
+      "version": "1.0.0",
+      "description": "Minimalist glass showcase containing a floating 3D refractive ghost gem illustration, explanatory headline, and primary recovery button.",
+      "tags": [
+        "empty",
+        "zero-data",
+        "state"
+      ],
+      "functionalRequirements": [
+        "3D floating glass illustration container",
+        "clear headline and helpful body copy",
+        "primary onboarding call-to-action button",
+        "secondary action link"
+      ],
+      "generatedDate": "2026-09-18T21:41:13.974Z",
+      "files": {
+        "html": "components/empty-state/crystal-quartz-01/index.html",
+        "metadata": "components/empty-state/crystal-quartz-01/metadata.json",
+        "preview": "components/empty-state/crystal-quartz-01/preview.svg"
+      },
+      "hasPreview": true,
+      "hasHtml": true
+    },
+    {
+      "id": "kpi-gauge-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "kpi-gauge",
       "categoryName": "KPI Gauge / Circular Meter",
       "categoryGroup": "Data & Display",
-      "name": "KPI Gauge / Circular Meter - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "KPI Gauge / Circular Meter - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Radial 3D glass speedometer with glowing neon liquid fill arc, central crystal readout value, and needle/target markers.",
       "tags": [
@@ -4683,53 +7900,23 @@
         "needle or bead marker animation",
         "interactive test value slider"
       ],
-      "generatedDate": "2026-09-18T01:03:53.410Z",
+      "generatedDate": "2026-09-18T21:41:13.974Z",
       "files": {
-        "html": "components/kpi-gauge/liquid-glass-01/index.html",
-        "metadata": "components/kpi-gauge/liquid-glass-01/metadata.json",
-        "preview": "components/kpi-gauge/liquid-glass-01/preview.svg"
+        "html": "components/kpi-gauge/crystal-quartz-01/index.html",
+        "metadata": "components/kpi-gauge/crystal-quartz-01/metadata.json",
+        "preview": "components/kpi-gauge/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "empty-state-liquid-glass-01",
-      "slug": "liquid-glass-01",
-      "categoryId": "empty-state",
-      "categoryName": "Empty State",
-      "categoryGroup": "Feedback & Status",
-      "name": "Empty State - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
-      "version": "1.0.0",
-      "description": "Minimalist glass showcase containing a floating 3D refractive ghost gem illustration, explanatory headline, and primary recovery button.",
-      "tags": [
-        "empty",
-        "zero-data",
-        "state"
-      ],
-      "functionalRequirements": [
-        "3D floating glass illustration container",
-        "clear headline and helpful body copy",
-        "primary onboarding call-to-action button",
-        "secondary action link"
-      ],
-      "generatedDate": "2026-09-18T01:03:52.916Z",
-      "files": {
-        "html": "components/empty-state/liquid-glass-01/index.html",
-        "metadata": "components/empty-state/liquid-glass-01/metadata.json",
-        "preview": "components/empty-state/liquid-glass-01/preview.svg"
-      },
-      "hasPreview": true,
-      "hasHtml": true
-    },
-    {
-      "id": "divider-separator-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "divider-separator-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "divider-separator",
       "categoryName": "Divider / Glass Separator",
       "categoryGroup": "Surfaces & Layout",
-      "name": "Divider / Glass Separator - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Divider / Glass Separator - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Etched prismatic glass hairline rule with centered floating icon medallion and fading luminescence at the margins.",
       "tags": [
@@ -4743,23 +7930,23 @@
         "gradient light falloff edges",
         "subtle 3D bevel ridge"
       ],
-      "generatedDate": "2026-09-18T01:03:52.156Z",
+      "generatedDate": "2026-09-18T21:41:13.973Z",
       "files": {
-        "html": "components/divider-separator/liquid-glass-01/index.html",
-        "metadata": "components/divider-separator/liquid-glass-01/metadata.json",
-        "preview": "components/divider-separator/liquid-glass-01/preview.svg"
+        "html": "components/divider-separator/crystal-quartz-01/index.html",
+        "metadata": "components/divider-separator/crystal-quartz-01/metadata.json",
+        "preview": "components/divider-separator/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "split-button-menu-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "split-button-menu-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "split-button-menu",
       "categoryName": "Split Button / Action Menu",
       "categoryGroup": "Forms & Inputs",
-      "name": "Split Button / Action Menu - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Split Button / Action Menu - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Unified glass capsule divided by a micro-refractive seam separating primary click execution from a secondary dropdown caret.",
       "tags": [
@@ -4774,23 +7961,23 @@
         "keyboard enter & arrow navigation",
         "hover seam illumination"
       ],
-      "generatedDate": "2026-09-18T01:03:51.388Z",
+      "generatedDate": "2026-09-18T21:41:13.973Z",
       "files": {
-        "html": "components/split-button-menu/liquid-glass-01/index.html",
-        "metadata": "components/split-button-menu/liquid-glass-01/metadata.json",
-        "preview": "components/split-button-menu/liquid-glass-01/preview.svg"
+        "html": "components/split-button-menu/crystal-quartz-01/index.html",
+        "metadata": "components/split-button-menu/crystal-quartz-01/metadata.json",
+        "preview": "components/split-button-menu/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "floating-action-button-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "floating-action-button-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "floating-action-button",
       "categoryName": "Floating Action Button (FAB)",
       "categoryGroup": "Forms & Inputs",
-      "name": "Floating Action Button (FAB) - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Floating Action Button (FAB) - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Spherical optical crystal sphere suspended in space that expands into a fan of secondary glass quick-action nodes upon interaction.",
       "tags": [
@@ -4805,23 +7992,23 @@
         "ripple click feedback",
         "hover lift elevation"
       ],
-      "generatedDate": "2026-09-18T01:03:50.848Z",
+      "generatedDate": "2026-09-18T21:41:13.972Z",
       "files": {
-        "html": "components/floating-action-button/liquid-glass-01/index.html",
-        "metadata": "components/floating-action-button/liquid-glass-01/metadata.json",
-        "preview": "components/floating-action-button/liquid-glass-01/preview.svg"
+        "html": "components/floating-action-button/crystal-quartz-01/index.html",
+        "metadata": "components/floating-action-button/crystal-quartz-01/metadata.json",
+        "preview": "components/floating-action-button/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "bottom-navigation-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "bottom-navigation-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "bottom-navigation",
       "categoryName": "Bottom Navigation Bar",
       "categoryGroup": "Navigation",
-      "name": "Bottom Navigation Bar - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Bottom Navigation Bar - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Curved mobile glass floating dock anchored to screen bottom with thumb-friendly tap targets and rising liquid indicator bubble.",
       "tags": [
@@ -4836,23 +8023,23 @@
         "haptic tap bounce animation",
         "badge notifications"
       ],
-      "generatedDate": "2026-09-18T01:03:50.030Z",
+      "generatedDate": "2026-09-18T21:41:13.971Z",
       "files": {
-        "html": "components/bottom-navigation/liquid-glass-01/index.html",
-        "metadata": "components/bottom-navigation/liquid-glass-01/metadata.json",
-        "preview": "components/bottom-navigation/liquid-glass-01/preview.svg"
+        "html": "components/bottom-navigation/crystal-quartz-01/index.html",
+        "metadata": "components/bottom-navigation/crystal-quartz-01/metadata.json",
+        "preview": "components/bottom-navigation/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "command-palette-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "command-palette-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "command-palette",
       "categoryName": "Command Palette / Spotlight",
       "categoryGroup": "Overlays & Disclosures",
-      "name": "Command Palette / Spotlight - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Command Palette / Spotlight - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Floating glass command center with hotkey trigger, fuzzy search input, grouped action listings, and keyboard navigation shortcuts.",
       "tags": [
@@ -4867,23 +8054,23 @@
         "esc to close",
         "enter to execute action"
       ],
-      "generatedDate": "2026-09-18T01:03:49.488Z",
+      "generatedDate": "2026-09-18T21:41:13.971Z",
       "files": {
-        "html": "components/command-palette/liquid-glass-01/index.html",
-        "metadata": "components/command-palette/liquid-glass-01/metadata.json",
-        "preview": "components/command-palette/liquid-glass-01/preview.svg"
+        "html": "components/command-palette/crystal-quartz-01/index.html",
+        "metadata": "components/command-palette/crystal-quartz-01/metadata.json",
+        "preview": "components/command-palette/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "pricing-table-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "pricing-table-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "pricing-table",
       "categoryName": "Pricing Table",
       "categoryGroup": "Surfaces & Layout",
-      "name": "Pricing Table - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Pricing Table - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Trio of stepped glass monoliths featuring popular plan jewel accent, billing interval toggle, feature checklist, and liquid CTA button.",
       "tags": [
@@ -4898,23 +8085,23 @@
         "call-to-action trigger",
         "responsive stacked mode"
       ],
-      "generatedDate": "2026-09-18T01:03:49.023Z",
+      "generatedDate": "2026-09-18T21:41:13.970Z",
       "files": {
-        "html": "components/pricing-table/liquid-glass-01/index.html",
-        "metadata": "components/pricing-table/liquid-glass-01/metadata.json",
-        "preview": "components/pricing-table/liquid-glass-01/preview.svg"
+        "html": "components/pricing-table/crystal-quartz-01/index.html",
+        "metadata": "components/pricing-table/crystal-quartz-01/metadata.json",
+        "preview": "components/pricing-table/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true
     },
     {
-      "id": "stat-metric-card-liquid-glass-01",
-      "slug": "liquid-glass-01",
+      "id": "stat-metric-card-crystal-quartz-01",
+      "slug": "crystal-quartz-01",
       "categoryId": "stat-metric-card",
       "categoryName": "Statistic / Metric Card",
       "categoryGroup": "Data & Display",
-      "name": "Statistic / Metric Card - Liquid Glass 01",
-      "designSystem": "liquid-glass-01",
+      "name": "Statistic / Metric Card - Crystal Quartz 02",
+      "designSystem": "crystal-quartz-02",
       "version": "1.0.0",
       "description": "Executive glass dashboard tile featuring illuminated KPI figures, mini sparkline trend curve, and positive/negative trend pills.",
       "tags": [
@@ -4930,11 +8117,11 @@
         "timeframe toggle selector",
         "hover glass gloss refraction"
       ],
-      "generatedDate": "2026-09-18T01:03:48.171Z",
+      "generatedDate": "2026-09-18T21:41:13.970Z",
       "files": {
-        "html": "components/stat-metric-card/liquid-glass-01/index.html",
-        "metadata": "components/stat-metric-card/liquid-glass-01/metadata.json",
-        "preview": "components/stat-metric-card/liquid-glass-01/preview.svg"
+        "html": "components/stat-metric-card/crystal-quartz-01/index.html",
+        "metadata": "components/stat-metric-card/crystal-quartz-01/metadata.json",
+        "preview": "components/stat-metric-card/crystal-quartz-01/preview.svg"
       },
       "hasPreview": true,
       "hasHtml": true

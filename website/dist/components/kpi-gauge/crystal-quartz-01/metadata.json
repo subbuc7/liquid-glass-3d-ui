@@ -1,0 +1,24 @@
+{
+  "id": "kpi-gauge",
+  "name": "KPI Gauge / Circular Meter - Crystal Quartz 02",
+  "category": "kpi-gauge",
+  "categoryGroup": "Data & Display",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.974Z",
+  "description": "Radial 3D glass speedometer with glowing neon liquid fill arc, central crystal readout value, and needle/target markers.",
+  "tags": [
+    "gauge",
+    "meter",
+    "radial",
+    "analytics"
+  ],
+  "functional_requirements": [
+    "circular progress arc rendering",
+    "central numeric value with units",
+    "colored warning threshold zones",
+    "needle or bead marker animation",
+    "interactive test value slider"
+  ],
+  "aria_role": "meter"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "skeleton-loader",
+  "name": "Skeleton Loader - Crystal Quartz 02",
+  "category": "skeleton-loader",
+  "categoryGroup": "Feedback & Status",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.963Z",
+  "description": "Translucent glass bone structures with shimmering light reflections that sweep across card and text placeholders.",
+  "tags": [
+    "skeleton",
+    "placeholder",
+    "loader"
+  ],
+  "functional_requirements": [
+    "animated refractive sweep wave",
+    "multiple layout shapes (avatar, title, paragraph, button)",
+    "pulse opacity breathing mode",
+    "reduced motion compliance"
+  ],
+  "aria_role": "status"
+}

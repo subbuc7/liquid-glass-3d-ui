@@ -1,0 +1,24 @@
+{
+  "id": "checkbox",
+  "name": "Checkbox - Crystal Quartz 02",
+  "category": "checkbox",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.943Z",
+  "description": "Beveled glass toggle box featuring volumetric depth, animated checkmark drawing, and luminous emerald-cyan active glow.",
+  "tags": [
+    "selection",
+    "form",
+    "toggle"
+  ],
+  "functional_requirements": [
+    "checked state",
+    "unchecked state",
+    "indeterminate state",
+    "keyboard spacebar toggle",
+    "animated SVG check stroke",
+    "hover refraction"
+  ],
+  "aria_role": "checkbox"
+}

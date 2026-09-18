@@ -1,0 +1,23 @@
+{
+  "id": "chip-tag",
+  "name": "Chip / Tag - Crystal Quartz 02",
+  "category": "chip-tag",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.957Z",
+  "description": "Compact interactive glass capsule with removable 3D crystal cross, avatar thumbnail, and selectable state toggle.",
+  "tags": [
+    "filter",
+    "pill",
+    "tag"
+  ],
+  "functional_requirements": [
+    "click-to-toggle filter state",
+    "remove button trigger",
+    "leading icon or avatar",
+    "keyboard backspace delete",
+    "focus ring"
+  ],
+  "aria_role": "button"
+}

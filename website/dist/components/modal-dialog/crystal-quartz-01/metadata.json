@@ -1,0 +1,24 @@
+{
+  "id": "modal-dialog",
+  "name": "Modal / Dialog - Crystal Quartz 02",
+  "category": "modal-dialog",
+  "categoryGroup": "Overlays & Disclosures",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.951Z",
+  "description": "Heroic floating 3D glass fortress elevated above a dimmed, blurred backdrop with chromatic perimeter refraction and smooth spring entry.",
+  "tags": [
+    "overlay",
+    "window",
+    "dialog"
+  ],
+  "functional_requirements": [
+    "backdrop click to dismiss",
+    "escape key exit",
+    "focus trap within modal",
+    "entrance scale & blur animation",
+    "header/body/footer actions",
+    "scrollable inner content"
+  ],
+  "aria_role": "dialog"
+}

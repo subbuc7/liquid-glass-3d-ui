@@ -1,0 +1,22 @@
+{
+  "id": "divider-separator",
+  "name": "Divider / Glass Separator - Crystal Quartz 02",
+  "category": "divider-separator",
+  "categoryGroup": "Surfaces & Layout",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.973Z",
+  "description": "Etched prismatic glass hairline rule with centered floating icon medallion and fading luminescence at the margins.",
+  "tags": [
+    "divider",
+    "separator",
+    "rule"
+  ],
+  "functional_requirements": [
+    "horizontal and vertical alignment options",
+    "centered optional badge or icon label",
+    "gradient light falloff edges",
+    "subtle 3D bevel ridge"
+  ],
+  "aria_role": "separator"
+}

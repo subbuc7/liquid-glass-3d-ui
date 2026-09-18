@@ -1,0 +1,22 @@
+{
+  "id": "file-upload-dropzone",
+  "name": "File Upload / Dropzone - Crystal Quartz 02",
+  "category": "file-upload-dropzone",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.966Z",
+  "description": "Spacious frosted glass receiving bay with etched dashed perimeter, drag-over optical lens expansion, file queue chips, and upload progress.",
+  "tags": [
+    "upload",
+    "dropzone",
+    "files"
+  ],
+  "functional_requirements": [
+    "drag-and-drop file detection",
+    "click to browse file picker",
+    "file validation chip list with size & remove action",
+    "simulated upload progress bar"
+  ],
+  "aria_role": "button"
+}

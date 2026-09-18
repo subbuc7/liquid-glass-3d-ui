@@ -1,0 +1,24 @@
+{
+  "id": "floating-dock",
+  "name": "Floating Dock - Crystal Quartz 02",
+  "category": "floating-dock",
+  "categoryGroup": "Navigation",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.975Z",
+  "description": "macOS-inspired liquid glass shelf featuring parabolic icon magnification on proximity, active reflection mirror, and bouncy app indicators.",
+  "tags": [
+    "dock",
+    "macos",
+    "shelf",
+    "launcher"
+  ],
+  "functional_requirements": [
+    "mouse proximity magnification physics",
+    "frosted glass shelf with mirrored reflection",
+    "running app indicator dots",
+    "click bounce animation",
+    "responsive collapse"
+  ],
+  "aria_role": "navigation"
+}

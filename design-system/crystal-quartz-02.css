@@ -1,0 +1,2 @@
+:root { --ds-primary: #e0e7ff; --ds-secondary: #818cf8; --ds-surface: rgba(255, 255, 255, 0.14); --ds-blur: 12px; }
+.lg-glass-surface:hover { border-color: var(--ds-primary); box-shadow: 0 0 24px #e0e7ff66; }

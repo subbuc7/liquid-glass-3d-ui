@@ -1,0 +1,23 @@
+{
+  "id": "accordion",
+  "name": "Accordion - Crystal Quartz 02",
+  "category": "accordion",
+  "categoryGroup": "Surfaces & Layout",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.953Z",
+  "description": "Stack of interlocking crystal slats that expand with fluid ease, revealing nested glass content cards with chevron flip motion.",
+  "tags": [
+    "disclosure",
+    "collapse",
+    "expand"
+  ],
+  "functional_requirements": [
+    "expand/collapse accordion items",
+    "single or multi-expand mode",
+    "smooth max-height CSS transition",
+    "keyboard tab and enter navigation",
+    "chevron rotation indicator"
+  ],
+  "aria_role": "region"
+}

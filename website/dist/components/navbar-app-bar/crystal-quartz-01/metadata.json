@@ -1,0 +1,23 @@
+{
+  "id": "navbar-app-bar",
+  "name": "Navbar / App Bar - Crystal Quartz 02",
+  "category": "navbar-app-bar",
+  "categoryGroup": "Navigation",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.953Z",
+  "description": "Floating translucent command bar with bevel-lit glass trim, integrated brand jewel, nav links with sliding glow indicator, and CTA.",
+  "tags": [
+    "header",
+    "navigation",
+    "top-bar"
+  ],
+  "functional_requirements": [
+    "sticky glass blur on scroll",
+    "active item underline capsule",
+    "mobile hamburger drawer toggle",
+    "responsive collapse",
+    "quick search launcher"
+  ],
+  "aria_role": "navigation"
+}

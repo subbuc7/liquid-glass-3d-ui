@@ -1,0 +1,23 @@
+{
+  "id": "combobox-autocomplete",
+  "name": "Combobox / Autocomplete - Crystal Quartz 02",
+  "category": "combobox-autocomplete",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.948Z",
+  "description": "Hybrid searchable glass input with live filtered suggestion drop-sheet, item highlighting, and quick keyboard completion.",
+  "tags": [
+    "search",
+    "filter",
+    "form"
+  ],
+  "functional_requirements": [
+    "real-time text filtering",
+    "highlight matched substring",
+    "keyboard arrow selection",
+    "esc to close",
+    "tag pill generation"
+  ],
+  "aria_role": "combobox"
+}

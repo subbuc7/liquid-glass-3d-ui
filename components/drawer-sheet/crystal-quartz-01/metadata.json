@@ -1,0 +1,24 @@
+{
+  "id": "drawer-sheet",
+  "name": "Drawer / Sheet - Crystal Quartz 02",
+  "category": "drawer-sheet",
+  "categoryGroup": "Overlays & Disclosures",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.952Z",
+  "description": "Slide-in frosted side monolith with edge highlights, gesture dismissal handle, and seamless glass blur integration.",
+  "tags": [
+    "panel",
+    "sidebar",
+    "overlay"
+  ],
+  "functional_requirements": [
+    "side entry animation",
+    "swipe/drag to dismiss",
+    "backdrop blur transition",
+    "header close trigger",
+    "scrollable body",
+    "stackable layout"
+  ],
+  "aria_role": "complementary"
+}

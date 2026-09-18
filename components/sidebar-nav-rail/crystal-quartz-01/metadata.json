@@ -1,0 +1,23 @@
+{
+  "id": "sidebar-nav-rail",
+  "name": "Sidebar / Navigation Rail - Crystal Quartz 02",
+  "category": "sidebar-nav-rail",
+  "categoryGroup": "Navigation",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.954Z",
+  "description": "Vertical glass monolith with collapsible icon rail, sub-menu popouts, user profile capsule, and illuminated active item indicators.",
+  "tags": [
+    "sidebar",
+    "rail",
+    "navigation"
+  ],
+  "functional_requirements": [
+    "expand/collapse rail toggle",
+    "active item glass highlight",
+    "nested group accordions",
+    "tooltip preview when collapsed",
+    "accessible navigation list"
+  ],
+  "aria_role": "navigation"
+}

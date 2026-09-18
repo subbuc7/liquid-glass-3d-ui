@@ -1,0 +1,22 @@
+{
+  "id": "tooltip",
+  "name": "Tooltip - Crystal Quartz 02",
+  "category": "tooltip",
+  "categoryGroup": "Overlays & Disclosures",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.958Z",
+  "description": "Ultra-light floating frosted bubble with directional prism beak, micro drop shadow, and instant directional orientation.",
+  "tags": [
+    "hint",
+    "helper",
+    "overlay"
+  ],
+  "functional_requirements": [
+    "hover & focus trigger",
+    "directional positioning (top, bottom, left, right)",
+    "delay timing configuration",
+    "smooth fade-in & scale pop"
+  ],
+  "aria_role": "tooltip"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "alert-callout",
+  "name": "Alert / Callout - Crystal Quartz 02",
+  "category": "alert-callout",
+  "categoryGroup": "Feedback & Status",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.960Z",
+  "description": "Prominent glass warning bar with chromatic edge illumination, status insignia, rich body text, and optional action buttons.",
+  "tags": [
+    "feedback",
+    "message",
+    "alert"
+  ],
+  "functional_requirements": [
+    "semantic status themes",
+    "dismissible button",
+    "action button row",
+    "frosted chromatic border glow",
+    "high contrast readability"
+  ],
+  "aria_role": "alert"
+}

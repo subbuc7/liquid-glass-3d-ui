@@ -1,0 +1,23 @@
+{
+  "id": "rating-picker",
+  "name": "Rating / Star Picker - Crystal Quartz 02",
+  "category": "rating-picker",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.966Z",
+  "description": "Row of faceted crystal stars that illuminate with amber liquid fire on hover and lock into place with a subtle 3D pop.",
+  "tags": [
+    "rating",
+    "stars",
+    "feedback"
+  ],
+  "functional_requirements": [
+    "half-star or full-star hover rating",
+    "click to commit rating",
+    "keyboard arrow adjustment",
+    "reset rating trigger",
+    "numerical score feedback"
+  ],
+  "aria_role": "slider"
+}

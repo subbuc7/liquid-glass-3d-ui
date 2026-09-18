@@ -1,0 +1,24 @@
+{
+  "id": "table-datagrid",
+  "name": "Table / Data Grid - Crystal Quartz 02",
+  "category": "table-datagrid",
+  "categoryGroup": "Data & Display",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.963Z",
+  "description": "Multi-column frosted glass data console with sticky headers, sortable column chevrons, row selection highlights, and glass cell dividers.",
+  "tags": [
+    "table",
+    "grid",
+    "data"
+  ],
+  "functional_requirements": [
+    "sortable columns",
+    "row selection checkboxes",
+    "sticky frosted header",
+    "hover row luminescent glow",
+    "zebra-glass striping",
+    "horizontal scroll support"
+  ],
+  "aria_role": "table"
+}

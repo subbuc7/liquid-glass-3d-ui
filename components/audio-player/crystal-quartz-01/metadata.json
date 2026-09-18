@@ -1,0 +1,23 @@
+{
+  "id": "audio-player",
+  "name": "Audio Player - Crystal Quartz 02",
+  "category": "audio-player",
+  "categoryGroup": "Media & Creative",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.967Z",
+  "description": "Futuristic glass deck with floating disc play button, dynamic glowing frequency visualizer bars, track scrubber, and volume prism.",
+  "tags": [
+    "audio",
+    "media",
+    "player"
+  ],
+  "functional_requirements": [
+    "play/pause toggle",
+    "interactive waveform/scrubber track",
+    "time elapsed & remaining",
+    "volume slide control",
+    "track title & album thumbnail"
+  ],
+  "aria_role": "region"
+}

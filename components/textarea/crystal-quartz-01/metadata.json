@@ -1,0 +1,23 @@
+{
+  "id": "textarea",
+  "name": "Textarea - Crystal Quartz 02",
+  "category": "textarea",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.942Z",
+  "description": "Multi-line frosted glass surface with etched grid accents, live character counter, resizable grip, and fluid focus states.",
+  "tags": [
+    "form",
+    "input",
+    "multiline"
+  ],
+  "functional_requirements": [
+    "multi-line text entry",
+    "auto-expand or resize handle",
+    "character count indicator",
+    "focus reflection",
+    "disabled state"
+  ],
+  "aria_role": "textbox"
+}

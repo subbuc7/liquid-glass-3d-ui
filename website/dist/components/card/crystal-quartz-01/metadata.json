@@ -1,0 +1,25 @@
+{
+  "id": "card",
+  "name": "Card - Crystal Quartz 02",
+  "category": "card",
+  "categoryGroup": "Surfaces & Layout",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.950Z",
+  "description": "Volumetric liquid glass panel with layered parallax surfaces, dynamic specular highlights that follow mouse movement, and rich content hierarchy.",
+  "tags": [
+    "container",
+    "surface",
+    "3d-tilt",
+    "card"
+  ],
+  "functional_requirements": [
+    "3D mouse parallax tilt",
+    "layered glass plates",
+    "inner border reflections",
+    "action buttons",
+    "badge integration",
+    "smooth hover elevation"
+  ],
+  "aria_role": "region"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "radio-button",
+  "name": "Radio Button - Crystal Quartz 02",
+  "category": "radio-button",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.945Z",
+  "description": "Convex liquid droplet selector with floating glass ring, animated core sphere expansion, and mutually exclusive group physics.",
+  "tags": [
+    "selection",
+    "form",
+    "choice"
+  ],
+  "functional_requirements": [
+    "selected state",
+    "unselected state",
+    "group mutual exclusion",
+    "arrow key navigation",
+    "hover highlight",
+    "scale bounce transition"
+  ],
+  "aria_role": "radio"
+}

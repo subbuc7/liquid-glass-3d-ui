@@ -1,0 +1,23 @@
+{
+  "id": "color-picker",
+  "name": "Color Picker - Crystal Quartz 02",
+  "category": "color-picker",
+  "categoryGroup": "Forms & Inputs",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.967Z",
+  "description": "Luminescent glass palette console with chromatic spectrum gradient slab, 3D reticle selector, opacity slider, and hex readout.",
+  "tags": [
+    "color",
+    "picker",
+    "palette"
+  ],
+  "functional_requirements": [
+    "spectrum coordinate selection",
+    "hue and alpha glass slider rails",
+    "preset swatch jewels",
+    "hex/rgba format copy",
+    "live swatch preview gem"
+  ],
+  "aria_role": "dialog"
+}

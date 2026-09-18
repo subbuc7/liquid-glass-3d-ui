@@ -1,0 +1,23 @@
+{
+  "id": "carousel-slider",
+  "name": "Carousel / Slider Showcase - Crystal Quartz 02",
+  "category": "carousel-slider",
+  "categoryGroup": "Media & Creative",
+  "designSystem": "crystal-quartz-02",
+  "version": "1.0.0",
+  "generatedDate": "2026-09-18T21:41:13.969Z",
+  "description": "3D coverflow-style carousel where frosted glass cards rotate in true 3D perspective with depth fading and optical navigation dots.",
+  "tags": [
+    "carousel",
+    "gallery",
+    "slider"
+  ],
+  "functional_requirements": [
+    "next/previous slide buttons",
+    "swipe touch/drag physics",
+    "3D card depth perspective offset",
+    "indicator dots with live progress",
+    "autoplay toggle"
+  ],
+  "aria_role": "region"
+}
