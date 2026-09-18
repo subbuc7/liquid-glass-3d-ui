@@ -20,7 +20,20 @@ on:
           - 'Biomorphic Clay 08'
           - 'Solar Corona 09'
           - 'Abyssal Ocean 10'
-
+  deploy-pages:
+    permissions:
+      pages: write
+      id-token: write
+    needs: generate-and-publish
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        
 permissions:
   contents: write
   pages: write
