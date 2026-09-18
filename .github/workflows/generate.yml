@@ -4,70 +4,174 @@ on:
   workflow_dispatch:
     inputs:
       design_system:
-        description: 'Design System'
+        description: 'Target UI Style'
         required: true
-        default: 'Liquid Glass 01'
+        default: 'Auto: Next UI Style (1 to 100)'
         type: choice
         options:
+          - 'Auto: Next UI Style (1 to 100)'
           - 'Liquid Glass 01'
-          - 'Crystal 02'
-      generation_mode:
-        description: 'Generation Mode'
-        required: true
-        default: 'Regenerate all'
-        type: choice
-        options:
-          - 'Regenerate all'
-          - 'Generate all missing'
+          - 'Crystal Quartz 02'
+          - 'Brushed Titanium 03'
+          - 'Aurora Plasma 04'
+          - 'Holographic HUD 05'
+          - 'Obsidian Gold 06'
+          - 'Cyber Matrix 07'
+          - 'Biomorphic Clay 08'
+          - 'Solar Corona 09'
+          - 'Abyssal Ocean 10'
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
+concurrency:
+  group: "publishing"
+  cancel-in-progress: false
+
 jobs:
   generate-and-publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Code
+      - name: 1. Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
+      - name: 2. Setup Node.js Runtime
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: Generate Components & Validate Quality Gate
-        env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      - name: 3. Resolve & Generate Next UI Style
         run: |
-          MODE="missing"
-          if [ "${{ inputs.generation_mode }}" = "Regenerate all" ]; then
-            MODE="all"
-          fi
-          node generator/engine.js $MODE
+          node -e '
+            const fs = require("fs");
+            const path = require("path");
+            const GenerationEngine = require("./generator/engine");
+            const { generateCatalog } = require("./scripts/generate-catalog");
+            const { buildWebsite } = require("./scripts/build-website");
 
-      - name: Update Catalog & Build Site
-        run: |
-          node scripts/generate-catalog.js
-          node scripts/build-website.js
+            const repoDir = process.cwd();
+            const dsDir = path.join(repoDir, "design-system");
+            const btnDir = path.join(repoDir, "components", "button");
+            const existingPacks = fs.existsSync(btnDir) ? fs.readdirSync(btnDir) : [];
+            console.log("Already generated packs in library:", existingPacks);
 
-      - name: Commit New Components
+            // Master 100 UI Styles Sequence
+            const styles = [
+              { id: "liquid-glass-01", name: "Liquid Glass 01", primary: "#00f0ff", secondary: "#2563eb", surface: "rgba(255, 255, 255, 0.08)", blur: "18px" },
+              { id: "crystal-quartz-02", name: "Crystal Quartz 02", primary: "#e0e7ff", secondary: "#818cf8", surface: "rgba(255, 255, 255, 0.14)", blur: "12px" },
+              { id: "brushed-titanium-03", name: "Brushed Titanium 03", primary: "#94a3b8", secondary: "#475569", surface: "rgba(30, 41, 59, 0.75)", blur: "6px" },
+              { id: "aurora-plasma-04", name: "Aurora Plasma 04", primary: "#10b981", secondary: "#d946ef", surface: "rgba(15, 23, 42, 0.65)", blur: "24px" },
+              { id: "holographic-hud-05", name: "Holographic HUD 05", primary: "#38bdf8", secondary: "#f43f5e", surface: "rgba(8, 14, 26, 0.55)", blur: "4px" },
+              { id: "obsidian-gold-06", name: "Obsidian Gold 06", primary: "#fbbf24", secondary: "#d97706", surface: "rgba(10, 10, 12, 0.85)", blur: "20px" },
+              { id: "cyber-matrix-07", name: "Cyber Matrix 07", primary: "#22c55e", secondary: "#06b6d4", surface: "rgba(4, 12, 8, 0.75)", blur: "8px" },
+              { id: "biomorphic-clay-08", name: "Biomorphic Clay 08", primary: "#f472b6", secondary: "#fb7185", surface: "rgba(241, 245, 249, 0.9)", blur: "0px" },
+              { id: "solar-corona-09", name: "Solar Corona 09", primary: "#f97316", secondary: "#ef4444", surface: "rgba(24, 10, 4, 0.8)", blur: "22px" },
+              { id: "abyssal-ocean-10", name: "Abyssal Ocean 10", primary: "#06b6d4", secondary: "#0284c7", surface: "rgba(3, 18, 32, 0.8)", blur: "26px" }
+            ];
+
+            const extraNames = [
+              "Synthwave 80s", "Glacial Frost", "Carbon Fiber", "Emerald Synthetic", "Velvet Noir",
+              "Amethyst Haze", "Cobalt Flux", "Rose Gold", "Tokyo Neon", "Arctic Monolith",
+              "Quantum Foam", "Vaporwave Pastel", "Dune Sandstone", "Galactic Nebula", "Biolab Vitro",
+              "Hyper-Matte", "Liquid Chrome", "Sapphire Monolith", "Ruby Prism", "Onyx Shadow",
+              "Polaris Star", "Ion Thruster", "Tungsten Forge", "Bismuth Crystal", "Plasma Conduit",
+              "Ceramic Glaze", "Aero Gel", "Graphite Core", "Magma Chamber", "Celestial Gold",
+              "Deep Trench", "Vortex Chrono", "Subatomic Mesh", "Supernova Blast", "Copper Oxide",
+              "Plexiglass Retro", "Tritium Glow", "Silicon Valley", "Nano Carbon", "Hydra Pearl",
+              "Titanium Oxide", "Laser Optics", "Void Horizon", "Krypton Core", "Mirrored Silver",
+              "Phosphor Terminal", "Chroma Shift", "Prism Spectrum", "Thermal Vision", "Dark Matter",
+              "Amber Resin", "Moon Dust", "Lapis Lazuli", "Solar Wind", "Neon Genesis",
+              "Aero Titanium", "Permafrost", "Molten Brass", "Infrared Heat", "Hyperdrive",
+              "Starlight Mica", "Heavy Water", "Quasar Beam", "Quantum Spin", "Liquid Alloy",
+              "Opal Iridescent", "Dark Nebula", "Cyber Samurai", "Solar Sail", "Pulsar Beacon",
+              "Magnetic Shield", "Aero Carbon", "Cryo Chamber", "Laser Grid", "Plasma Arc",
+              "Fusion Core", "Superconductor", "Anti-Gravity", "Chronos Crystal", "Silicon Wafer",
+              "Stellar Flare", "Cosmic Ray", "Gamma Burst", "Dark Energy", "Subzero Glass",
+              "Tachyon Trail", "Quantum Lattice", "Orbital Station", "Deep Core", "Genesis Wave"
+            ];
+
+            for (let i = 0; i < extraNames.length; i++) {
+              const num = i + 11;
+              const name = `${extraNames[i]} ${String(num).padStart(2, "0")}`;
+              const id = name.toLowerCase().replace(/[\\s\\/]+/g, "-");
+              styles.push({ id, name, primary: i % 2 === 0 ? "#00f0ff" : "#8b5cf6", secondary: i % 2 === 0 ? "#2563eb" : "#ec4899", surface: "rgba(255, 255, 255, 0.08)", blur: "16px" });
+            }
+
+            let inputTarget = "${{ inputs.design_system }}";
+            let target;
+            if (!inputTarget || inputTarget.includes("Auto")) {
+              target = styles.find(s => !existingPacks.includes(s.id));
+              if (!target) target = styles[existingPacks.length % styles.length];
+            } else {
+              const norm = inputTarget.toLowerCase().replace(/[\\s\\/]+/g, "-");
+              target = styles.find(s => s.id === norm || s.name.toLowerCase().includes(inputTarget.toLowerCase())) || {
+                id: norm, name: inputTarget, primary: "#00f0ff", secondary: "#2563eb", surface: "rgba(255,255,255,0.08)", blur: "16px"
+              };
+            }
+
+            console.log(`\n>>> GENERATING: ${target.name} (${target.id}) <<<\n`);
+
+            // Create target design system files if not present
+            const targetJson = path.join(dsDir, `${target.id}.json`);
+            if (!fs.existsSync(targetJson)) {
+              const dsObj = {
+                id: target.id,
+                name: target.name,
+                version: "1.0.0",
+                description: `3D spatial UI design system with ${target.name} material treatment.`,
+                tokens: {
+                  colors: {
+                    surface: { primary: target.surface, secondary: "rgba(255, 255, 255, 0.04)", elevated: "rgba(255, 255, 255, 0.16)", recessed: "rgba(0,0,0,0.35)", highlight: "rgba(255, 255, 255, 0.45)", innerShine: "rgba(255, 255, 255, 0.75)", darkGlass: "rgba(10, 14, 24, 0.8)" },
+                    accents: { cyan: target.primary, cyanGlow: `${target.primary}66`, sapphire: target.secondary, sapphireGlow: `${target.secondary}66` },
+                    borders: { subtle: "rgba(255, 255, 255, 0.14)", highlight: "rgba(255, 255, 255, 0.45)", active: target.primary },
+                    text: { primary: "#f8fafc", secondary: "#94a3b8", muted: "#64748b", accent: target.primary }
+                  },
+                  materials: { blur: { md: target.blur || "18px" }, refraction: { ior: 1.54 } },
+                  depth3D: { perspective: "1200px", shadows: { level1: "0 4px 16px rgba(0,0,0,0.4)", level2: "0 12px 32px rgba(0,0,0,0.55)", glow: `0 0 24px ${target.primary}66` } },
+                  typography: { fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" },
+                  radii: { sm: "8px", md: "14px", lg: "20px" }
+                }
+              };
+              fs.writeFileSync(targetJson, JSON.stringify(dsObj, null, 2), "utf8");
+            }
+
+            const targetCss = path.join(dsDir, `${target.id}.css`);
+            if (!fs.existsSync(targetCss)) {
+              const cssStr = `:root { --ds-primary: ${target.primary}; --ds-secondary: ${target.secondary}; --ds-surface: ${target.surface}; --ds-blur: ${target.blur || "18px"}; }\n.lg-glass-surface:hover { border-color: var(--ds-primary); box-shadow: 0 0 24px ${target.primary}66; }`;
+              fs.writeFileSync(targetCss, cssStr, "utf8");
+            }
+
+            // Run generation engine
+            const engine = new GenerationEngine({ rootDir: repoDir, designSystemId: target.id, overwrite: false });
+            engine.run("all").then(() => {
+              console.log("Components generated. Updating catalog...");
+              generateCatalog(repoDir);
+              console.log("Catalog updated. Compiling website distribution...");
+              buildWebsite(repoDir);
+              console.log("Build complete.");
+            }).catch(err => {
+              console.error("Engine failed:", err);
+              process.exit(1);
+            });
+          '
+
+      - name: 4. Commit New Generated Styles & Catalog
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add components/ website/
+          git add components/ config/ design-system/ website/
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else
-            git commit -m "chore: publish generated 3D components [skip ci]"
+            git commit -m "feat(publish): automated generation of UI style [skip ci]"
             git push origin main
           fi
 
-      - name: Deploy to GitHub Pages
+      - name: 5. Deploy to GitHub Pages
         uses: actions/upload-pages-artifact@v3
         with:
           path: 'website/dist'
